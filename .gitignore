@@ -10,11 +10,11 @@ dqn/plots/
 dqn/old/
 dqn/save/
 kgdqn/models/
-kgdqn/logs/
+#kgdqn/logs/
 kgdqn/plots/
-kgdqn/initialize/
+#kgdqn/initialize/
 kgdqn/neurips
-*.pt
-*.json
-*.txt
-*.tsv
+#*.pt
+#*.json
+#*.txt
+#*.tsv

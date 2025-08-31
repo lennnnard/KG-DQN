@@ -1,0 +1,285 @@
+-= Scullery =-
+You find yourself in a scullery. A typical one.
+
+You scan the room for a counter, and you find a counter. The counter appears to be empty. It would have been so cool if there was stuff on the counter.
+
+There is a closed gateway leading south. There is an open door leading east.
+
+
+Actions: ['close door', 'drop frisbee', 'examine counter', 'examine door', 'examine frisbee', 'examine gateway', 'go east', 'inventory', 'look', 'open gateway', 'put frisbee on counter']
+Taken action:go east
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'examine door', 'examine frisbee', 'examine insect', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:go south
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. The toolbox contains a latchkey. You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'take latchkey from toolbox']
+Taken action:take latchkey from toolbox
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. Empty! What kind of nightmare TextWorld is this? You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'drop latchkey', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'insert latchkey into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'put latchkey on shelf']
+Taken action:go north
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'drop latchkey', 'examine door', 'examine frisbee', 'examine insect', 'examine latchkey', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'insert latchkey into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:insert latchkey into spherical locker
+---------
+-= Scullery =-
+You find yourself in a scullery. A typical one.
+
+You scan the room for a counter, and you find a counter. The counter appears to be empty. It would have been so cool if there was stuff on the counter.
+
+There is a closed gateway leading south. There is an open door leading east.
+
+
+Actions: ['close door', 'drop frisbee', 'examine counter', 'examine door', 'examine frisbee', 'examine gateway', 'go east', 'inventory', 'look', 'open gateway', 'put frisbee on counter']
+Taken action:go east
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'examine door', 'examine frisbee', 'examine insect', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:go south
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. The toolbox contains a latchkey. You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'take latchkey from toolbox']
+Taken action:take latchkey from toolbox
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. Empty! What kind of nightmare TextWorld is this? You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'drop latchkey', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'insert latchkey into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'put latchkey on shelf']
+Taken action:go north
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'drop latchkey', 'examine door', 'examine frisbee', 'examine insect', 'examine latchkey', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'insert latchkey into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:insert latchkey into spherical locker
+---------
+-= Scullery =-
+You find yourself in a scullery. A typical one.
+
+You scan the room for a counter, and you find a counter. The counter appears to be empty. It would have been so cool if there was stuff on the counter.
+
+There is a closed gateway leading south. There is an open door leading east.
+
+
+Actions: ['close door', 'drop frisbee', 'examine counter', 'examine door', 'examine frisbee', 'examine gateway', 'go east', 'inventory', 'look', 'open gateway', 'put frisbee on counter']
+Taken action:go east
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'examine door', 'examine frisbee', 'examine insect', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:go south
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. The toolbox contains a latchkey. You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'take latchkey from toolbox']
+Taken action:take latchkey from toolbox
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. Empty! What kind of nightmare TextWorld is this? You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'drop latchkey', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'insert latchkey into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'put latchkey on shelf']
+Taken action:go north
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'drop latchkey', 'examine door', 'examine frisbee', 'examine insect', 'examine latchkey', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'insert latchkey into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:insert latchkey into spherical locker
+---------
+-= Scullery =-
+You find yourself in a scullery. A typical one.
+
+You scan the room for a counter, and you find a counter. The counter appears to be empty. It would have been so cool if there was stuff on the counter.
+
+There is a closed gateway leading south. There is an open door leading east.
+
+
+Actions: ['close door', 'drop frisbee', 'examine counter', 'examine door', 'examine frisbee', 'examine gateway', 'go east', 'inventory', 'look', 'open gateway', 'put frisbee on counter']
+Taken action:go east
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'examine door', 'examine frisbee', 'examine insect', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:go south
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. The toolbox contains a latchkey. You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'take latchkey from toolbox']
+Taken action:take latchkey from toolbox
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. Empty! What kind of nightmare TextWorld is this? You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'drop latchkey', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'insert latchkey into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'put latchkey on shelf']
+Taken action:go north
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'drop latchkey', 'examine door', 'examine frisbee', 'examine insect', 'examine latchkey', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'insert latchkey into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:insert latchkey into spherical locker
+---------
+-= Scullery =-
+You find yourself in a scullery. A typical one.
+
+You scan the room for a counter, and you find a counter. The counter appears to be empty. It would have been so cool if there was stuff on the counter.
+
+There is a closed gateway leading south. There is an open door leading east.
+
+
+Actions: ['close door', 'drop frisbee', 'examine counter', 'examine door', 'examine frisbee', 'examine gateway', 'go east', 'inventory', 'look', 'open gateway', 'put frisbee on counter']
+Taken action:go east
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'examine door', 'examine frisbee', 'examine insect', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:go south
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. The toolbox contains a latchkey. You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'take latchkey from toolbox']
+Taken action:take latchkey from toolbox
+---------
+-= Vault =-
+You find yourself in a vault. A typical kind of place.
+
+You can make out an opened toolbox. Empty! What kind of nightmare TextWorld is this? You can make out a shelf. What a coincidence, weren't you just thinking about a shelf? However, the shelf, like an empty shelf, has nothing on it. It would have been so cool if there was stuff on the shelf.
+
+You don't like doors? Why not try going north, that entranceway is unblocked.
+
+
+Actions: ['close toolbox', 'drop frisbee', 'drop latchkey', 'examine frisbee', 'examine latchkey', 'examine shelf', 'examine toolbox', 'go north', 'insert frisbee into toolbox', 'insert latchkey into toolbox', 'inventory', 'look', 'put frisbee on shelf', 'put latchkey on shelf']
+Taken action:go north
+---------
+-= Attic =-
+You're now in an attic.
+
+You see an opened spherical locker close by. Empty! What kind of nightmare TextWorld is this?
+
+There is an open door leading west. There is an exit to the south. Don't worry, it is unblocked.
+
+There is a spherical keycard and an insect on the floor.
+
+Actions: ['close door', 'close spherical locker', 'drop frisbee', 'drop latchkey', 'examine door', 'examine frisbee', 'examine insect', 'examine latchkey', 'examine spherical keycard', 'examine spherical locker', 'go south', 'go west', 'insert frisbee into spherical locker', 'insert latchkey into spherical locker', 'inventory', 'look', 'take insect', 'take spherical keycard']
+Taken action:insert latchkey into spherical locker
+---------
