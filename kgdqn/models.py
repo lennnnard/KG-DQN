@@ -57,12 +57,12 @@ class KGDQN(nn.Module):
 
     def forward_td_init(self, state, a_t):
         state = list(state)
-        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).cuda()
+        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).to("cpu")
 
         sts = self.state_gat(state[0].graph_state_rep).unsqueeze_(0)
         for i in range(1, len(state)):
             sts = torch.cat((sts, self.state_gat(state[i].graph_state_rep).unsqueeze_(0)), dim=0)
-            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).cuda()), dim=0)
+            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).to("cpu")), dim=0)
 
         encoded_doc = self.action_drqa(drqa_input, state)[1]
 
@@ -70,9 +70,9 @@ class KGDQN(nn.Module):
         return self.forward(sts, emb_a_t, encoded_doc), sts#.squeeze()
 
     def forward_td(self, state_rep, state, a_t):
-        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).cuda()
+        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).to("cpu")
         for i in range(1, len(state)):
-            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).cuda()), dim=0)
+            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).to("cpu")), dim=0)
         encoded_doc = self.action_drqa(drqa_input, state)[1]
         _, emb_a_t, _ = self.action_enc(a_t)
         return self.forward(state_rep, emb_a_t, encoded_doc)
@@ -87,12 +87,12 @@ class KGDQN(nn.Module):
 
             feasible_actions_rep = state.all_actions_rep
             with torch.no_grad():
-                drqa_input = torch.LongTensor(state.drqa_input).unsqueeze_(0).cuda()
+                drqa_input = torch.LongTensor(state.drqa_input).unsqueeze_(0).to("cpu")
 
-                s_t = self.state_gat(graph_state_rep).unsqueeze_(0).repeat(len(feasible_actions_rep), 1).cuda()
+                s_t = self.state_gat(graph_state_rep).unsqueeze_(0).repeat(len(feasible_actions_rep), 1).to("cpu")
     
                 encoded_doc = self.action_drqa(drqa_input, state)[1]
-                a_t = torch.LongTensor(feasible_actions_rep).cuda()#unsqueeze_(0).cuda()
+                a_t = torch.LongTensor(feasible_actions_rep).to("cpu")#unsqueeze_(0).cuda()
 
             encoded_doc = encoded_doc.repeat(len(feasible_actions_rep), 1)
             _, emb_a_t, _ = self.action_enc(a_t)
@@ -119,12 +119,13 @@ class KGDQN(nn.Module):
 class StateNetwork(nn.Module):
     def __init__(self, action_set, params, embeddings=None):
         super(StateNetwork, self).__init__()
+        self.params = params
         self.action_set = action_set
         self.gat = GAT(params['gat_emb_size'], 3, len(action_set), params['dropout_ratio'], 0.2, 1)
         if params['qa_init']:
             self.pretrained_embeds = nn.Embedding.from_pretrained(embeddings, freeze=False)
         else:
-            self.pretrained_embeds = embeddings.new_tensor(embeddings.data)
+            self.pretrained_embeds = nn.Embedding.from_pretrained(embeddings, freeze=False)
         self.vocab_kge = self.load_vocab_kge()
         self.vocab = self.load_vocab()
         self.init_state_ent_emb()
@@ -143,7 +144,7 @@ class StateNetwork(nn.Module):
                         graph_node_ids.append(1)
                 else:
                     graph_node_ids.append(1)
-            graph_node_ids = torch.LongTensor(graph_node_ids).cuda()
+            graph_node_ids = torch.LongTensor(graph_node_ids).to("cpu")
             cur_embeds = self.pretrained_embeds(graph_node_ids)
 
             cur_embeds = cur_embeds.mean(dim=0)
@@ -164,7 +165,7 @@ class StateNetwork(nn.Module):
 
     def forward(self, graph_rep):
         node_feats, adj = graph_rep
-        adj = torch.IntTensor(adj).cuda()
+        adj = torch.IntTensor(adj).to("cpu")
         x = self.gat(self.state_ent_emb.weight, adj).view(-1)
         out = self.fc1(x)
         return out
@@ -194,7 +195,7 @@ class ActionDrQA(nn.Module):
             self.doc_rnn.load_state_dict(inter)
 
     def forward(self, vis_state_tensor, state):
-        mask = torch.IntTensor([80] * vis_state_tensor.size(0)).cuda()
+        mask = torch.IntTensor([80] * vis_state_tensor.size(0)).to("cpu")
         emb_tensor = self.embeddings(vis_state_tensor)
         return self.doc_rnn(emb_tensor, mask)
 

@@ -166,7 +166,7 @@ class StateNAction(object):
         edges = list(self.graph_state.edges)
         print("add", add_rules)
         for edge in edges:
-            r = self.graph_state[edge[0]][edge[1]]['rel']
+            r = self.graph_state[edge[0]][edge[1]].get("rel", None)
             if r in prev_remove:
                 self.graph_state.remove_edge(*edge)
                 

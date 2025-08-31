@@ -45,7 +45,7 @@ class KGDQNTrainer(object):
 
         params['vocab_size'] = len(self.state.vocab_drqa)
 
-        self.model = KGDQN(params, self.state.all_actions).cuda()
+        self.model = KGDQN(params, self.state.all_actions).to("cpu")
 
         if self.params['preload_weights']:
             self.model = torch.load(self.params['preload_file'])['model']
@@ -90,15 +90,15 @@ class KGDQNTrainer(object):
     def compute_td_loss(self):
         state, action, reward, next_state, done = self.replay_buffer.sample(self.batch_size, self.rho)
 
-        reward = torch.FloatTensor(reward).cuda()
-        done = torch.FloatTensor(1 * done).cuda()
-        action_t = torch.LongTensor(action).cuda()
+        reward = torch.FloatTensor(reward).to("cpu")
+        done = torch.FloatTensor(1 * done).to("cpu")
+        action_t = torch.LongTensor(action).to("cpu")
 
         q_value = self.model.forward_td_init(state, action_t)[0][0]
 
         with torch.no_grad():
             #Loop through all feasible actions for fwd
-            actions = torch.LongTensor([a.pruned_actions_rep for a in list(next_state)]).cuda()
+            actions = torch.LongTensor([a.pruned_actions_rep for a in list(next_state)]).to("cpu")
             fwd_init, sts = self.model.forward_td_init(next_state, actions[:, 0, :])#.unsqueeze_(0)
             next_q_values = fwd_init[0].unsqueeze_(0)
             for i in range(1, actions.size(1)):
@@ -130,6 +130,7 @@ class KGDQNTrainer(object):
         for e_idx in range(1, self.num_episodes + 1):
             print("Episode:", e_idx)
             logging.info("Episode:" + str(e_idx))
+            self.env.enable_extra_info("description")
             state = self.env.reset()
             self.state.step(state.description, pruned=self.params['pruned'])
             self.model.train()
@@ -141,6 +142,7 @@ class KGDQNTrainer(object):
             prev_action = None
 
             for frame_idx in range(1, self.num_frames + 1):
+                print("Frame: ", frame_idx)
                 epsilon = self.e_scheduler.value(total_frames)
 
                 action, picked = self.model.act(self.state, epsilon)
