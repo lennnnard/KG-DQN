@@ -81,7 +81,8 @@ class StateNAction(object):
                     self.graph_state.add_edge(h, t, rel=r)
 
         except:
-            print(self.visible_state)
+            # print(self.visible_state)
+            pass
         return
 
     def update_state(self, visible_state, prev_action=None):
@@ -147,7 +148,8 @@ class StateNAction(object):
                         rules.append((self.room, 'has', 'exit to ' + d))
                     if prev_room != "":
                         graph_copy = self.graph_state.copy()
-                        graph_copy.remove_edge('you', prev_room)
+                        if graph_copy.has_edge('you', prev_room):
+                            graph_copy.remove_edge('you', prev_room)
                         con_cs = [graph_copy.subgraph(c) for c in nx.weakly_connected_components(graph_copy)]
 
                         for con_c in con_cs:
@@ -164,7 +166,7 @@ class StateNAction(object):
             if r not in remove:
                 add_rules.append(rule)
         edges = list(self.graph_state.edges)
-        print("add", add_rules)
+        # print("add", add_rules)
         for edge in edges:
             r = self.graph_state[edge[0]][edge[1]].get("rel", None)
             if r in prev_remove:
@@ -179,10 +181,10 @@ class StateNAction(object):
             if u in self.vocab_kge['entity'].keys() and v in self.vocab_kge['entity'].keys():
                 if u != 'it' and v != 'it':
                     self.graph_state.add_edge(rule[0], rule[2], rel=rule[1])
-        print("pre", self.graph_state.edges)
+        #print("pre", self.graph_state.edges)
         if prev_room_subgraph is not None:
             self.graph_state.add_edges_from(prev_room_subgraph.edges)
-        print(self.graph_state.edges)
+        #print(self.graph_state.edges)
 
         return
     
