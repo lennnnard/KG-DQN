@@ -73,6 +73,7 @@ class WalkthroughAgent(textworld.Agent):
         self._commands = iter(env.game.quests[0].commands)
 
     def act(self, game_state, reward, done):
+        # print(self._commands)
         try:
             action = next(self._commands)
         except StopIteration:
@@ -98,8 +99,11 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=5):
         done = False
         for no_step in range(max_step):
             # print(game_state.description)
-
-            command = agent.act(game_state, reward, done)
+            try:
+                command = agent.act(game_state, reward, done)
+            except WalkthroughDone:
+                # End this episode cleanly
+                break
 
             out.write(game_state.description)
             out.write("Actions: " + str(game_state.admissible_commands) + '\n')
@@ -213,6 +217,6 @@ if __name__ == "__main__":
         print("Please supply directory with games and type.")
         exit()
 
-    games = glob.glob(sys.argv[1] + '*.ulx')[:2]
+    games = glob.glob(sys.argv[1] + '*.ulx')[:160]
     print(games)
     generate_data(games, sys.argv[2])

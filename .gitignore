@@ -1,4 +1,4 @@
-utils/__pycache__/
+kgdqn/utils/__pycache__/
 dqn/__pycache__/
 kgdqn/__pycache__/
 kgdqn/trial*
