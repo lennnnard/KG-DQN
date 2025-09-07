@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Number of runs
-runs=160
+runs=200
 
 # Output directory
 outdir="./tw_games_small/"
