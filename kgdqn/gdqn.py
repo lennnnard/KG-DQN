@@ -9,6 +9,8 @@ import spacy
 
 import logging
 import textworld
+import matplotlib
+matplotlib.use("Agg")  # non-GUI backend
 import matplotlib.pyplot as plt
 
 from representations import StateNAction
