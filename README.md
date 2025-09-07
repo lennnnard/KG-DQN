@@ -52,3 +52,5 @@ Disclaimer: Code is not upkept
 	- These are also extracted by running both the walkthrough agents and random agents with just the triple extraction process found in `representations.py` and enumerating all entities and relations found. Entities and relations not in these files at test time are ignored.
 - Run `python scripts/datacollector.py <game-directory> collect` to generate `entity2id.tsv relation2id.tsv act2id.txt`
 - For both games, run using `python train.py` after defining the required parameters and game in `train.py`
+
+python scripts/reader/train.py --data-dir ./data/datasets/ --train-file cleaned_qa_train-processed-corenlp.txt --dev-file cleaned_qa_dev-processed-corenlp.txt --dev-json cleaned_qa_dev.json --embed-dir ./data/datasets --embedding-file glove.6B.100d.txt

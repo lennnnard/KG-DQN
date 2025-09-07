@@ -217,6 +217,6 @@ if __name__ == "__main__":
         print("Please supply directory with games and type.")
         exit()
 
-    games = glob.glob(sys.argv[1] + '*.ulx')[:160]
+    games = glob.glob(sys.argv[1] + '*.ulx')#[:1]
     print(games)
     generate_data(games, sys.argv[2])
