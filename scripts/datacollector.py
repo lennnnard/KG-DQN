@@ -146,10 +146,12 @@ def generate_data(games, type):
             out = open("./random.txt", 'w')
             acts = set()
             for g in games:
+                print(f"Running agents for game {g}")
                 acts.update(test_agent(WalkthroughAgent(), game=g, out=out))
                 acts.update(test_agent(RandomAgent(), game=g, out=out))
             out.close()
 
+            print("Cleaning random.txt")
             out = open('./cleaned_random.txt', 'w')
             with open('./random.txt', 'r') as f:
                 cur = []
@@ -177,6 +179,7 @@ def generate_data(games, type):
 
             for i in range(0, len(sents), 40):
                 batch = ''.join(sents[i:i+40])
+                print(f"Calling OpenIE for batch {i}")
                 try:
                     # triple = callStanfordReq(sent)['sentences'][0]['openie']
                     for ov in call_stanford_openie(batch)['sentences']:
