@@ -212,7 +212,8 @@ def generate_data(games, type):
 
         elif type == 'oracle':
             out = open("./oracle.txt", 'w')
-            for g in games:
+            for idx, g in enumerate(games):
+                print(f"Running oracle for game {idx}")
                 test_agent(WalkthroughAgent(), game=g, out=out)
             out.close()
 
