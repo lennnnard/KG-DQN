@@ -132,7 +132,7 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=5):
 
 
 def call_stanford_openie(sentence):
-    url = "http://localhost:9000/"
+    url = "http://corenlp-server:9000/"
     querystring = {
         "properties": "%7B%22annotators%22%3A%20%22openie%22%7D",
         "pipelineLanguage": "en"}

@@ -23,7 +23,7 @@ BibTex:
 
 Disclaimer: Code is not upkept
 
-## Data/Pre-training
+### Data/Pre-training
  - Games are created using [Textworld's](https://github.com/Microsoft/TextWorld) `tw-make` as specified in the paper.
  - Pre-training is done using [DrQA](https://github.com/facebookresearch/DrQA) by generating traces using the WalkthroughAgent in Textworld.
 	 - These traces consist of pairs of (observation, action) pairs which are then used to train DrQA by asking the question of "What action do I take?"
@@ -39,7 +39,7 @@ Disclaimer: Code is not upkept
         'doc_rnn_padding': True
         ```
 
-## Running the code
+### Running the code
 - Code is run using an [Anaconda](https://www.anaconda.com/download/#linux "Anaconda 2") environment for Python 3.6. The environment is defined in **env.yml**. Run `conda env create -f env.yml` and then `source activate kgdqn` to enter the correct environment.
 - Baseline BOW-DQN implementation is in `dqn/`
 - KG-DQN implementation is in `kgdqn/`, 
@@ -52,5 +52,3 @@ Disclaimer: Code is not upkept
 	- These are also extracted by running both the walkthrough agents and random agents with just the triple extraction process found in `representations.py` and enumerating all entities and relations found. Entities and relations not in these files at test time are ignored.
 - Run `python scripts/datacollector.py <game-directory> collect` to generate `entity2id.tsv relation2id.tsv act2id.txt`
 - For both games, run using `python train.py` after defining the required parameters and game in `train.py`
-
-python scripts/reader/train.py --data-dir ./data/datasets/ --train-file cleaned_qa_train-processed-corenlp.txt --dev-file cleaned_qa_dev-processed-corenlp.txt --dev-json cleaned_qa_dev.json --embed-dir ./data/datasets --embedding-file glove.6B.100d.txt
