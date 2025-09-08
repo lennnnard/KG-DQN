@@ -173,22 +173,24 @@ def generate_data(games, type):
             entities = set()
             relations = set()
 
-            sents = input_file.read()
+            sents = input_file.readlines()
 
-            try:
-                # triple = callStanfordReq(sent)['sentences'][0]['openie']
-                for ov in call_stanford_openie(sents)['sentences']:
-                    triple = ov['openie']
-                    # print(triple)
-                    # print(sent,)
-                    for tr in triple:
-                        h, r, t = tr['subject'], tr['relation'], tr['object']
-                        entities.add(h)
-                        entities.add(t)
-                        relations.add(r)
-                        # print(' | ' + h + ', ' + r + ', ' + t,)
-            except:
-                print("OpenIE error")
+            for i in range(0, len(sents), 40):
+                batch = ''.join(sents[i:i+40])
+                try:
+                    # triple = callStanfordReq(sent)['sentences'][0]['openie']
+                    for ov in call_stanford_openie(batch)['sentences']:
+                        triple = ov['openie']
+                        # print(triple)
+                        # print(sent,)
+                        for tr in triple:
+                            h, r, t = tr['subject'], tr['relation'], tr['object']
+                            entities.add(h)
+                            entities.add(t)
+                            relations.add(r)
+                            # print(' | ' + h + ', ' + r + ', ' + t,)
+                except:
+                    print("OpenIE error")
 
             act_out = open('./act2id.txt', 'w')
             act_out.write(str({k: i for i, k in enumerate(acts)}))
