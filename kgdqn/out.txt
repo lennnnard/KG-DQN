@@ -1,0 +1,2193 @@
+{'replay_buffer_type': 'priority', 'replay_buffer_size': 100000, 'num_episodes': 200, 'num_frames': 1000, 'batch_size': 16, 'lr': 0.001, 'gamma': 0.5, 'rho': 0.25, 'scheduler_type': 'exponential', 'e_decay': 10000, 'e_final': 0.2, 'hidden_dims': 0, 'update_frequency': 5, 'padding_idx': 0, 'embedding_size': 50, 'dropout_ratio': 0.2, 'hidden_size': 100, 'gat_emb_size': 50, 'drqa_emb_size': 384, 'gat_emb_init_file': '', 'act_emb_init_file': '', 'preload_weights': False, 'preload_file': '', 'pruned': False, 'max_actions': 40, 'init_graph_embeds': True, 'qa_init': False, 'vocab_size': 1000, 'cuda_device': 1, 'gameid': 0, 'nheads': 2, 'doc_hidden_size': 64, 'doc_layers': 3, 'doc_dropout_rnn': 0.2, 'doc_dropout_rnn_output': True, 'doc_concat_rnn_layers': True, 'doc_rnn_padding': True}
+Episode: 1
+Frame:  1
+False
+Frame:  2
+True
+eat chocolate bar -1.0
+Episode: 2
+Frame:  1
+False
+Frame:  2
+False
+Frame:  3
+False
+Frame:  4
+False
+Frame:  5
+False
+Frame:  6
+False
+Frame:  7
+False
+Frame:  8
+False
+Frame:  9
+False
+Frame:  10
+False
+Frame:  11
+False
+Frame:  12
+False
+Frame:  13
+False
+Frame:  14
+False
+Frame:  15
+False
+Frame:  16
+False
+Frame:  17
+False
+Frame:  18
+False
+Frame:  19
+False
+Frame:  20
+False
+tensor([-0.0584,  0.0572,  0.0418,  0.1259, -0.0009,  0.0733, -0.0082,  0.0703,
+         0.0687, -0.0101, -0.0686, -0.0108,  0.0069,  0.0101,  0.0312,  0.0412],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  21
+False
+Frame:  22
+False
+Frame:  23
+False
+Frame:  24
+False
+Frame:  25
+False
+tensor([0.6490, 0.5784, 0.4042, 0.4591, 0.6025, 0.5038, 0.6435, 0.4741, 0.5880,
+        0.4849, 0.7101, 0.5958, 0.5954, 0.5709, 0.6033, 0.6244],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  26
+False
+Frame:  27
+False
+Frame:  28
+False
+Frame:  29
+False
+Frame:  30
+False
+tensor([0.1338, 0.1303, 0.1821, 0.0415, 0.1568, 0.2346, 0.1336, 0.1288, 0.0834,
+        0.2362, 0.1897, 0.2140, 0.2220, 0.1330, 0.1918, 0.2091],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  31
+False
+Frame:  32
+False
+Frame:  33
+False
+Frame:  34
+False
+Frame:  35
+False
+go north 1
+tensor([-0.0408, -0.1037,  0.0322, -0.1084, -0.0294, -0.0374, -0.0997, -0.0413,
+        -0.0708, -0.0255, -0.0126, -0.0302, -0.0280, -0.0864, -0.0896, -0.0486],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  36
+False
+Frame:  37
+False
+Frame:  38
+False
+Frame:  39
+False
+Frame:  40
+False
+tensor([-0.0232, -0.0402,  0.0644,  0.0149, -0.0462, -0.0055, -0.0191,  0.0969,
+        -0.0157, -0.0876, -0.1162, -0.0401, -0.0621, -0.0406, -0.0457, -0.1421],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  41
+False
+Frame:  42
+False
+Frame:  43
+False
+Frame:  44
+False
+Frame:  45
+False
+tensor([ 0.0137,  0.0361,  0.0105, -0.0429, -0.0307, -0.0627, -0.0543, -0.0235,
+        -0.0160, -0.0371, -0.0033, -0.0324,  0.0172, -0.0098, -0.0420, -0.0666],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  46
+False
+Frame:  47
+False
+Frame:  48
+False
+Frame:  49
+False
+Frame:  50
+False
+tensor([0.0319, 0.0971, 0.1143, 0.1400, 0.0834, 0.1742, 0.2002, 0.0767, 0.0907,
+        0.1435, 0.1261, 0.0946, 0.0767, 0.0897, 0.0605, 0.0565],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  51
+False
+Frame:  52
+False
+Frame:  53
+False
+Frame:  54
+False
+Frame:  55
+False
+tensor([0.3210, 0.3018, 0.2508, 0.2394, 0.2544, 0.3195, 0.2978, 0.2397, 0.2052,
+        0.1681, 0.1745, 0.2570, 0.2707, 0.2432, 0.3391, 0.1400],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  56
+False
+Frame:  57
+False
+Frame:  58
+False
+Frame:  59
+False
+Frame:  60
+False
+tensor([0.4637, 0.4628, 0.4120, 0.4323, 0.4547, 0.4848, 0.4739, 0.4249, 0.2273,
+        0.2989, 0.2024, 0.4138, 0.2823, 0.2717, 0.2002, 0.1878],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  61
+False
+Frame:  62
+False
+Frame:  63
+False
+Frame:  64
+False
+Frame:  65
+False
+tensor([0.3471, 0.4463, 0.3449, 0.4070, 0.3419, 0.4079, 0.4640, 0.4729, 0.1508,
+        0.2032, 0.1779, 0.1184, 0.1229, 0.0328, 0.0977, 0.1352],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  66
+False
+Frame:  67
+False
+Frame:  68
+False
+Frame:  69
+False
+Frame:  70
+False
+tensor([0.4702, 0.2851, 0.3979, 0.5303, 0.3514, 0.5808, 0.3930, 0.3717, 0.1282,
+        0.1690, 0.1026, 0.0456, 0.0701, 0.0732, 0.1736, 0.0772],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  71
+False
+Frame:  72
+False
+Frame:  73
+False
+go east 1
+Frame:  74
+False
+Frame:  75
+False
+go south 1
+tensor([ 0.2208,  0.2949,  0.2205,  0.3149,  0.2920,  0.4932,  0.1906,  0.2228,
+         0.0497,  0.0494, -0.0218, -0.0412,  0.0157,  0.0130, -0.0856, -0.1315],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  76
+False
+Frame:  77
+False
+Frame:  78
+False
+Frame:  79
+False
+go west -1.0
+Frame:  80
+False
+tensor([ 0.3669,  0.2546,  0.3597,  0.4266,  0.4221,  0.4313,  0.2461,  0.3351,
+         0.0416, -0.0545, -0.1108, -0.1710, -0.1714, -0.0718, -0.0897, -0.0786],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  81
+False
+Frame:  82
+False
+Frame:  83
+False
+Frame:  84
+False
+Frame:  85
+False
+tensor([ 0.4510,  0.3194,  0.4164,  0.4297,  0.3794,  0.4433,  0.3961,  0.3453,
+        -0.1095, -0.1018, -0.0661, -0.0072, -0.1108, -0.0586, -0.0455, -0.0513],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  86
+False
+Frame:  87
+False
+Frame:  88
+False
+Frame:  89
+False
+Frame:  90
+False
+tensor([ 0.6056,  0.7463,  0.5782,  0.6371,  0.6597,  0.6700,  0.5969,  0.6355,
+         0.0359,  0.0068,  0.0547,  0.0216,  0.1675, -0.0230,  0.1173, -0.0017],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  91
+False
+Frame:  92
+False
+Frame:  93
+False
+Frame:  94
+False
+Frame:  95
+False
+tensor([1.1390, 1.0936, 0.9457, 0.9074, 1.1462, 1.0978, 0.7438, 1.0882, 0.1231,
+        0.0046, 0.1200, 0.1782, 0.1566, 0.0384, 0.1521, 0.1635],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  96
+False
+Frame:  97
+False
+Frame:  98
+False
+Frame:  99
+False
+Frame:  100
+False
+tensor([1.1629, 1.3733, 1.1982, 1.4088, 1.1027, 1.2779, 1.1529, 1.2791, 0.3895,
+        0.4975, 0.3547, 0.2320, 0.2570, 0.4695, 0.3350, 0.2757],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  101
+False
+Frame:  102
+False
+Frame:  103
+False
+Frame:  104
+False
+go north -1.0
+Frame:  105
+False
+tensor([1.1813, 1.1624, 1.4132, 1.3637, 1.1026, 1.1008, 1.2864, 1.3439, 0.1667,
+        0.4112, 0.2542, 0.1662, 0.4013, 0.0580, 0.2885, 0.3124],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  106
+False
+Frame:  107
+False
+Frame:  108
+False
+Frame:  109
+False
+Frame:  110
+False
+tensor([1.0209, 1.4477, 1.2440, 1.1989, 1.2251, 0.9799, 1.3357, 1.3493, 0.2787,
+        0.1052, 0.2908, 0.2216, 0.2554, 0.3369, 0.1500, 0.1068],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  111
+False
+Frame:  112
+False
+Frame:  113
+False
+Frame:  114
+False
+Frame:  115
+False
+tensor([ 0.6427,  0.8252,  0.9848,  0.9772,  0.8512,  0.9247,  0.8486,  0.9418,
+         0.0406,  0.0860,  0.0393, -0.1041,  0.1334, -0.0735, -0.0065, -0.1513],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  116
+False
+Frame:  117
+False
+Frame:  118
+False
+Frame:  119
+False
+Frame:  120
+False
+tensor([ 0.9004,  0.6197,  0.7909,  0.5656,  0.9492,  0.7422,  0.5425,  0.8508,
+        -0.0879, -0.1913, -0.1140, -0.1048, -0.2216, -0.0983, -0.2846, -0.1521],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  121
+False
+Frame:  122
+False
+Frame:  123
+False
+Frame:  124
+False
+Frame:  125
+False
+tensor([ 0.7160,  0.6066,  0.5008,  0.3823,  0.6792,  0.7467,  0.7601,  0.8085,
+        -0.1378, -0.0865, -0.1416, -0.1884, -0.1009, -0.1701, -0.0331, -0.0478],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  126
+False
+Frame:  127
+False
+Frame:  128
+False
+Frame:  129
+False
+Frame:  130
+False
+tensor([ 0.5741,  0.4665,  0.6174,  0.6883,  0.6253,  0.4556,  0.6757,  0.8036,
+        -0.0797, -0.1018, -0.1355, -0.1462, -0.1369, -0.1319, -0.1628, -0.1324],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  131
+False
+go south 1
+Frame:  132
+False
+Frame:  133
+False
+Frame:  134
+False
+Frame:  135
+False
+tensor([ 0.7226,  0.6076,  0.8021,  0.7725,  0.6190,  0.7680,  0.7370,  0.5406,
+        -0.0955,  0.0080,  0.0046,  0.0308,  0.0291, -0.0914,  0.0121,  0.0325],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  136
+False
+Frame:  137
+False
+Frame:  138
+False
+Frame:  139
+False
+Frame:  140
+False
+tensor([ 0.9181,  0.9070,  0.8701,  0.7990,  0.8218,  0.9165,  0.8921,  0.8969,
+         0.1890, -0.0274,  0.0482, -0.0763,  0.0359,  0.1529,  0.0532,  0.1366],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  141
+False
+Frame:  142
+False
+Frame:  143
+False
+Frame:  144
+False
+Frame:  145
+False
+tensor([ 1.0975,  1.1719,  1.0806,  1.0984,  1.2287,  1.1637,  1.1522,  1.0394,
+         0.3236,  0.2222, -0.0273,  0.2019,  0.1355, -0.1036,  0.1708,  0.1196],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  146
+False
+Frame:  147
+False
+Frame:  148
+False
+Frame:  149
+False
+Frame:  150
+False
+tensor([1.4521, 1.3025, 1.5089, 1.6023, 1.3359, 1.4631, 1.3269, 1.5901, 0.1604,
+        0.0244, 0.2809, 0.2295, 0.2366, 0.3863, 0.1617, 0.1784],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  151
+False
+Frame:  152
+False
+Frame:  153
+False
+go south -1.0
+Frame:  154
+False
+Frame:  155
+False
+tensor([1.4987, 1.5135, 1.3074, 1.7737, 1.5665, 1.3362, 1.8956, 1.3197, 0.3367,
+        0.2422, 0.1811, 0.1692, 0.3312, 0.0190, 0.1904, 0.2816],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  156
+False
+Frame:  157
+False
+Frame:  158
+False
+Frame:  159
+False
+Frame:  160
+False
+tensor([ 1.5477,  1.2681,  1.2867,  1.3509,  1.0863,  1.2803,  1.4082,  1.2075,
+         0.3063,  0.2992,  0.3704,  0.0916, -0.0385,  0.1848,  0.2907,  0.1460],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  161
+False
+Frame:  162
+False
+Frame:  163
+False
+Frame:  164
+False
+Frame:  165
+False
+tensor([ 1.2092,  1.2515,  1.4496,  1.2014,  1.1804,  1.2237,  1.3078,  1.3675,
+         0.2033, -0.0243,  0.1639,  0.1155,  0.2079,  0.1301,  0.1866,  0.0772],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  166
+False
+Frame:  167
+False
+Frame:  168
+False
+Frame:  169
+False
+Frame:  170
+False
+tensor([ 1.0918,  1.3806,  1.1917,  1.2689,  1.3990,  1.2778,  1.1513,  1.1410,
+         0.0481, -0.0688,  0.1396,  0.1502,  0.0894,  0.0413,  0.0139,  0.1745],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  171
+False
+Frame:  172
+False
+Frame:  173
+False
+go north 1
+Frame:  174
+False
+Frame:  175
+False
+tensor([ 1.5307,  1.7158,  1.3149,  1.3821,  1.3259,  1.6333,  1.4976,  1.4235,
+         0.2157,  0.0195,  0.0414, -0.0675,  0.0026,  0.1137,  0.1524, -0.1181],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  176
+False
+Frame:  177
+False
+Frame:  178
+False
+Frame:  179
+False
+Frame:  180
+False
+tensor([ 1.1001,  1.3714,  1.1931,  1.2409,  1.3389,  1.2524,  1.1699,  1.2170,
+         0.0084, -0.0627,  0.0901,  0.0270, -0.0935,  0.0335,  0.0154,  0.1209],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  181
+False
+Frame:  182
+False
+Frame:  183
+False
+Frame:  184
+True
+eat sandwich -1.0
+Episode: 3
+Frame:  1
+False
+Frame:  2
+False
+Frame:  3
+False
+Frame:  4
+False
+Frame:  5
+False
+tensor([ 0.9897,  0.8624,  1.1471,  1.2108,  1.1040,  0.8868,  1.0728,  1.1316,
+        -0.0113, -0.1869,  0.0812,  0.0414, -0.0436, -0.0789, -0.0150,  0.0235],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  6
+False
+Frame:  7
+False
+Frame:  8
+False
+Frame:  9
+False
+Frame:  10
+False
+tensor([ 1.2033,  1.0327,  1.0581,  1.0163,  0.8451,  1.1343,  1.0546,  0.9808,
+         0.0065, -0.0447, -0.0621,  0.0255,  0.1868, -0.1916, -0.0444, -0.0327],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  11
+False
+Frame:  12
+False
+Frame:  13
+False
+Frame:  14
+False
+Frame:  15
+False
+tensor([ 0.9266,  0.7008,  0.9618,  0.8275,  0.7835,  0.7842,  1.1130,  1.2003,
+         0.0074, -0.0320, -0.0427, -0.0233, -0.0484, -0.0470, -0.1167, -0.2002],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  16
+False
+Frame:  17
+False
+Frame:  18
+False
+Frame:  19
+False
+Frame:  20
+True
+eat sandwich -1.0
+Episode: 4
+Frame:  1
+False
+Frame:  2
+False
+Frame:  3
+False
+Frame:  4
+False
+Frame:  5
+False
+tensor([ 1.1111,  0.9503,  1.1892,  0.9386,  1.1754,  1.0807,  0.8939,  1.0906,
+        -0.0030, -0.1136, -0.1466, -0.0939, -0.0599,  0.0220, -0.0725,  0.0086],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  6
+False
+Frame:  7
+False
+Frame:  8
+False
+Frame:  9
+False
+Frame:  10
+False
+tensor([ 1.1977,  1.1461,  1.0939,  1.0189,  0.9739,  1.2505,  1.1357,  1.2471,
+         0.0183, -0.1601,  0.0231, -0.0486, -0.1654, -0.0166, -0.1599, -0.0582],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  11
+False
+Frame:  12
+False
+Frame:  13
+False
+Frame:  14
+False
+Frame:  15
+False
+tensor([ 1.2023,  1.3221,  1.3849,  1.2039,  1.3968,  1.3209,  1.1183,  1.0716,
+         0.0496, -0.1687, -0.1210, -0.0095,  0.0803,  0.0957, -0.1740,  0.0174],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  16
+True
+eat sandwich -1.0
+Episode: 5
+Frame:  1
+False
+Frame:  2
+False
+Frame:  3
+False
+go south -1.0
+Frame:  4
+False
+Frame:  5
+False
+tensor([ 1.2513,  1.2793,  1.2727,  1.2345,  0.9973,  1.1084,  1.1111,  1.1308,
+        -0.1030, -0.1568, -0.0425, -0.1231, -0.0385, -0.0884, -0.2650, -0.2831],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  6
+False
+Frame:  7
+False
+Frame:  8
+False
+Frame:  9
+False
+go east 1
+Frame:  10
+False
+tensor([ 1.6382,  1.2770,  1.5493,  1.7302,  1.2909,  1.3371,  1.6106,  1.2565,
+         0.0912, -0.0996, -0.0043,  0.1874,  0.1644,  0.0590, -0.1340,  0.1166],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  11
+False
+Frame:  12
+False
+Frame:  13
+False
+Frame:  14
+False
+Frame:  15
+False
+tensor([ 1.7707,  1.9018,  1.6592,  1.6677,  1.5491,  1.7006,  1.6880,  2.0431,
+        -0.0278,  0.1564,  0.1846,  0.0924, -0.0540,  0.1345,  0.1657,  0.1062],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  16
+False
+Frame:  17
+False
+Frame:  18
+False
+Frame:  19
+False
+Frame:  20
+False
+tensor([ 1.5312,  1.4315,  1.4487,  1.4212,  1.4576,  1.6337,  1.6335,  1.5266,
+         0.2221,  0.2358,  0.0541,  0.1437,  0.2116,  0.2000, -0.0545,  0.3713],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  21
+False
+Frame:  22
+False
+go north -1.0
+Frame:  23
+False
+Frame:  24
+False
+Frame:  25
+False
+go south 1
+tensor([1.4661, 1.2750, 1.5572, 1.3609, 1.4818, 0.9921, 1.2926, 1.3874, 0.2966,
+        0.2360, 0.2364, 0.2532, 0.2590, 0.2014, 0.0065, 0.1721],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  26
+False
+Frame:  27
+False
+Frame:  28
+False
+Frame:  29
+False
+Frame:  30
+False
+tensor([1.3969, 1.3667, 1.0626, 1.2577, 1.0296, 1.1687, 1.0909, 1.1485, 0.2665,
+        0.0953, 0.2641, 0.1572, 0.1708, 0.1937, 0.2793, 0.1489],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  31
+False
+Frame:  32
+False
+Frame:  33
+True
+eat fondue -1.0
+Episode: 6
+Frame:  1
+False
+Frame:  2
+False
+Frame:  3
+False
+Frame:  4
+False
+Frame:  5
+False
+tensor([1.0430, 1.0645, 1.3092, 1.3715, 1.3523, 1.0927, 1.5508, 1.0843, 0.0922,
+        0.2214, 0.2157, 0.2187, 0.1321, 0.1337, 0.0887, 0.2629],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  6
+False
+Frame:  7
+False
+Frame:  8
+False
+Frame:  9
+False
+Frame:  10
+False
+tensor([1.4133, 1.2266, 1.3454, 1.2773, 1.3609, 1.4531, 1.5945, 1.0470, 0.1077,
+        0.0486, 0.1697, 0.0860, 0.2241, 0.0572, 0.1330, 0.1834],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  11
+False
+Frame:  12
+False
+Frame:  13
+False
+Frame:  14
+False
+Frame:  15
+False
+tensor([ 1.0889,  1.3689,  1.1386,  1.0124,  1.0006,  0.8921,  0.8935,  0.9635,
+         0.0381, -0.1134, -0.0017,  0.0653,  0.0491,  0.1025,  0.1750,  0.1181],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  16
+False
+Frame:  17
+False
+Frame:  18
+False
+Frame:  19
+False
+Frame:  20
+False
+go north 1
+tensor([ 0.7550,  0.7802,  0.6712,  0.6984,  0.8712,  0.7657,  0.7646,  0.8174,
+         0.0998, -0.0760,  0.1147, -0.0282, -0.0091,  0.1308,  0.0659, -0.0797],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  21
+False
+Frame:  22
+False
+Frame:  23
+False
+Frame:  24
+False
+Frame:  25
+False
+tensor([ 0.8869,  0.8299,  0.7048,  0.8023,  0.7135,  0.7206,  0.6247,  0.7233,
+         0.0292,  0.0271,  0.1325,  0.0493,  0.1000, -0.0756,  0.0330,  0.0225],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  26
+False
+Frame:  27
+False
+Frame:  28
+False
+Frame:  29
+False
+Frame:  30
+False
+tensor([ 0.6345,  0.7544,  0.6163,  0.6608,  0.7235,  0.6142,  0.7691,  0.6833,
+         0.0441,  0.0385, -0.0589,  0.1177, -0.0497, -0.0080,  0.0199,  0.0438],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  31
+False
+Frame:  32
+False
+Frame:  33
+False
+Frame:  34
+False
+go east 1
+Frame:  35
+False
+tensor([ 0.7724,  0.8556,  0.9153,  0.8800,  0.8110,  0.4776,  0.7968,  0.8048,
+         0.0535, -0.0901,  0.1744,  0.0714,  0.0667,  0.1260,  0.1160,  0.0010],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  36
+False
+Frame:  37
+False
+Frame:  38
+False
+Frame:  39
+False
+Frame:  40
+False
+tensor([0.8488, 0.9293, 0.7864, 1.0191, 0.6628, 0.7093, 0.8637, 0.8448, 0.0330,
+        0.2063, 0.3171, 0.1100, 0.0129, 0.0161, 0.0785, 0.0324],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  41
+False
+Frame:  42
+False
+Frame:  43
+False
+Frame:  44
+False
+Frame:  45
+False
+tensor([ 0.8317,  0.9022,  1.0788,  0.8888,  0.7708,  0.6686,  0.9129,  0.7984,
+         0.2042, -0.0729,  0.0617,  0.2357,  0.2501,  0.1299,  0.0481,  0.1827],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  46
+False
+Frame:  47
+False
+Frame:  48
+False
+Frame:  49
+False
+Frame:  50
+False
+tensor([ 1.1314,  0.9918,  1.0384,  1.2034,  1.2118,  1.2501,  1.1214,  0.9312,
+         0.2471,  0.1533,  0.0863,  0.1223,  0.0799,  0.3102,  0.1667, -0.1024],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  51
+False
+Frame:  52
+False
+Frame:  53
+False
+Frame:  54
+False
+Frame:  55
+False
+tensor([ 1.1847,  1.4502,  1.0856,  1.0850,  1.3702,  1.3046,  1.2930,  1.2984,
+         0.0811, -0.1387, -0.0173,  0.0952,  0.0786,  0.2282,  0.0226,  0.1855],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  56
+False
+Frame:  57
+False
+go east -1.0
+Frame:  58
+False
+Frame:  59
+False
+Frame:  60
+False
+tensor([ 1.4139,  1.4351,  1.5025,  1.6525,  1.6443,  1.4531,  1.3010,  1.4444,
+         0.0564, -0.1718,  0.0161, -0.1610,  0.0577,  0.1069,  0.0808, -0.0696],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  61
+False
+Frame:  62
+False
+Frame:  63
+False
+Frame:  64
+False
+Frame:  65
+False
+tensor([ 1.7071e+00,  1.3177e+00,  1.4938e+00,  1.1835e+00,  1.4355e+00,
+         1.4413e+00,  1.3325e+00,  1.4573e+00, -5.9607e-04,  2.1655e-02,
+         1.3267e-02,  3.8028e-02,  1.1565e-02,  1.2220e-01,  8.2049e-02,
+         3.4090e-02], device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  66
+False
+Frame:  67
+False
+Frame:  68
+False
+Frame:  69
+False
+Frame:  70
+False
+tensor([ 1.8219,  1.7585,  1.5398,  1.6130,  1.5892,  1.7389,  1.8499,  1.5524,
+        -0.0738,  0.1186, -0.0281,  0.0560, -0.2373,  0.0662, -0.0144, -0.0827],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  71
+False
+Frame:  72
+False
+Frame:  73
+False
+Frame:  74
+False
+Frame:  75
+False
+tensor([ 1.4713,  1.5327,  1.3521,  1.4330,  1.6444,  1.5792,  1.5825,  1.4782,
+        -0.0826,  0.0622,  0.1137,  0.1353,  0.0716, -0.1467, -0.1388,  0.0445],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  76
+False
+Frame:  77
+False
+Frame:  78
+False
+Frame:  79
+False
+Frame:  80
+False
+tensor([ 1.1268e+00,  1.1430e+00,  1.1172e+00,  1.1391e+00,  1.5555e+00,
+         1.2062e+00,  1.1961e+00,  1.3521e+00,  3.9076e-02,  3.8359e-02,
+        -7.0458e-02, -2.1094e-02,  6.3381e-02, -5.8193e-02,  9.9743e-04,
+        -6.8613e-02], device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  81
+False
+Frame:  82
+False
+Frame:  83
+False
+Frame:  84
+False
+Frame:  85
+False
+tensor([ 1.1297,  1.1844,  0.9263,  1.1229,  0.8629,  1.1705,  0.9315,  1.1479,
+         0.0939,  0.1030,  0.0706, -0.0042,  0.0901,  0.1765,  0.0150,  0.0476],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  86
+False
+Frame:  87
+False
+Frame:  88
+False
+Frame:  89
+False
+Frame:  90
+False
+tensor([ 0.8571,  0.8224,  0.8323,  0.8024,  0.9548,  0.8513,  0.9240,  0.9858,
+         0.1260,  0.0352,  0.0482,  0.0800,  0.1081,  0.1920, -0.1455,  0.0733],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  91
+False
+Frame:  92
+False
+Frame:  93
+False
+Frame:  94
+False
+Frame:  95
+False
+tensor([0.8433, 1.1951, 0.9052, 1.2002, 1.0816, 1.0164, 1.3366, 1.2293, 0.1262,
+        0.1002, 0.1233, 0.0542, 0.1342, 0.1051, 0.0100, 0.1518],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  96
+False
+Frame:  97
+False
+Frame:  98
+False
+Frame:  99
+False
+Frame:  100
+False
+tensor([1.1330, 1.1470, 1.3126, 1.0424, 1.4287, 0.9942, 0.9382, 1.1172, 0.1191,
+        0.2741, 0.1022, 0.2049, 0.3219, 0.1999, 0.0075, 0.1412],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  101
+False
+Frame:  102
+False
+Frame:  103
+False
+Frame:  104
+False
+Frame:  105
+False
+tensor([1.1255, 1.5835, 1.2648, 1.2532, 1.2817, 1.2310, 1.3412, 1.2958, 0.0901,
+        0.0475, 0.1362, 0.1966, 0.1612, 0.2112, 0.1243, 0.3241],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  106
+False
+Frame:  107
+False
+Frame:  108
+False
+Frame:  109
+False
+Frame:  110
+False
+tensor([ 1.2519,  1.1478,  1.4286,  1.1836,  1.5383,  1.4201,  1.1420,  1.1083,
+        -0.0546,  0.0204,  0.1639,  0.1416, -0.0193,  0.3226,  0.0104, -0.0679],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  111
+False
+Frame:  112
+False
+Frame:  113
+False
+Frame:  114
+False
+Frame:  115
+False
+tensor([ 1.2482,  1.0757,  0.8750,  1.0049,  1.1387,  1.1156,  1.0827,  0.9261,
+        -0.0098, -0.0242, -0.0637,  0.1098, -0.1093,  0.0034, -0.0078, -0.2863],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  116
+False
+Frame:  117
+False
+Frame:  118
+False
+Frame:  119
+False
+Frame:  120
+False
+tensor([ 1.1212,  1.1143,  1.1240,  1.2128,  0.9534,  1.0010,  1.0555,  1.1948,
+        -0.0694,  0.0176,  0.0706,  0.0436, -0.0610, -0.0209,  0.0193, -0.0663],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  121
+False
+Frame:  122
+False
+Frame:  123
+False
+Frame:  124
+False
+Frame:  125
+False
+tensor([ 0.9912,  1.2020,  1.1459,  0.8553,  1.3160,  1.2584,  1.3471,  1.2154,
+        -0.1162,  0.0660, -0.1598, -0.0605, -0.0215, -0.0725, -0.0450,  0.0713],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  126
+False
+Frame:  127
+False
+Frame:  128
+False
+Frame:  129
+False
+Frame:  130
+False
+tensor([ 1.4057,  1.1417,  1.4389,  1.1312,  1.0796,  1.3333,  1.2384,  1.3584,
+        -0.1734, -0.0808, -0.0762, -0.1187, -0.2254, -0.0759, -0.0071, -0.0198],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  131
+False
+Frame:  132
+False
+Frame:  133
+False
+Frame:  134
+False
+Frame:  135
+False
+tensor([ 1.2101,  1.2506,  1.2918,  1.4107,  0.9698,  1.3427,  1.5575,  1.2343,
+         0.0806, -0.1350,  0.0059, -0.1464,  0.0441, -0.0676,  0.0101, -0.0316],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  136
+False
+Frame:  137
+False
+Frame:  138
+False
+Frame:  139
+False
+Frame:  140
+False
+tensor([ 1.4133,  1.2708,  1.6119,  0.8404,  1.2401,  1.3108,  1.3308,  1.3249,
+        -0.1486, -0.1664, -0.1752,  0.0828, -0.0363, -0.0341, -0.2231,  0.0183],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  141
+False
+Frame:  142
+False
+Frame:  143
+False
+Frame:  144
+False
+Frame:  145
+False
+tensor([ 1.1774,  1.2711,  1.1234,  1.4457,  1.2855,  1.3194,  1.2320,  1.1682,
+        -0.0072, -0.2139, -0.1016, -0.1328, -0.1467, -0.1926, -0.1743, -0.1559],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  146
+False
+Frame:  147
+False
+Frame:  148
+False
+Frame:  149
+False
+Frame:  150
+False
+tensor([ 1.3357,  1.5549,  1.6144,  1.4297,  1.3386,  1.4690,  1.1385,  1.3371,
+        -0.0319, -0.1020,  0.0570, -0.0352, -0.0116, -0.0692, -0.0755, -0.0079],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  151
+False
+Frame:  152
+False
+Frame:  153
+False
+go south -1.0
+Frame:  154
+False
+Frame:  155
+False
+tensor([ 1.4807,  1.2274,  1.3096,  1.2997,  1.2971,  1.3945,  1.1037,  1.3939,
+         0.3101,  0.0272,  0.0744,  0.0509,  0.0859,  0.1408,  0.1933, -0.0225],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  156
+False
+Frame:  157
+False
+Frame:  158
+False
+Frame:  159
+False
+Frame:  160
+False
+tensor([1.4967, 1.0946, 1.3045, 1.2152, 1.5283, 1.2639, 1.1398, 1.2567, 0.0574,
+        0.1184, 0.2231, 0.0117, 0.1208, 0.0831, 0.1638, 0.1818],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  161
+False
+Frame:  162
+False
+Frame:  163
+False
+Frame:  164
+False
+Frame:  165
+False
+tensor([1.1649, 1.0121, 1.0194, 1.4933, 0.7580, 1.1287, 1.1327, 1.1977, 0.1035,
+        0.1624, 0.2188, 0.1489, 0.0992, 0.1868, 0.0483, 0.0932],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  166
+False
+Frame:  167
+False
+Frame:  168
+False
+Frame:  169
+False
+Frame:  170
+False
+tensor([ 1.1871,  1.2182,  0.9366,  1.3162,  1.0782,  1.0600,  1.4003,  1.4543,
+        -0.1053,  0.1361,  0.1225,  0.0565,  0.1986,  0.1567,  0.0180, -0.0041],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  171
+False
+Frame:  172
+False
+Frame:  173
+False
+go south -1.0
+Frame:  174
+False
+Frame:  175
+False
+tensor([ 1.1769,  0.9193,  1.5232,  1.1713,  1.3480,  1.1509,  1.2500,  1.0626,
+         0.0339, -0.0072, -0.1631, -0.2083, -0.0248,  0.0589,  0.0667,  0.1312],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  176
+False
+Frame:  177
+False
+Frame:  178
+False
+Frame:  179
+False
+Frame:  180
+False
+tensor([ 1.6293,  1.6023,  1.3449,  1.3482,  1.4460,  1.1682,  1.4210,  1.1011,
+         0.1591,  0.0162,  0.1039, -0.1088,  0.0702, -0.2402,  0.1321, -0.0994],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  181
+False
+Frame:  182
+False
+Frame:  183
+False
+Frame:  184
+False
+Frame:  185
+False
+tensor([ 1.2027,  1.3510,  1.2814,  1.2147,  1.1409,  0.9431,  1.2861,  1.5426,
+        -0.0377, -0.2272, -0.0454, -0.0951, -0.0841,  0.1258, -0.0942, -0.1205],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  186
+False
+Frame:  187
+False
+Frame:  188
+False
+Frame:  189
+False
+Frame:  190
+False
+tensor([ 1.0720,  1.0606,  0.9902,  1.1992,  0.9792,  1.2533,  1.2734,  1.0601,
+        -0.0396, -0.0588,  0.0251, -0.1597, -0.0297, -0.0987, -0.1403, -0.1667],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  191
+False
+Frame:  192
+False
+Frame:  193
+False
+go west 1
+Frame:  194
+False
+Frame:  195
+False
+tensor([ 0.7244,  0.7231,  0.6929,  0.9357,  1.0001,  0.7927,  0.6834,  0.8630,
+        -0.1276,  0.1602, -0.0693, -0.0532, -0.2616, -0.0870,  0.1238, -0.0659],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  196
+False
+go east -1.0
+Frame:  197
+False
+Frame:  198
+False
+Frame:  199
+False
+Frame:  200
+False
+tensor([ 1.1121,  1.1285,  1.2363,  1.2764,  1.1456,  1.1418,  1.3241,  1.2787,
+        -0.0272, -0.0300,  0.0038, -0.1597, -0.0201, -0.1299,  0.1364,  0.1480],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  201
+False
+Frame:  202
+False
+Frame:  203
+False
+Frame:  204
+False
+Frame:  205
+False
+tensor([ 1.1802,  1.3667,  1.2167,  1.2464,  1.2127,  1.1892,  1.3610,  1.3779,
+         0.0842, -0.0261, -0.0319, -0.0126,  0.0999,  0.0411,  0.0742,  0.0511],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  206
+False
+Frame:  207
+False
+Frame:  208
+False
+Frame:  209
+False
+Frame:  210
+False
+tensor([ 1.4474,  1.1448,  1.3283,  1.4267,  1.3297,  1.5861,  1.6220,  1.5871,
+         0.1035,  0.1772,  0.1561,  0.0460,  0.1170, -0.0075,  0.1098,  0.2968],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  211
+False
+Frame:  212
+False
+Frame:  213
+False
+Frame:  214
+False
+Frame:  215
+False
+go south 1
+tensor([ 1.2721,  1.0888,  1.2289,  1.3744,  1.1103,  1.2235,  1.2992,  1.2181,
+         0.0543,  0.0945,  0.0820,  0.0536,  0.0393, -0.0200,  0.1932,  0.2706],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  216
+False
+Frame:  217
+False
+Frame:  218
+False
+Frame:  219
+False
+Frame:  220
+False
+tensor([ 9.6355e-01,  1.0582e+00,  1.1850e+00,  1.1568e+00,  1.2830e+00,
+         1.3197e+00,  1.0377e+00,  1.1796e+00,  2.7643e-01,  7.2864e-02,
+         1.0742e-01,  1.5652e-01, -1.0139e-03,  1.0214e-01,  1.1399e-01,
+         2.2299e-02], device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  221
+False
+Frame:  222
+False
+Frame:  223
+False
+Frame:  224
+False
+Frame:  225
+False
+tensor([1.1303, 1.1460, 1.1283, 0.9721, 1.0335, 1.3506, 1.0089, 1.0509, 0.1888,
+        0.2708, 0.2173, 0.0115, 0.1748, 0.1296, 0.0950, 0.2504],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  226
+False
+Frame:  227
+False
+Frame:  228
+False
+Frame:  229
+False
+Frame:  230
+False
+tensor([ 1.1373,  1.3819,  1.2836,  1.2471,  1.2795,  1.3368,  0.9136,  1.3177,
+         0.1407,  0.0824,  0.1275, -0.0328,  0.1683,  0.1848,  0.2359,  0.1437],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  231
+False
+Frame:  232
+False
+Frame:  233
+False
+Frame:  234
+False
+Frame:  235
+False
+tensor([1.2840, 1.2646, 1.3813, 1.2905, 1.4110, 1.3319, 1.4046, 1.1173, 0.0239,
+        0.0246, 0.1588, 0.3347, 0.1024, 0.2292, 0.1654, 0.1854],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  236
+False
+Frame:  237
+False
+Frame:  238
+False
+Frame:  239
+False
+Frame:  240
+False
+tensor([1.3012, 1.4412, 1.5097, 1.3352, 1.1430, 1.2417, 1.3260, 1.2445, 0.1353,
+        0.0381, 0.0950, 0.1649, 0.1691, 0.1081, 0.1098, 0.2478],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  241
+False
+Frame:  242
+False
+Frame:  243
+False
+Frame:  244
+False
+Frame:  245
+False
+tensor([ 1.7123,  1.4822,  1.4468,  1.3746,  1.2016,  1.3969,  1.5728,  1.4564,
+         0.2907,  0.1174,  0.2061,  0.2754,  0.2734,  0.1775, -0.0133,  0.2576],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  246
+False
+Frame:  247
+False
+Frame:  248
+False
+Frame:  249
+False
+Frame:  250
+False
+tensor([ 1.2581,  1.3575,  1.2564,  1.4589,  1.1790,  1.3699,  1.2907,  1.2151,
+         0.1012, -0.0153,  0.0660,  0.1080,  0.1645,  0.1939,  0.2554,  0.1692],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  251
+False
+Frame:  252
+False
+Frame:  253
+False
+Frame:  254
+False
+Frame:  255
+False
+tensor([ 1.0918,  1.3216,  0.9870,  1.1006,  1.2080,  1.2101,  1.1784,  1.1548,
+         0.0729,  0.0345, -0.0191, -0.1010, -0.0126,  0.2148,  0.1005,  0.1551],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  256
+False
+Frame:  257
+False
+Frame:  258
+False
+Frame:  259
+False
+Frame:  260
+False
+go west -1.0
+tensor([1.0519, 0.9975, 0.9522, 1.2174, 1.1901, 1.0373, 1.1330, 0.8635, 0.1408,
+        0.2826, 0.0331, 0.2395, 0.1742, 0.0941, 0.0846, 0.1984],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  261
+False
+Frame:  262
+False
+Frame:  263
+False
+Frame:  264
+False
+Frame:  265
+False
+tensor([1.0182, 1.0000, 1.0172, 0.9343, 0.8145, 1.0020, 0.8984, 0.8228, 0.0302,
+        0.1021, 0.0760, 0.0901, 0.0889, 0.0522, 0.0231, 0.0980],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  266
+False
+Frame:  267
+False
+Frame:  268
+False
+Frame:  269
+False
+Frame:  270
+False
+tensor([ 1.0086e+00,  9.2622e-01,  9.8176e-01,  7.7412e-01,  8.5472e-01,
+         7.2504e-01,  9.0753e-01,  1.0018e+00,  6.7557e-02,  1.1447e-01,
+        -3.4117e-02, -6.7800e-04, -3.9893e-04,  3.3394e-02,  4.3693e-03,
+        -1.7519e-02], device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  271
+False
+Frame:  272
+False
+Frame:  273
+False
+Frame:  274
+False
+Frame:  275
+False
+tensor([0.9249, 0.9393, 1.0613, 1.0913, 0.9912, 0.8361, 1.0085, 0.8812, 0.0116,
+        0.0557, 0.1041, 0.1141, 0.1386, 0.0837, 0.0273, 0.0116],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  276
+False
+Frame:  277
+False
+Frame:  278
+False
+Frame:  279
+False
+Frame:  280
+False
+tensor([ 1.1292,  1.1074,  1.1608,  1.1076,  1.2758,  1.1227,  1.1488,  1.1529,
+         0.0893,  0.1992, -0.0242, -0.0152,  0.1582,  0.2248,  0.0510,  0.0303],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  281
+False
+Frame:  282
+False
+Frame:  283
+False
+Frame:  284
+False
+Frame:  285
+False
+tensor([ 1.2728,  1.1226,  1.2839,  1.0199,  1.2218,  1.2060,  0.9879,  1.3009,
+         0.0043,  0.3641,  0.1954,  0.0576,  0.1986,  0.0967,  0.1372, -0.0105],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  286
+False
+Frame:  287
+False
+Frame:  288
+False
+Frame:  289
+False
+Frame:  290
+False
+tensor([1.5765, 1.3101, 1.2390, 1.1814, 1.3535, 1.4252, 1.5902, 1.5175, 0.1679,
+        0.0978, 0.2047, 0.1284, 0.1813, 0.1205, 0.1490, 0.1109],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  291
+False
+Frame:  292
+False
+Frame:  293
+False
+Frame:  294
+False
+Frame:  295
+False
+tensor([1.5336, 1.5369, 1.6245, 1.4284, 1.4104, 1.2801, 1.1947, 1.2778, 0.2434,
+        0.2504, 0.1514, 0.2519, 0.0796, 0.1121, 0.0948, 0.2004],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  296
+False
+Frame:  297
+False
+Frame:  298
+False
+Frame:  299
+False
+Frame:  300
+False
+tensor([ 1.2991,  1.4621,  1.4653,  1.3494,  1.5258,  1.3514,  1.3505,  1.3818,
+         0.0940,  0.0297,  0.0089,  0.1390, -0.0046,  0.2483,  0.1923,  0.1052],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  301
+False
+Frame:  302
+False
+Frame:  303
+False
+Frame:  304
+False
+Frame:  305
+False
+tensor([ 1.2231,  1.4504,  1.6391,  1.7085,  1.1604,  1.3193,  1.3282,  1.2823,
+        -0.0963, -0.0184,  0.2087,  0.1060,  0.1036,  0.0766,  0.0061,  0.1201],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  306
+False
+Frame:  307
+False
+Frame:  308
+False
+Frame:  309
+False
+Frame:  310
+False
+tensor([ 1.0199,  1.2109,  1.2916,  1.0270,  1.0309,  1.1896,  1.1763,  1.2579,
+        -0.0737, -0.1369,  0.1159, -0.1197, -0.0787, -0.0065, -0.0931, -0.0284],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  311
+False
+Frame:  312
+False
+Frame:  313
+False
+Frame:  314
+False
+Frame:  315
+False
+tensor([ 1.1416,  1.2992,  1.2337,  1.2121,  1.3782,  1.0998,  1.1440,  1.4050,
+         0.0269,  0.1215,  0.0542, -0.0529, -0.0143,  0.1582, -0.0124,  0.0248],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  316
+False
+Frame:  317
+False
+Frame:  318
+False
+Frame:  319
+False
+Frame:  320
+False
+tensor([ 0.9698,  1.0119,  0.9785,  0.9739,  1.0953,  0.9142,  1.3431,  1.0019,
+         0.1445,  0.0992,  0.0788,  0.1431,  0.0934, -0.0076, -0.0326, -0.0287],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  321
+False
+Frame:  322
+False
+Frame:  323
+False
+Frame:  324
+False
+go north -1.0
+Frame:  325
+False
+tensor([0.9019, 1.0085, 0.9165, 0.8123, 1.0539, 0.9880, 0.8701, 0.9545, 0.1709,
+        0.0617, 0.2222, 0.3020, 0.3258, 0.1516, 0.2972, 0.1610],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  326
+False
+Frame:  327
+False
+Frame:  328
+False
+Frame:  329
+False
+go west -1.0
+Frame:  330
+False
+tensor([ 0.7709,  0.8941,  1.1988,  1.0693,  1.0269,  0.8729,  0.9577,  0.9351,
+         0.0274,  0.0803, -0.0120,  0.0503,  0.1938,  0.0737,  0.0902,  0.1535],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  331
+False
+Frame:  332
+False
+Frame:  333
+False
+Frame:  334
+False
+Frame:  335
+False
+tensor([1.0405, 1.0320, 0.9150, 1.0237, 1.2551, 0.8060, 0.9707, 0.9052, 0.1133,
+        0.0832, 0.1352, 0.1811, 0.0557, 0.1237, 0.0535, 0.0601],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  336
+False
+Frame:  337
+False
+Frame:  338
+False
+Frame:  339
+False
+Frame:  340
+False
+tensor([0.8315, 1.0227, 1.1630, 1.2753, 1.0954, 1.0567, 0.9707, 1.0629, 0.2063,
+        0.1201, 0.0987, 0.1252, 0.0275, 0.0047, 0.0918, 0.0267],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  341
+False
+Frame:  342
+False
+go west -1.0
+Frame:  343
+False
+Frame:  344
+False
+Frame:  345
+False
+tensor([ 1.2887,  1.2263,  1.4124,  1.2523,  1.2240,  1.5288,  1.2891,  1.3906,
+        -0.0886, -0.0626,  0.0611, -0.0842, -0.0227, -0.0509, -0.0404, -0.0713],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  346
+False
+Frame:  347
+False
+Frame:  348
+False
+Frame:  349
+False
+Frame:  350
+False
+tensor([ 1.3312,  1.5401,  1.5325,  1.4980,  1.2359,  1.4842,  1.3598,  1.3656,
+        -0.1902, -0.0812, -0.1288, -0.1492, -0.0997, -0.1070, -0.1402,  0.1288],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  351
+False
+Frame:  352
+False
+Frame:  353
+False
+Frame:  354
+False
+Frame:  355
+False
+tensor([ 1.4194,  1.3523,  1.6172,  1.5799,  1.4908,  1.3042,  1.5298,  1.2649,
+        -0.0263,  0.0602, -0.2384, -0.0546, -0.0333, -0.0966, -0.0150, -0.0347],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  356
+False
+Frame:  357
+False
+Frame:  358
+False
+Frame:  359
+False
+Frame:  360
+False
+tensor([ 1.2425,  1.3381,  1.6288,  1.3195,  1.6354,  1.2425,  1.4893,  1.6888,
+        -0.0224, -0.1049, -0.0561, -0.1202, -0.2058, -0.1189, -0.0830, -0.0587],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  361
+False
+Frame:  362
+False
+Frame:  363
+False
+Frame:  364
+False
+Frame:  365
+False
+tensor([ 1.3631,  1.4344,  1.3398,  1.3010,  1.3826,  1.4204,  1.2853,  1.2302,
+        -0.1263, -0.1787, -0.2125, -0.1705, -0.0919, -0.1838, -0.2458, -0.2476],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  366
+False
+Frame:  367
+False
+Frame:  368
+False
+Frame:  369
+False
+Frame:  370
+False
+tensor([ 1.2676,  1.1490,  1.1838,  1.1912,  1.0273,  1.1401,  1.0862,  1.0979,
+        -0.1974, -0.2047, -0.1050, -0.1236, -0.1826, -0.1823, -0.1066, -0.2940],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  371
+False
+Frame:  372
+False
+Frame:  373
+False
+Frame:  374
+False
+Frame:  375
+False
+tensor([ 1.0381,  0.9202,  1.0211,  1.0846,  1.0770,  0.8836,  1.0183,  1.0798,
+        -0.0767, -0.0950, -0.0772, -0.1576, -0.1862, -0.1822, -0.1242, -0.1288],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  376
+False
+Frame:  377
+False
+Frame:  378
+False
+Frame:  379
+False
+Frame:  380
+False
+tensor([ 1.0411,  1.0146,  0.7786,  1.0399,  1.0418,  0.9919,  0.8973,  0.9090,
+        -0.2295, -0.1777, -0.1965, -0.0988, -0.1811, -0.0349, -0.0455, -0.0222],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  381
+False
+Frame:  382
+False
+Frame:  383
+False
+Frame:  384
+False
+Frame:  385
+False
+tensor([ 0.9240,  1.0067,  0.9850,  1.0357,  1.2340,  1.1446,  0.8949,  0.9944,
+        -0.0168, -0.1070, -0.0161,  0.0026, -0.0184, -0.0433, -0.0755, -0.1010],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  386
+False
+Frame:  387
+False
+Frame:  388
+False
+Frame:  389
+False
+Frame:  390
+False
+tensor([ 0.9685,  0.8995,  0.8308,  1.0911,  1.0963,  1.0811,  1.0501,  0.9612,
+        -0.0109,  0.0152, -0.0293, -0.0359, -0.0134,  0.0379,  0.0750,  0.0372],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  391
+False
+Frame:  392
+False
+Frame:  393
+False
+Frame:  394
+False
+Frame:  395
+False
+tensor([1.0356e+00, 1.0392e+00, 1.0279e+00, 1.1594e+00, 1.1522e+00, 9.9459e-01,
+        1.1547e+00, 1.1157e+00, 5.3072e-02, 5.3626e-02, 3.1059e-02, 1.0666e-03,
+        1.1997e-01, 4.4704e-02, 1.4333e-02, 1.3209e-02], device='cuda:0',
+       grad_fn=<ViewBackward0>)
+Frame:  396
+False
+Frame:  397
+False
+Frame:  398
+False
+Frame:  399
+False
+Frame:  400
+False
+tensor([ 1.1183,  1.3582,  1.1584,  1.1838,  1.1193,  1.3059,  1.2675,  1.2883,
+         0.0657,  0.1737,  0.0523,  0.1200,  0.1028,  0.1102,  0.1142, -0.0232],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  401
+False
+Frame:  402
+False
+Frame:  403
+False
+Frame:  404
+False
+Frame:  405
+False
+tensor([1.2663, 1.5135, 1.3976, 1.2168, 1.1174, 1.2856, 1.2899, 1.3231, 0.1489,
+        0.0489, 0.1305, 0.1185, 0.1042, 0.1262, 0.2549, 0.2536],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  406
+False
+Frame:  407
+False
+Frame:  408
+False
+Frame:  409
+False
+Frame:  410
+False
+tensor([1.3585, 1.1670, 1.3842, 1.2391, 1.4325, 1.5319, 1.2524, 1.1945, 0.1939,
+        0.2093, 0.1759, 0.1467, 0.1971, 0.1435, 0.1457, 0.1082],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  411
+False
+Frame:  412
+False
+Frame:  413
+False
+Frame:  414
+False
+Frame:  415
+False
+tensor([1.3372, 1.3846, 1.1924, 1.1838, 1.4461, 1.3635, 1.3917, 1.2416, 0.0636,
+        0.0965, 0.2325, 0.1086, 0.1298, 0.2040, 0.1085, 0.2694],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  416
+False
+go east 1
+Frame:  417
+False
+Frame:  418
+False
+Frame:  419
+False
+Frame:  420
+False
+go west -1.0
+tensor([1.2195, 1.2310, 1.4405, 1.2381, 1.2567, 1.5382, 1.3708, 1.2289, 0.1395,
+        0.2551, 0.1001, 0.1227, 0.1044, 0.0884, 0.1005, 0.1770],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  421
+False
+go south -1.0
+Frame:  422
+False
+Frame:  423
+False
+Frame:  424
+False
+Frame:  425
+False
+tensor([1.2617, 1.3649, 1.3788, 1.3079, 1.3336, 1.3199, 1.3594, 1.3943, 0.1981,
+        0.1435, 0.0917, 0.1323, 0.1312, 0.0414, 0.1513, 0.2226],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  426
+False
+Frame:  427
+False
+Frame:  428
+False
+Frame:  429
+False
+Frame:  430
+False
+tensor([1.4564, 1.1325, 1.2201, 1.2744, 1.3600, 1.1251, 1.2233, 1.1028, 0.0980,
+        0.0803, 0.2397, 0.1584, 0.1554, 0.0188, 0.1538, 0.0901],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  431
+False
+Frame:  432
+False
+go east -1.0
+Frame:  433
+False
+Frame:  434
+False
+Frame:  435
+False
+tensor([ 1.1800,  1.2796,  1.4136,  1.3145,  1.3290,  1.3006,  1.3622,  1.1672,
+         0.1597,  0.2044,  0.0287,  0.1101, -0.0598,  0.0035,  0.0753,  0.0673],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  436
+False
+Frame:  437
+False
+Frame:  438
+False
+Frame:  439
+False
+Frame:  440
+False
+tensor([ 0.9350,  1.5604,  1.3505,  1.2685,  1.2437,  1.2622,  1.1577,  0.9171,
+        -0.1120, -0.0192, -0.0436, -0.0402, -0.0990, -0.0894,  0.0173, -0.0574],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  441
+False
+Frame:  442
+False
+Frame:  443
+False
+Frame:  444
+False
+Frame:  445
+False
+tensor([ 1.1531,  1.2776,  1.1386,  1.0836,  1.2092,  1.0746,  1.1890,  1.1339,
+        -0.1316,  0.0470, -0.1143,  0.0291,  0.0161, -0.0086,  0.0229, -0.0979],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  446
+False
+Frame:  447
+False
+Frame:  448
+False
+Frame:  449
+False
+Frame:  450
+False
+tensor([ 1.0234,  1.1450,  1.1557,  1.1923,  1.1532,  1.2810,  1.1415,  1.1487,
+        -0.0816, -0.1841, -0.1096, -0.0830, -0.1376, -0.1022, -0.1183, -0.0031],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  451
+False
+Frame:  452
+False
+Frame:  453
+False
+Frame:  454
+False
+Frame:  455
+False
+tensor([ 0.8485,  1.1429,  0.9828,  1.0784,  1.0604,  1.1003,  0.9936,  1.0093,
+        -0.1054, -0.0845, -0.0946, -0.0175, -0.1229, -0.2081, -0.1047, -0.0096],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  456
+False
+Frame:  457
+False
+Frame:  458
+False
+Frame:  459
+False
+Frame:  460
+False
+tensor([ 1.1775,  1.1953,  1.0784,  1.1045,  1.3957,  1.1175,  1.2517,  1.0538,
+        -0.0435, -0.1116, -0.0143, -0.0358, -0.0364, -0.1276, -0.1698, -0.0602],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  461
+False
+Frame:  462
+False
+Frame:  463
+False
+go east 1
+Frame:  464
+False
+Frame:  465
+False
+tensor([ 1.1252,  1.1921,  1.0113,  1.2107,  1.0753,  1.1626,  1.1781,  1.0886,
+        -0.0134, -0.0547, -0.0481,  0.0049,  0.0569,  0.0050, -0.0232, -0.0179],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  466
+False
+Frame:  467
+False
+Frame:  468
+False
+Frame:  469
+False
+Frame:  470
+False
+tensor([ 1.1788,  1.1444,  1.0049,  1.2126,  1.2847,  1.2104,  1.0683,  1.1229,
+         0.0226, -0.0472, -0.0773, -0.0384,  0.0249, -0.0650, -0.0594,  0.0270],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  471
+False
+Frame:  472
+False
+Frame:  473
+False
+Frame:  474
+False
+Frame:  475
+False
+tensor([ 1.2087,  1.0976,  1.0078,  1.1323,  0.8973,  1.1635,  1.1598,  1.2083,
+        -0.0591, -0.0117, -0.0596, -0.0425, -0.0052, -0.0330, -0.0747,  0.0323],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  476
+False
+Frame:  477
+False
+go west -1.0
+Frame:  478
+False
+Frame:  479
+False
+Frame:  480
+False
+tensor([ 1.1532,  1.1591,  1.1025,  1.3036,  1.0642,  1.2653,  1.2001,  1.0766,
+         0.0536, -0.0072, -0.0417,  0.0597, -0.0810,  0.0091, -0.0793,  0.0310],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  481
+False
+Frame:  482
+False
+Frame:  483
+False
+Frame:  484
+False
+Frame:  485
+False
+tensor([ 1.0950,  1.2420,  1.2492,  1.2932,  1.0853,  1.0965,  1.3801,  1.0812,
+        -0.0343,  0.0364,  0.0256, -0.0170, -0.0532, -0.0026, -0.0427, -0.0097],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  486
+False
+Frame:  487
+False
+Frame:  488
+False
+Frame:  489
+False
+go east 1
+Frame:  490
+False
+tensor([ 1.1046,  1.0857,  0.9349,  1.0664,  1.0837,  1.0612,  1.1104,  0.9048,
+         0.0236, -0.0101, -0.0160, -0.0230,  0.0174,  0.0171, -0.0063,  0.0058],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  491
+False
+Frame:  492
+False
+Frame:  493
+False
+Frame:  494
+False
+Frame:  495
+False
+tensor([ 1.1982,  1.1022,  1.0172,  0.9950,  1.2253,  1.0302,  1.0897,  0.9782,
+        -0.0028, -0.0957, -0.0138, -0.0717,  0.0262, -0.0671, -0.0150,  0.0410],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  496
+False
+Frame:  497
+False
+Frame:  498
+False
+Frame:  499
+False
+Frame:  500
+False
+tensor([ 1.2164,  1.1674,  1.3019,  1.3420,  1.2448,  1.1559,  1.2545,  1.1237,
+         0.0787, -0.0447,  0.0059,  0.0222,  0.0143,  0.0811,  0.0420, -0.0052],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  501
+False
+Frame:  502
+False
+Frame:  503
+False
+Frame:  504
+False
+Frame:  505
+False
+tensor([ 1.3001,  1.2532,  1.2711,  1.2363,  1.2670,  1.2122,  1.2401,  1.3500,
+         0.0019,  0.1780,  0.0545,  0.1215, -0.0065, -0.0036,  0.1094,  0.1249],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  506
+False
+Frame:  507
+False
+Frame:  508
+False
+Frame:  509
+False
+Frame:  510
+False
+tensor([1.3197, 1.2329, 1.2531, 1.2281, 1.4194, 1.3533, 1.2185, 1.4504, 0.0166,
+        0.1453, 0.1501, 0.0862, 0.1013, 0.0127, 0.0880, 0.1109],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  511
+False
+Frame:  512
+False
+Frame:  513
+False
+Frame:  514
+False
+Frame:  515
+False
+tensor([1.7239, 1.5644, 1.4535, 1.5368, 1.4758, 1.5261, 1.4501, 1.6174, 0.0457,
+        0.0680, 0.1341, 0.1121, 0.0766, 0.0489, 0.0134, 0.0564],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  516
+False
+Frame:  517
+False
+Frame:  518
+False
+Frame:  519
+False
+Frame:  520
+False
+tensor([ 1.5212,  1.5230,  1.6105,  1.6251,  1.6397,  1.3955,  1.6627,  1.5551,
+         0.1186,  0.0415, -0.0709,  0.1539,  0.0190,  0.1270,  0.1165,  0.1264],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  521
+False
+Frame:  522
+False
+Frame:  523
+False
+Frame:  524
+False
+Frame:  525
+False
+tensor([ 1.4447,  1.5441,  1.3888,  1.5890,  1.3647,  1.3691,  1.4881,  1.5577,
+        -0.0030,  0.0791,  0.1642,  0.0798,  0.0367,  0.1114,  0.0850,  0.0931],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  526
+False
+Frame:  527
+False
+Frame:  528
+False
+Frame:  529
+False
+Frame:  530
+False
+tensor([1.3749, 1.3364, 1.3230, 1.2915, 1.4312, 1.2452, 1.3691, 1.2386, 0.0738,
+        0.0542, 0.0291, 0.1155, 0.0674, 0.0363, 0.1804, 0.0648],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  531
+False
+Frame:  532
+False
+Frame:  533
+False
+Frame:  534
+False
+Frame:  535
+False
+tensor([ 1.5386e+00,  1.1462e+00,  1.2217e+00,  1.3237e+00,  1.2705e+00,
+         1.2993e+00,  1.1281e+00,  1.1903e+00,  1.0151e-01,  9.1322e-02,
+         1.1816e-01,  8.4824e-02,  8.0877e-02, -9.6045e-05,  1.5017e-01,
+         4.8860e-02], device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  536
+False
+Frame:  537
+False
+Frame:  538
+False
+Frame:  539
+False
+Frame:  540
+False
+tensor([1.1691e+00, 9.8820e-01, 1.1183e+00, 9.4586e-01, 1.3004e+00, 1.0128e+00,
+        1.1088e+00, 1.1658e+00, 6.0090e-02, 3.8045e-02, 6.9749e-04, 1.5847e-01,
+        2.1676e-02, 9.0735e-02, 1.8730e-02, 5.0019e-02], device='cuda:0',
+       grad_fn=<ViewBackward0>)
+Frame:  541
+False
+Frame:  542
+False
+Frame:  543
+False
+Frame:  544
+False
+Frame:  545
+False
+tensor([ 0.9232,  1.0820,  0.9674,  0.7922,  0.8768,  1.0037,  0.9625,  0.9220,
+        -0.0303,  0.0076, -0.0216,  0.0787, -0.0303,  0.0601,  0.0133,  0.0222],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  546
+False
+go north -1.0
+Frame:  547
+False
+Frame:  548
+False
+Frame:  549
+False
+go east -1.0
+Frame:  550
+False
+tensor([0.8383, 0.7697, 0.7828, 0.8308, 0.6946, 0.7038, 0.8041, 0.7901, 0.0652,
+        0.0657, 0.0628, 0.0279, 0.0414, 0.0850, 0.0562, 0.0252],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  551
+False
+Frame:  552
+False
+Frame:  553
+False
+Frame:  554
+False
+Frame:  555
+False
+tensor([ 6.7046e-01,  7.4931e-01,  7.4313e-01,  7.5943e-01,  6.2046e-01,
+         8.2203e-01,  8.3650e-01,  7.3367e-01,  9.2823e-02,  9.8182e-02,
+        -7.6969e-03, -2.0894e-04,  3.5234e-02, -2.9029e-02,  6.0331e-02,
+         6.0249e-02], device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  556
+False
+Frame:  557
+False
+Frame:  558
+False
+Frame:  559
+False
+Frame:  560
+False
+tensor([ 0.8102,  0.7408,  0.7535,  0.8092,  0.8013,  0.8654,  0.7349,  0.8225,
+        -0.0174, -0.0497,  0.0141,  0.0588, -0.0091, -0.0098,  0.0529,  0.0598],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  561
+False
+Frame:  562
+False
+Frame:  563
+False
+Frame:  564
+False
+Frame:  565
+False
+tensor([ 0.8577,  0.7984,  0.7934,  0.7628,  0.8743,  0.9224,  1.0017,  0.8862,
+        -0.0144,  0.0085,  0.0944, -0.0143,  0.0368,  0.0123,  0.0304,  0.0988],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  566
+False
+Frame:  567
+False
+Frame:  568
+False
+Frame:  569
+False
+Frame:  570
+False
+tensor([ 1.0336,  1.0061,  1.0085,  1.0328,  1.0998,  0.9970,  1.1082,  1.0383,
+        -0.0223,  0.0716, -0.0043,  0.0110,  0.0363,  0.0832, -0.0067,  0.0301],
+       device='cuda:0', grad_fn=<ViewBackward0>)
+Frame:  571
+False
+Frame:  572
+False
+Frame:  573
+False
+Frame:  574
+False
+Frame:  575
+False
+tensor([ 0.9440,  0.9802,  1.0211,  1.0504,  1.1218,  1.0338,  0.9449,  1.0554,
+         0.0389, -0.0395,  0.0332, -0.0814,  0.0054, -0.0499, -0.0152,  0.0134],
+       device='cuda:0', grad_fn=<ViewBackward0>)

@@ -1,0 +1,1160 @@
+examine box
+You can't see any such thing.
+
+0
+Step: 1, cumulative reward: 0
+examine telephone
+The telephone is dirty.
+
+
+
+0
+Step: 2, cumulative reward: 0
+examine legume
+You can't see any such thing.
+
+0
+Step: 3, cumulative reward: 0
+drop sandwich
+You drop the sandwich on the ground.
+
+
+0
+Step: 4, cumulative reward: 0
+take telephone
+You already have that.
+
+
+
+0
+Step: 5, cumulative reward: 0
+put sandwich on stand
+You can't see any such thing.
+
+0
+Step: 6, cumulative reward: 0
+go east
+
+-= Vault =-
+You've fallen into an ordinary room. Your mind races to think of what kind of room would be ordinary. And then it hits you. Of course. You're in the vault.
+
+You can make out a stand. The stand is typical. However, the stand, like an empty stand, has nothing on it.
+
+You need an unguarded exit? You should try going east. There is an exit to the north. Don't worry, it is unblocked. You don't like doors? Why not try going south, that entranceway is unblocked. There is an unblocked exit to the west.
+
+There is a legume on the floor.
+
+
+0
+Step: 7, cumulative reward: 0
+take shadfly
+You already have that.
+
+
+
+0
+Step: 8, cumulative reward: 0
+put chocolate bar on stand
+You put the chocolate bar on the stand.
+
+
+0
+Step: 9, cumulative reward: 0
+lock box with key
+You can't see any such thing.
+
+0
+Step: 10, cumulative reward: 0
+eat loaf of bread
+You can't see any such thing.
+
+0
+Step: 11, cumulative reward: 0
+examine shadfly
+The shadfly looks to fit in here
+
+
+
+0
+Step: 12, cumulative reward: 0
+drop mouse
+You drop the mouse on the ground.
+
+
+0
+Step: 13, cumulative reward: 0
+put mug on table
+You can't see any such thing.
+
+0
+Step: 14, cumulative reward: 0
+put type 3 latchkey on table
+You can't see any such thing.
+
+0
+Step: 15, cumulative reward: 0
+take fondue
+You already have that.
+
+
+
+0
+Step: 16, cumulative reward: 0
+drop telephone
+You drop the telephone on the ground.
+
+
+0
+Step: 17, cumulative reward: 0
+eat cabbage
+You eat the cabbage. Not bad.
+
+
+0
+Step: 18, cumulative reward: 0
+put key on stand
+You put the key on the stand.
+
+
+0
+Step: 19, cumulative reward: 0
+take type 3 latchkey
+You already have that.
+
+
+
+0
+Step: 20, cumulative reward: 0
+drop type 3 latchkey
+You drop the type 3 latchkey on the ground.
+
+
+0
+Step: 21, cumulative reward: 0
+examine keyboard
+The keyboard would seem to be out of place here
+
+
+
+0
+Step: 22, cumulative reward: 0
+go north
+
+-= Bathroom =-
+If you're wondering why everything seems so typical all of a sudden, it's because you've just sauntered into the bathroom.
+
+You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a table. The table is usual. Looks like someone's already been here and taken everything off it, though.
+
+You need an unguarded exit? You should try going east. You don't like doors? Why not try going south, that entranceway is unblocked. There is an unblocked exit to the west.
+
+
+
+0
+Step: 23, cumulative reward: 0
+take fondue
+You already have that.
+
+
+
+0
+Step: 24, cumulative reward: 0
+look
+-= Bathroom =-
+If you're wondering why everything seems so typical all of a sudden, it's because you've just sauntered into the bathroom.
+
+You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a table. The table is usual. Looks like someone's already been here and taken everything off it, though.
+
+You need an unguarded exit? You should try going east. You don't like doors? Why not try going south, that entranceway is unblocked. There is an unblocked exit to the west.
+
+
+
+0
+Step: 25, cumulative reward: 0
+eat fondue
+You eat the fondue. Not bad.
+
+
+0
+Step: 26, cumulative reward: 0
+go south
+
+-= Vault =-
+You've fallen into an ordinary room. Your mind races to think of what kind of room would be ordinary. And then it hits you. Of course. You're in the vault.
+
+You can make out a stand. The stand is typical. On the stand you can see a key and a chocolate bar.
+
+You need an unguarded exit? You should try going east. There is an exit to the north. Don't worry, it is unblocked. You don't like doors? Why not try going south, that entranceway is unblocked. There is an unblocked exit to the west.
+
+There is a type 3 latchkey, a telephone, a mouse and a legume on the floor.
+
+
+0
+Step: 27, cumulative reward: 0
+examine loaf of bread
+You can't see any such thing.
+
+0
+Step: 28, cumulative reward: 0
+take loaf of bread
+You can't see any such thing.
+
+0
+Step: 29, cumulative reward: 0
+put mouse on stand
+You need to take the mouse first.
+
+
+0
+Step: 30, cumulative reward: 0
+examine mouse
+The mouse is modern.
+
+
+
+0
+Step: 31, cumulative reward: 0
+put chocolate bar on table
+You can't see any such thing.
+
+0
+Step: 32, cumulative reward: 0
+drop shadfly
+You drop the shadfly on the ground.
+
+
+0
+Step: 33, cumulative reward: 0
+put telephone on stand
+You need to take the telephone first.
+
+
+0
+Step: 34, cumulative reward: 0
+put chocolate bar on table
+You can't see any such thing.
+
+0
+Step: 35, cumulative reward: 0
+examine bug
+You can't see any such thing.
+
+0
+Step: 36, cumulative reward: 0
+put mouse on table
+You can't see any such thing.
+
+0
+Step: 37, cumulative reward: 0
+put chocolate bar on table
+You can't see any such thing.
+
+0
+Step: 38, cumulative reward: 0
+take legume
+You pick up the legume from the ground.
+
+
+
+0
+Step: 39, cumulative reward: 0
+put chocolate bar on table
+You can't see any such thing.
+
+0
+Step: 40, cumulative reward: 0
+put shadfly on table
+You can't see any such thing.
+
+0
+Step: 41, cumulative reward: 0
+take mouse
+You pick up the mouse from the ground.
+
+
+
+0
+Step: 42, cumulative reward: 0
+put chocolate bar on stand
+You need to take the chocolate bar first.
+
+
+0
+Step: 43, cumulative reward: 0
+go east
+
+-= Dish-Pit =-
+Welcome to the dish-pit. You can barely contain your excitement.
+
+Oh, great. Here's a board. The board is typical. Unfortunately, there isn't a thing on it. What's the point of an empty board?
+
+You don't like doors? Why not try going north, that entranceway is unguarded. You need an unblocked exit? You should try going south. You don't like doors? Why not try going west, that entranceway is unguarded.
+
+
+
+0
+Step: 44, cumulative reward: 0
+examine passkey
+You can't see any such thing.
+
+0
+Step: 45, cumulative reward: 0
+put fondue on table
+You can't see any such thing.
+
+0
+Step: 46, cumulative reward: 0
+open locker
+You can't see any such thing.
+
+0
+Step: 47, cumulative reward: 0
+put key on stand
+You can't see any such thing.
+
+0
+Step: 48, cumulative reward: 0
+put cabbage on table
+You can't see any such thing.
+
+0
+Step: 49, cumulative reward: 0
+put telephone on table
+You can't see any such thing.
+
+0
+Step: 50, cumulative reward: 0
+drop type 3 latchkey
+You can't see any such thing.
+
+0
+Step: 51, cumulative reward: 0
+eat loaf of bread
+You can't see any such thing.
+
+0
+Step: 52, cumulative reward: 0
+examine stand
+You can't see any such thing.
+
+0
+Step: 53, cumulative reward: 0
+go west
+
+-= Vault =-
+You've fallen into an ordinary room. Your mind races to think of what kind of room would be ordinary. And then it hits you. Of course. You're in the vault.
+
+You can make out a stand. The stand is typical. On the stand you can see a key and a chocolate bar.
+
+You need an unguarded exit? You should try going east. There is an exit to the north. Don't worry, it is unblocked. You don't like doors? Why not try going south, that entranceway is unblocked. There is an unblocked exit to the west.
+
+There is a shadfly, a type 3 latchkey and a telephone on the floor.
+
+
+0
+Step: 54, cumulative reward: 0
+drop shadfly
+The shadfly is already here.
+
+
+0
+Step: 55, cumulative reward: 0
+go west
+
+-= Cookery =-
+This might come as a shock to you, but you've just moved into a cookery.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded. There is an exit to the north. Don't worry, it is unblocked. You don't like doors? Why not try going south, that entranceway is unblocked. You need an unguarded exit? You should try going west.
+
+There is a sandwich on the floor.
+
+
+0
+Step: 56, cumulative reward: 0
+put key on stand
+You can't see any such thing.
+
+0
+Step: 57, cumulative reward: 0
+put sandwich on table
+You can't see any such thing.
+
+0
+Step: 58, cumulative reward: 0
+drop mouse
+You drop the mouse on the ground.
+
+
+0
+Step: 59, cumulative reward: 0
+go north
+
+-= Study =-
+Okay, so you're in a study, cool, but is it normal? You better believe it is.
+
+You can make out a closed safe, which looks normal, in the room.
+
+There is an open door leading north. There is an exit to the east. Don't worry, it is unblocked. You need an unguarded exit? You should try going south.
+
+
+
+0
+Step: 60, cumulative reward: 0
+drop sandwich
+You can't see any such thing.
+
+0
+Step: 61, cumulative reward: 0
+examine fondue
+You can't see any such thing.
+
+0
+Step: 62, cumulative reward: 0
+put cabbage on table
+You can't see any such thing.
+
+0
+Step: 63, cumulative reward: 0
+put mouse on stand
+You can't see any such thing.
+
+0
+Step: 64, cumulative reward: 0
+put cabbage on table
+You can't see any such thing.
+
+0
+Step: 65, cumulative reward: 0
+look
+-= Study =-
+Okay, so you're in a study, cool, but is it normal? You better believe it is.
+
+You can make out a closed safe, which looks normal, in the room.
+
+There is an open door leading north. There is an exit to the east. Don't worry, it is unblocked. You need an unguarded exit? You should try going south.
+
+
+
+0
+Step: 66, cumulative reward: 0
+drop fondue
+You can't see any such thing.
+
+0
+Step: 67, cumulative reward: 0
+examine safe
+The safe looks strong, and impossible to crack open. You can't see inside it because the lid's in your way.
+
+
+
+0
+Step: 68, cumulative reward: 0
+put shadfly on stand
+You can't see any such thing.
+
+0
+Step: 69, cumulative reward: 0
+examine cabbage
+You can't see any such thing.
+
+0
+Step: 70, cumulative reward: 0
+examine cabbage
+You can't see any such thing.
+
+0
+Step: 71, cumulative reward: 0
+go south
+
+-= Cookery =-
+This might come as a shock to you, but you've just moved into a cookery.
+
+
+
+You don't like doors? Why not try going east, that entranceway is unguarded. There is an exit to the north. Don't worry, it is unblocked. You don't like doors? Why not try going south, that entranceway is unblocked. You need an unguarded exit? You should try going west.
+
+There is a mouse and a sandwich on the floor.
+
+
+0
+Step: 72, cumulative reward: 0
+put telephone on stand
+You can't see any such thing.
+
+0
+Step: 73, cumulative reward: 0
+put fondue on table
+You can't see any such thing.
+
+0
+Step: 74, cumulative reward: 0
+drop loaf of bread
+You can't see any such thing.
+
+0
+Step: 75, cumulative reward: 0
+put mouse on table
+You can't see any such thing.
+
+0
+Step: 76, cumulative reward: 0
+take type 3 latchkey
+You can't see any such thing.
+
+0
+Step: 77, cumulative reward: 0
+put mug on table
+You can't see any such thing.
+
+0
+Step: 78, cumulative reward: 0
+examine shadfly
+You can't see any such thing.
+
+0
+Step: 79, cumulative reward: 0
+take passkey
+You can't see any such thing.
+
+0
+Step: 80, cumulative reward: 0
+examine shadfly
+You can't see any such thing.
+
+0
+Step: 81, cumulative reward: 0
+go south
+
+-= Playroom =-
+You arrive in a playroom. A standard one.
+
+You can make out a mantelpiece. But there isn't a thing on it. You see a bench! The bench is normal. Looks like someone's already been here and taken everything off it, though.
+
+You don't like doors? Why not try going east, that entranceway is unguarded. You don't like doors? Why not try going north, that entranceway is unblocked. There is an unblocked exit to the west.
+
+
+
+0
+Step: 82, cumulative reward: 0
+put shadfly on stand
+You can't see any such thing.
+
+0
+Step: 83, cumulative reward: 0
+take keyboard
+You already have that.
+
+
+
+0
+Step: 84, cumulative reward: 0
+examine cabbage
+You can't see any such thing.
+
+0
+Step: 85, cumulative reward: 0
+take loaf of bread
+You can't see any such thing.
+
+0
+Step: 86, cumulative reward: 0
+examine shadfly
+You can't see any such thing.
+
+0
+Step: 87, cumulative reward: 0
+drop chocolate bar
+You can't see any such thing.
+
+0
+Step: 88, cumulative reward: 0
+put type 3 latchkey on stand
+You can't see any such thing.
+
+0
+Step: 89, cumulative reward: 0
+examine sandwich
+You can't see any such thing.
+
+0
+Step: 90, cumulative reward: 0
+put mug on stand
+You can't see any such thing.
+
+0
+Step: 91, cumulative reward: 0
+examine table
+You can't see any such thing.
+
+0
+Step: 92, cumulative reward: 0
+examine safe
+You can't see any such thing.
+
+0
+Step: 93, cumulative reward: 0
+put mug on stand
+You can't see any such thing.
+
+0
+Step: 94, cumulative reward: 0
+take fondue
+You can't see any such thing.
+
+0
+Step: 95, cumulative reward: 0
+examine type 3 latchkey
+You can't see any such thing.
+
+0
+Step: 96, cumulative reward: 0
+put cabbage on table
+You can't see any such thing.
+
+0
+Step: 97, cumulative reward: 0
+eat sandwich
+You can't see any such thing.
+
+0
+Step: 98, cumulative reward: 0
+take type 3 latchkey
+You can't see any such thing.
+
+0
+Step: 99, cumulative reward: 0
+take legume
+You already have that.
+
+
+
+0
+Step: 100, cumulative reward: 0
+put shadfly on stand
+You can't see any such thing.
+
+0
+Step: 101, cumulative reward: 0
+put shadfly on table
+You can't see any such thing.
+
+0
+Step: 102, cumulative reward: 0
+examine type 3 latchkey
+You can't see any such thing.
+
+0
+Step: 103, cumulative reward: 0
+inventory
+You are carrying:
+  a legume
+  a mug
+  a keyboard
+
+
+
+0
+Step: 104, cumulative reward: 0
+drop sandwich
+You can't see any such thing.
+
+0
+Step: 105, cumulative reward: 0
+look
+-= Playroom =-
+You arrive in a playroom. A standard one.
+
+You can make out a mantelpiece. But there isn't a thing on it. You see a bench! The bench is normal. Looks like someone's already been here and taken everything off it, though.
+
+You don't like doors? Why not try going east, that entranceway is unguarded. You don't like doors? Why not try going north, that entranceway is unblocked. There is an unblocked exit to the west.
+
+
+
+0
+Step: 106, cumulative reward: 0
+go west
+
+-= Studio =-
+You've entered a studio. Okay, just remember what you're here to do, and everything will go great.
+
+You make out a desk. However, the desk, like an empty desk, has nothing on it. Oh! Why couldn't there just be stuff on it? You can make out a bookshelf. But there isn't a thing on it.
+
+There is an exit to the east. Don't worry, it is unblocked. You don't like doors? Why not try going north, that entranceway is unguarded. There is an exit to the south. Don't worry, it is unguarded.
+
+There is a cd on the floor.
+
+
+0
+Step: 107, cumulative reward: 0
+examine mouse
+You can't see any such thing.
+
+0
+Step: 108, cumulative reward: 0
+take shadfly
+You can't see any such thing.
+
+0
+Step: 109, cumulative reward: 0
+take loaf of bread
+You can't see any such thing.
+
+0
+Step: 110, cumulative reward: 0
+open locker
+You can't see any such thing.
+
+0
+Step: 111, cumulative reward: 0
+examine table
+You can't see any such thing.
+
+0
+Step: 112, cumulative reward: 0
+examine sandwich
+You can't see any such thing.
+
+0
+Step: 113, cumulative reward: 0
+examine locker
+You can't see any such thing.
+
+0
+Step: 114, cumulative reward: 0
+close door
+You can't see any such thing.
+
+0
+Step: 115, cumulative reward: 0
+examine door
+You can't see any such thing.
+
+0
+Step: 116, cumulative reward: 0
+put mug on stand
+You can't see any such thing.
+
+0
+Step: 117, cumulative reward: 0
+take keyboard
+You already have that.
+
+
+
+0
+Step: 118, cumulative reward: 0
+examine stand
+You can't see any such thing.
+
+0
+Step: 119, cumulative reward: 0
+examine keyboard
+The keyboard would seem to be out of place here
+
+
+
+0
+Step: 120, cumulative reward: 0
+drop type 3 latchkey
+You can't see any such thing.
+
+0
+Step: 121, cumulative reward: 0
+put telephone on stand
+You can't see any such thing.
+
+0
+Step: 122, cumulative reward: 0
+put mug on table
+You can't see any such thing.
+
+0
+Step: 123, cumulative reward: 0
+drop fondue
+You can't see any such thing.
+
+0
+Step: 124, cumulative reward: 0
+put mug on stand
+You can't see any such thing.
+
+0
+Step: 125, cumulative reward: 0
+take passkey
+You can't see any such thing.
+
+0
+Step: 126, cumulative reward: 0
+examine passkey
+You can't see any such thing.
+
+0
+Step: 127, cumulative reward: 0
+put fondue on table
+You can't see any such thing.
+
+0
+Step: 128, cumulative reward: 0
+drop fondue
+You can't see any such thing.
+
+0
+Step: 129, cumulative reward: 0
+lock box with key
+You can't see any such thing.
+
+0
+Step: 130, cumulative reward: 0
+open safe
+You can't see any such thing.
+
+0
+Step: 131, cumulative reward: 0
+put cabbage on stand
+You can't see any such thing.
+
+0
+Step: 132, cumulative reward: 0
+put shadfly on table
+You can't see any such thing.
+
+0
+Step: 133, cumulative reward: 0
+examine stand
+You can't see any such thing.
+
+0
+Step: 134, cumulative reward: 0
+examine stand
+You can't see any such thing.
+
+0
+Step: 135, cumulative reward: 0
+drop chocolate bar
+You can't see any such thing.
+
+0
+Step: 136, cumulative reward: 0
+examine mug
+The mug appears to be well matched to everything else here
+
+
+
+0
+Step: 137, cumulative reward: 0
+open locker
+You can't see any such thing.
+
+0
+Step: 138, cumulative reward: 0
+put shadfly on stand
+You can't see any such thing.
+
+0
+Step: 139, cumulative reward: 0
+drop telephone
+You can't see any such thing.
+
+0
+Step: 140, cumulative reward: 0
+put telephone on table
+You can't see any such thing.
+
+0
+Step: 141, cumulative reward: 0
+examine keyboard
+The keyboard would seem to be out of place here
+
+
+
+0
+Step: 142, cumulative reward: 0
+go west
+You can't go that way.
+
+
+0
+Step: 143, cumulative reward: 0
+put mouse on stand
+You can't see any such thing.
+
+0
+Step: 144, cumulative reward: 0
+eat chocolate bar
+You can't see any such thing.
+
+0
+Step: 145, cumulative reward: 0
+examine bug
+You can't see any such thing.
+
+0
+Step: 146, cumulative reward: 0
+open safe
+You can't see any such thing.
+
+0
+Step: 147, cumulative reward: 0
+put shadfly on stand
+You can't see any such thing.
+
+0
+Step: 148, cumulative reward: 0
+put keyboard on table
+You can't see any such thing.
+
+0
+Step: 149, cumulative reward: 0
+examine passkey
+You can't see any such thing.
+
+0
+Step: 150, cumulative reward: 0
+drop key
+You can't see any such thing.
+
+0
+Step: 151, cumulative reward: 0
+drop key
+You can't see any such thing.
+
+0
+Step: 152, cumulative reward: 0
+drop loaf of bread
+You can't see any such thing.
+
+0
+Step: 153, cumulative reward: 0
+put mouse on table
+You can't see any such thing.
+
+0
+Step: 154, cumulative reward: 0
+put type 3 latchkey on stand
+You can't see any such thing.
+
+0
+Step: 155, cumulative reward: 0
+put key on table
+You can't see any such thing.
+
+0
+Step: 156, cumulative reward: 0
+drop sandwich
+You can't see any such thing.
+
+0
+Step: 157, cumulative reward: 0
+put key on table
+You can't see any such thing.
+
+0
+Step: 158, cumulative reward: 0
+go west
+You can't go that way.
+
+
+0
+Step: 159, cumulative reward: 0
+examine box
+You can't see any such thing.
+
+0
+Step: 160, cumulative reward: 0
+put shadfly on stand
+You can't see any such thing.
+
+0
+Step: 161, cumulative reward: 0
+drop telephone
+You can't see any such thing.
+
+0
+Step: 162, cumulative reward: 0
+examine safe
+You can't see any such thing.
+
+0
+Step: 163, cumulative reward: 0
+examine chocolate bar
+You can't see any such thing.
+
+0
+Step: 164, cumulative reward: 0
+put telephone on table
+You can't see any such thing.
+
+0
+Step: 165, cumulative reward: 0
+examine bug
+You can't see any such thing.
+
+0
+Step: 166, cumulative reward: 0
+put mouse on table
+You can't see any such thing.
+
+0
+Step: 167, cumulative reward: 0
+drop telephone
+You can't see any such thing.
+
+0
+Step: 168, cumulative reward: 0
+drop mouse
+You can't see any such thing.
+
+0
+Step: 169, cumulative reward: 0
+take keyboard
+You already have that.
+
+
+
+0
+Step: 170, cumulative reward: 0
+put chocolate bar on stand
+You can't see any such thing.
+
+0
+Step: 171, cumulative reward: 0
+drop type 3 latchkey
+You can't see any such thing.
+
+0
+Step: 172, cumulative reward: 0
+put key on stand
+You can't see any such thing.
+
+0
+Step: 173, cumulative reward: 0
+examine mouse
+You can't see any such thing.
+
+0
+Step: 174, cumulative reward: 0
+put chocolate bar on stand
+You can't see any such thing.
+
+0
+Step: 175, cumulative reward: 0
+put shadfly on stand
+You can't see any such thing.
+
+0
+Step: 176, cumulative reward: 0
+examine safe
+You can't see any such thing.
+
+0
+Step: 177, cumulative reward: 0
+go south
+
+-= Basement =-
+You are in a basement. An ordinary kind of place.
+
+You make out a type 3 safe. Suddenly, you bump your head on the ceiling, but it's not such a bad bump that it's going to prevent you from looking at objects and even things.
+
+You don't like doors? Why not try going east, that entranceway is unblocked. There is an unblocked exit to the north. You need an unguarded exit? You should try going west.
+
+
+
+0
+Step: 178, cumulative reward: 0
+put type 3 latchkey on stand
+I didn't understand that sentence.
+
+0
+Step: 179, cumulative reward: 0
+put fondue on stand
+You can't see any such thing.
+
+0
+Step: 180, cumulative reward: 0
+put chocolate bar on stand
+You can't see any such thing.
+
+0
+Step: 181, cumulative reward: 0
+inventory
+You are carrying:
+  a legume
+  a mug
+  a keyboard
+
+
+
+0
+Step: 182, cumulative reward: 0
+put mouse on stand
+You can't see any such thing.
+
+0
+Step: 183, cumulative reward: 0
+put fondue on stand
+You can't see any such thing.
+
+0
+Step: 184, cumulative reward: 0
+drop sandwich
+You can't see any such thing.
+
+0
+Step: 185, cumulative reward: 0
+take cabbage
+You can't see any such thing.
+
+0
+Step: 186, cumulative reward: 0
+open locker
+You can't see any such thing.
+
+0
+Step: 187, cumulative reward: 0
+take passkey
+You can't see any such thing.
+
+0
+Step: 188, cumulative reward: 0
+examine safe
+The type 3 safe looks strong, and impossible to break open. You can't see inside it because the lid's in your way.
+
+
+
+0
+Step: 189, cumulative reward: 0
+examine chocolate bar
+You can't see any such thing.
+
+0
+Step: 190, cumulative reward: 0
+examine telephone
+You can't see any such thing.
+
+0
+Step: 191, cumulative reward: 0
+take bug
+You can't see any such thing.
+
+0
+Step: 192, cumulative reward: 0
+put sandwich on table
+You can't see any such thing.
+
+0
+Step: 193, cumulative reward: 0
+drop key
+You can't see any such thing.
+
+0
+Step: 194, cumulative reward: 0
+drop key
+You can't see any such thing.
+
+0
+Step: 195, cumulative reward: 0
+put type 3 latchkey on table
+I didn't understand that sentence.
+
+0

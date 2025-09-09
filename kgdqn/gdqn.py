@@ -105,7 +105,7 @@ class KGDQNTrainer(object):
             next_q_values = fwd_init[0].unsqueeze_(0)
             for i in range(1, actions.size(1)):
                 act = actions[:, i, :]#.squeeze()
-                sts = sts.new_tensor(sts.data)
+                sts = sts.clone().detach()
                 cat_q = self.model.forward_td(sts, next_state, act)[0].unsqueeze_(0)
                 next_q_values = torch.cat((next_q_values, cat_q), dim=0)
 
