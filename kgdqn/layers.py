@@ -24,25 +24,45 @@ class GraphAttentionLayer(nn.Module):
         self.leakyrelu = nn.LeakyReLU(self.alpha)
 
     def forward(self, input, adj):
-        h = torch.mm(input, self.W)
-        N = h.size()[0]
-        a_input = torch.cat([h.repeat(1, N).view(N * N, -1), h.repeat(N, 1)], dim=1).view(N, -1, 2 * self.out_features)
+        # input: [N, F_in]
+        # adj:   [N, N] (0/1 or bool)
+        # self.W: [F_in, F_out] as in your original code
+        # self.a: [2*F_out, 1] or [2*F_out]
+        import torch
+        import torch.nn.functional as F
 
-        e = self.leakyrelu(torch.matmul(a_input, self.a).squeeze(2))
+        device = input.device
+        adj = adj.to(device)
 
-        zero_vec = torch.zeros_like(e)
-        zero_vec = zero_vec.fill_(9e-15)
-        attention = torch.where(adj > 0, e, zero_vec)
+        # Linear projection (same as original)
+        h = torch.mm(input, self.W)                  # [N, F_out]
+        h = h.contiguous()
+        N, F_out = h.size(0), h.size(1)
+
+        # Split attention vector: a = [a_src; a_dst]
+        a = self.a.squeeze(-1) if self.a.dim() == 2 else self.a   # [2*F_out]
+        a_src = a[:F_out]                                         # [F_out]
+        a_dst = a[F_out:2*F_out]                                  # [F_out]
+
+        # e_ij = a_src^T h_i + a_dst^T h_j, computed via broadcasting (no N×N×2F)
+        attn_l = (h * a_src).sum(dim=1).unsqueeze(1)   # [N, 1]
+        attn_r = (h * a_dst).sum(dim=1).unsqueeze(0)   # [1, N]
+        e = self.leakyrelu(attn_l + attn_r)            # [N, N]
+
+        # Same masking behavior as your original (tiny epsilon for non-edges)
+        zero_vec = torch.zeros_like(e).fill_(9e-15)
+        attention = torch.where(adj > 0, e, zero_vec)  # [N, N]
 
         attention = F.softmax(attention, dim=1)
-
         attention = F.dropout(attention, self.dropout, training=self.training)
-        h_prime = torch.matmul(attention, h)
+
+        # Aggregate
+        h_prime = torch.matmul(attention, h)           # [N, F_out]
 
         if self.concat:
             return F.elu(h_prime)
-        else:
-            return h_prime
+        return h_prime
+
 
     def __repr__(self):
         return self.__class__.__name__ + ' (' + str(self.in_features) + ' -> ' + str(self.out_features) + ')'
