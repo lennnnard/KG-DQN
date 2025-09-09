@@ -124,9 +124,9 @@ class StateNetwork(nn.Module):
         nheads = params['nheads']
         self.gat = GAT(params['gat_emb_size'], 3, len(action_set), params['dropout_ratio'], 0.2, nheads)
         if params['qa_init']:
-            self.pretrained_embeds = nn.Embedding.from_pretrained(embeddings, freeze=False)
+            self.pretrained_embeds = nn.Embedding.from_pretrained(embeddings, freeze=False).cuda()
         else:
-            self.pretrained_embeds = nn.Embedding.from_pretrained(embeddings, freeze=False)
+            self.pretrained_embeds = nn.Embedding.from_pretrained(embeddings, freeze=False).cuda()
         self.vocab_kge = self.load_vocab_kge()
         self.vocab = self.load_vocab()
         self.init_state_ent_emb()
