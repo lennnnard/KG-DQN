@@ -71,6 +71,7 @@ if __name__ == "__main__":
         'vocab_size': 1000,
         'cuda_device': 1,
         'gameid': 0,
+        'nheads': 2,
     }
 
     drqa_params = {

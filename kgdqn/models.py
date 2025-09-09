@@ -121,7 +121,8 @@ class StateNetwork(nn.Module):
         super(StateNetwork, self).__init__()
         self.params = params
         self.action_set = action_set
-        self.gat = GAT(params['gat_emb_size'], 3, len(action_set), params['dropout_ratio'], 0.2, 1)
+        nheads = params['nheads']
+        self.gat = GAT(params['gat_emb_size'], 3, len(action_set), params['dropout_ratio'], 0.2, nheads)
         if params['qa_init']:
             self.pretrained_embeds = nn.Embedding.from_pretrained(embeddings, freeze=False)
         else:
@@ -129,7 +130,7 @@ class StateNetwork(nn.Module):
         self.vocab_kge = self.load_vocab_kge()
         self.vocab = self.load_vocab()
         self.init_state_ent_emb()
-        self.fc1 = nn.Linear(self.state_ent_emb.weight.size()[0] * 3 * 1, 100)
+        self.fc1 = nn.Linear(self.state_ent_emb.weight.size()[0] * 3 * nheads * 1, 100)
 
     def init_state_ent_emb(self):
         embeddings = torch.zeros((len(self.vocab_kge), self.params['embedding_size']))

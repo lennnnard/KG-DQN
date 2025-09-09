@@ -73,6 +73,7 @@ class WalkthroughAgent(textworld.Agent):
         self._commands = iter(env.game.quests[0].commands)
 
     def act(self, game_state, reward, done):
+        # print(self._commands)
         try:
             action = next(self._commands)
         except StopIteration:
@@ -98,8 +99,11 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=5):
         done = False
         for no_step in range(max_step):
             # print(game_state.description)
-
-            command = agent.act(game_state, reward, done)
+            try:
+                command = agent.act(game_state, reward, done)
+            except WalkthroughDone:
+                # End this episode cleanly
+                break
 
             out.write(game_state.description)
             out.write("Actions: " + str(game_state.admissible_commands) + '\n')
@@ -128,7 +132,7 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=5):
 
 
 def call_stanford_openie(sentence):
-    url = "http://localhost:9000/"
+    url = "http://corenlp-server:9000/"
     querystring = {
         "properties": "%7B%22annotators%22%3A%20%22openie%22%7D",
         "pipelineLanguage": "en"}
@@ -141,11 +145,13 @@ def generate_data(games, type):
         if type == 'collect':
             out = open("./random.txt", 'w')
             acts = set()
-            for g in games:
+            for idx, g in enumerate(games):
+                print(f"Running agents for game {idx}")
                 acts.update(test_agent(WalkthroughAgent(), game=g, out=out))
                 acts.update(test_agent(RandomAgent(), game=g, out=out))
             out.close()
 
+            print("Cleaning random.txt")
             out = open('./cleaned_random.txt', 'w')
             with open('./random.txt', 'r') as f:
                 cur = []
@@ -169,22 +175,25 @@ def generate_data(games, type):
             entities = set()
             relations = set()
 
-            sents = input_file.read()
+            sents = input_file.readlines()
 
-            try:
-                # triple = callStanfordReq(sent)['sentences'][0]['openie']
-                for ov in call_stanford_openie(sents)['sentences']:
-                    triple = ov['openie']
-                    # print(triple)
-                    # print(sent,)
-                    for tr in triple:
-                        h, r, t = tr['subject'], tr['relation'], tr['object']
-                        entities.add(h)
-                        entities.add(t)
-                        relations.add(r)
-                        # print(' | ' + h + ', ' + r + ', ' + t,)
-            except:
-                print("OpenIE error")
+            for i in range(0, len(sents), 40):
+                batch = ''.join(sents[i:i+40])
+                print(f"Calling OpenIE for batch {i%40}")
+                try:
+                    # triple = callStanfordReq(sent)['sentences'][0]['openie']
+                    for ov in call_stanford_openie(batch)['sentences']:
+                        triple = ov['openie']
+                        # print(triple)
+                        # print(sent,)
+                        for tr in triple:
+                            h, r, t = tr['subject'], tr['relation'], tr['object']
+                            entities.add(h)
+                            entities.add(t)
+                            relations.add(r)
+                            # print(' | ' + h + ', ' + r + ', ' + t,)
+                except:
+                    print("OpenIE error")
 
             act_out = open('./act2id.txt', 'w')
             act_out.write(str({k: i for i, k in enumerate(acts)}))
@@ -203,7 +212,8 @@ def generate_data(games, type):
 
         elif type == 'oracle':
             out = open("./oracle.txt", 'w')
-            for g in games:
+            for idx, g in enumerate(games):
+                print(f"Running oracle for game {idx}")
                 test_agent(WalkthroughAgent(), game=g, out=out)
             out.close()
 
@@ -213,6 +223,6 @@ if __name__ == "__main__":
         print("Please supply directory with games and type.")
         exit()
 
-    games = glob.glob(sys.argv[1] + '*.ulx')[:2]
+    games = glob.glob(sys.argv[1] + '*.ulx')#[:1]
     print(games)
     generate_data(games, sys.argv[2])
