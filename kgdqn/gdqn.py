@@ -56,7 +56,7 @@ class KGDQNTrainer(object):
         self.optimizer = optim.Adam(self.model.parameters(), lr=params['lr'])
 
         self.env.compute_intermediate_reward()
-        self.env.activate_state_tracking()
+        # self.env.activate_state_tracking()
 
         self.num_frames = params['num_frames']
         self.batch_size = params['batch_size']
@@ -163,6 +163,7 @@ class KGDQNTrainer(object):
                 #    reward += next_state.intermediate_reward
 
                 reward += next_state.intermediate_reward
+                print(next_state.intermediate_reward)
                 reward = max(-1.0, min(reward, 1.0))
                 if reward != 0:
                     print(action_text, reward)
