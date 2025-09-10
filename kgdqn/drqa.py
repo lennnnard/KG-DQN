@@ -86,11 +86,11 @@ class DocReaderModel(object):
         # Eval mode
         self.network.eval()
 
-        # Transfer to GPU
+        # Transfer to GPU/CPU
         if self.opt['cuda']:
-            inputs = [Variable(e.cuda(async=True)) for e in ex[:7]]
+            inputs = [e.to(self.device, non_blocking=True) for e in ex[:7]]
         else:
-            inputs = [Variable(e) for e in ex[:7]]
+            inputs = [e.to(self.device) for e in ex[:7]]
 
         # Run forward
         with torch.no_grad():

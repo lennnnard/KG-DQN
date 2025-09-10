@@ -1,0 +1,4 @@
+torch==2.8.0
+matplotlib
+nltk
+(en-core-web-sm==3.8.0) -> should load automatically

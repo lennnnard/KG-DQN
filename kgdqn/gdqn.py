@@ -37,7 +37,18 @@ class KGDQNTrainer(object):
         logging.basicConfig(filename='logs/' + self.filename + '.log', filemode='w')
         logging.warning("Parameters", params)
 
-        self.env = textworld.start(game)
+        infos = textworld.EnvInfos(
+            feedback=True,    # Response from the game after typing a text command.
+            description=True, # Text describing the room the player is currently in.
+            inventory=True,    # Text describing the player's inventory.
+            intermediate_reward=True,
+            score=True,
+            admissible_commands=True,
+            policy_commands=True,
+            verbs=True
+        )
+
+        self.env = textworld.start(game, request_infos=infos)
         self.params = params
 
         if params['replay_buffer_type'] == 'priority':
@@ -55,8 +66,8 @@ class KGDQNTrainer(object):
 
         self.optimizer = optim.Adam(self.model.parameters(), lr=params['lr'])
 
-        self.env.compute_intermediate_reward()
-        self.env.activate_state_tracking()
+        #self.env.compute_intermediate_reward()
+        #self.env.activate_state_tracking()
 
         self.num_frames = params['num_frames']
         self.batch_size = params['batch_size']
@@ -132,7 +143,7 @@ class KGDQNTrainer(object):
         for e_idx in range(1, self.num_episodes + 1):
             print("Episode:", e_idx)
             logging.info("Episode:" + str(e_idx))
-            self.env.enable_extra_info("description")
+            #self.env.enable_extra_info("description")
             state = self.env.reset()
             self.state.step(state.description, pruned=self.params['pruned'])
             self.model.train()
@@ -162,8 +173,8 @@ class KGDQNTrainer(object):
                 #else:
                 #    reward += next_state.intermediate_reward
 
-                reward += next_state.intermediate_reward
-                print(next_state.intermediate_reward)
+                # reward += next_state.intermediate_reward
+                # print(next_state.intermediate_reward)
                 reward = max(-1.0, min(reward, 1.0))
                 if reward != 0:
                     print(action_text, reward)
