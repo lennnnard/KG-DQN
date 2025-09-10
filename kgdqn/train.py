@@ -45,7 +45,7 @@ if __name__ == "__main__":
         'replay_buffer_size': 100000,
         'num_episodes': 200,
         'num_frames': 1000,
-        'batch_size': 32,
+        'batch_size': 16,
         'lr': 0.001,
         'gamma': 0.5,
         'rho': 0.25,
