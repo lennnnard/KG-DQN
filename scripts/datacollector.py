@@ -6,6 +6,9 @@ import glob
 import requests
 import json
 
+from textworld.agents.walkthrough import WalkthroughAgent
+from textworld.agents.random import RandomCommandAgent
+
 
 class NaiveAgent(textworld.Agent):
     def __init__(self, seed=1234):
@@ -31,62 +34,72 @@ class NaiveAgent(textworld.Agent):
         return action
 
 
-class RandomAgent(textworld.Agent):
-    """ Agent that randomly selects commands from the admissible ones. """
-
-    def __init__(self, seed=1234):
-        self.seed = seed
-        self.rng = np.random.RandomState(self.seed)
-
-    def reset(self, env):
-        # Activate state tracking in order to get the admissible commands.
-        env.activate_state_tracking()
-        env.compute_intermediate_reward()  # Needed to detect if a game is lost.
-
-    def act(self, game_state, reward, done):
-        # print("Admissible actions: " + str(game_state.admissible_commands))
-        return self.rng.choice(game_state.admissible_commands)
+# class RandomAgent(textworld.Agent):
+#     """ Agent that randomly selects commands from the admissible ones. """
+# 
+#     def __init__(self, seed=1234):
+#         self.seed = seed
+#         self.rng = np.random.RandomState(self.seed)
+# 
+#     def reset(self, env):
+#         # Activate state tracking in order to get the admissible commands.
+#         env.activate_state_tracking()
+#         env.compute_intermediate_reward()  # Needed to detect if a game is lost.
+# 
+#     def act(self, game_state, reward, done):
+#         # print("Admissible actions: " + str(game_state.admissible_commands))
+#         return self.rng.choice(game_state.admissible_commands)
 
 
 class WalkthroughDone(NameError):
     pass
 
 
-class WalkthroughAgent(textworld.Agent):
-    """ Agent that simply follows a list of commands. """
-
-    def __init__(self, commands=None):
-        self.commands = commands
-
-    def reset(self, env):
-        env.activate_state_tracking()
-        env.display_command_during_render = True
-        if self.commands is not None:
-            self._commands = iter(self.commands)
-            return  # Commands already specified.
-
-        if not hasattr(env, "game"):
-            msg = "WalkthroughAgent is only supported for generated games."
-            raise NameError(msg)
-
-        # Load command from the generated game.
-        self._commands = iter(env.game.quests[0].commands)
-
-    def act(self, game_state, reward, done):
-        # print(self._commands)
-        try:
-            action = next(self._commands)
-        except StopIteration:
-            raise WalkthroughDone()
-
-        action = action.strip()  # Remove trailing \n, if any.
-        return action
+# class WalkthroughAgent(textworld.Agent):
+#     """ Agent that simply follows a list of commands. """
+# 
+#     def __init__(self, commands=None):
+#         self.commands = commands
+# 
+#     def reset(self, env):
+#         env.activate_state_tracking()
+#         env.display_command_during_render = True
+#         if self.commands is not None:
+#             self._commands = iter(self.commands)
+#             return  # Commands already specified.
+# 
+#         if not hasattr(env, "game"):
+#             msg = "WalkthroughAgent is only supported for generated games."
+#             raise NameError(msg)
+# 
+#         # Load command from the generated game.
+#         self._commands = iter(env.game.quests[0].commands)
+# 
+#     def act(self, game_state, reward, done):
+#         # print(self._commands)
+#         try:
+#             action = next(self._commands)
+#         except StopIteration:
+#             raise WalkthroughDone()
+# 
+#         action = action.strip()  # Remove trailing \n, if any.
+#         return action
 
 
 def test_agent(agent, game, out, max_step=1000, nb_episodes=5):
-    env = textworld.start(game)  # Start the game.
+    infos = textworld.EnvInfos(
+        feedback=True,    # Response from the game after typing a text command.
+        description=True, # Text describing the room the player is currently in.
+        inventory=True,    # Text describing the player's inventory.
+        intermediate_reward=True,
+        score=True,
+        admissible_commands=True,
+        policy_commands=True
+    )
+
+    env = textworld.start(game, request_infos=infos)  # Start the game.
     #print(game.split("/")[-1], end="")
-    env.enable_extra_info('description')
+    # env.enable_extra_info('description')
 
     # Collect some statistics: nb_steps, final reward.
     avg_moves, avg_scores = [], []
@@ -148,7 +161,7 @@ def generate_data(games, type):
             for idx, g in enumerate(games):
                 print(f"Running agents for game {idx}")
                 acts.update(test_agent(WalkthroughAgent(), game=g, out=out))
-                acts.update(test_agent(RandomAgent(), game=g, out=out))
+                acts.update(test_agent(RandomCommandAgent(), game=g, out=out))
             out.close()
 
             print("Cleaning random.txt")
@@ -179,7 +192,7 @@ def generate_data(games, type):
 
             for i in range(0, len(sents), 40):
                 batch = ''.join(sents[i:i+40])
-                print(f"Calling OpenIE for batch {i%40}")
+                print(f"Calling OpenIE for batch {i // 40}")
                 try:
                     # triple = callStanfordReq(sent)['sentences'][0]['openie']
                     for ov in call_stanford_openie(batch)['sentences']:
@@ -195,9 +208,9 @@ def generate_data(games, type):
                 except:
                     print("OpenIE error")
 
-            act_out = open('./act2id.txt', 'w')
-            act_out.write(str({k: i for i, k in enumerate(acts)}))
-            act_out.close()
+            # act_out = open('./act2id.txt', 'w')
+            # act_out.write(str({k: i for i, k in enumerate(acts)}))
+            # act_out.close()
 
             ent_out = open('./entity2id.tsv', 'w')
             rel_out = open('./relation2id.tsv', 'w')

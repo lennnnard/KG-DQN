@@ -4,7 +4,7 @@
 runs=200
 
 # Output directory
-outdir="./tw_games_large/"
+outdir="./tw_games_small/"
 
 # Make sure output directory exists
 mkdir -p "$outdir"

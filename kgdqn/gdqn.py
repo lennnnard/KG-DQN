@@ -36,6 +36,7 @@ class KGDQNTrainer(object):
         self.filename = 'kgdqn_' + '_'.join([str(v) for k, v in params.items() if 'file' not in str(k)])
         logging.basicConfig(filename='logs/' + self.filename + '.log', filemode='w')
         logging.warning("Parameters", params)
+        self.game = game
 
         infos = textworld.EnvInfos(
             feedback=True,    # Response from the game after typing a text command.
@@ -45,7 +46,6 @@ class KGDQNTrainer(object):
             score=True,
             admissible_commands=True,
             policy_commands=True,
-            verbs=True
         )
 
         self.env = textworld.start(game, request_infos=infos)
@@ -144,6 +144,7 @@ class KGDQNTrainer(object):
             print("Episode:", e_idx)
             logging.info("Episode:" + str(e_idx))
             #self.env.enable_extra_info("description")
+
             state = self.env.reset()
             self.state.step(state.description, pruned=self.params['pruned'])
             self.model.train()
@@ -167,15 +168,15 @@ class KGDQNTrainer(object):
                 logging.info('picked:' + str(picked))
                 logging.info(action_text)
 
-                next_state, reward, done = self.env.step(action_text)
+                next_state, score, done = self.env.step(action_text)
                 #if next_state.intermediate_reward == 0:
                 #    reward += -0.1
                 #else:
                 #    reward += next_state.intermediate_reward
 
                 # reward += next_state.intermediate_reward
-                # print(next_state.intermediate_reward)
-                reward = max(-1.0, min(reward, 1.0))
+                reward = next_state.intermediate_reward
+    
                 if reward != 0:
                     print(action_text, reward)
 

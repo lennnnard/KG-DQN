@@ -11,18 +11,17 @@ infos = textworld.EnvInfos(
     verbs=True
 )
 
-env = textworld.start("./zork1.z5", request_infos=infos)
+env = textworld.start("./test_games/test_game.ulx", request_infos=infos)
 
 try:
     done = False
     game_state = env.reset()
     while not done:
         env.render()
-        print(game_state.verbs)
-        print(game_state.admissible_commands)
+        print(game_state.policy_commands)
         command = input("> ")
         game_state, reward, done = env.step(command)
-        print(game_state.score)
+        print(game_state.intermediate_reward)
 
     env.render()  # Final message.
 except KeyboardInterrupt:
