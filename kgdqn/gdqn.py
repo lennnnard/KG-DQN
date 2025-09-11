@@ -25,10 +25,10 @@ from models import KGDQN
 import numpy as np
 import itertools
 
-
 class KGDQNTrainer(object):
     
     def __init__(self, game, params):
+        self.device = params['device']
         self.num_episodes = params['num_episodes']
         self.state = StateNAction()
 
@@ -58,7 +58,7 @@ class KGDQNTrainer(object):
 
         params['vocab_size'] = len(self.state.vocab_drqa)
 
-        self.model = KGDQN(params, self.state.all_actions).to("cpu")
+        self.model = KGDQN(params, self.state.all_actions).to(self.device)
 
         if self.params['preload_weights']:
             self.model = torch.load(self.params['preload_file'])['model']
@@ -103,20 +103,20 @@ class KGDQNTrainer(object):
     def compute_td_loss(self):
         state, action, reward, next_state, done = self.replay_buffer.sample(self.batch_size, self.rho)
 
-        reward = torch.FloatTensor(reward).to("cpu")
-        done = torch.FloatTensor(1 * done).to("cpu")
-        action_t = torch.LongTensor(action).to("cpu")
+        reward = torch.FloatTensor(reward).to(self.device)
+        done = torch.FloatTensor(1 * done).to(self.device)
+        action_t = torch.LongTensor(action).to(self.device)
 
         q_value = self.model.forward_td_init(state, action_t)[0][0]
 
         with torch.no_grad():
             #Loop through all feasible actions for fwd
-            actions = torch.LongTensor([a.pruned_actions_rep for a in list(next_state)]).to("cpu")
+            actions = torch.LongTensor([a.pruned_actions_rep for a in list(next_state)]).to(self.device)
             fwd_init, sts = self.model.forward_td_init(next_state, actions[:, 0, :])#.unsqueeze_(0)
             next_q_values = fwd_init[0].unsqueeze_(0)
             for i in range(1, actions.size(1)):
                 act = actions[:, i, :]#.squeeze()
-                sts = sts.new_tensor(sts.data)
+                sts = sts.detach().clone()
                 cat_q = self.model.forward_td(sts, next_state, act)[0].unsqueeze_(0)
                 next_q_values = torch.cat((next_q_values, cat_q), dim=0)
 

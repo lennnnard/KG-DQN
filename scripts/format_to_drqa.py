@@ -26,10 +26,10 @@ with open('./oracle.txt', 'r') as f:
             cur = [a.strip() for a in cur]
             cur = ' '.join(cur).strip().replace('\n', '').replace('---------', '')
             try:
-                title = re.findall("(?<=-\=).*?(?=\=-)", cur)[0].strip()
+                title = re.findall(r"(?<=-\=).*?(?=\=-)", cur)[0].strip()
             except IndexError:
                 title = "UNK"
-            cur = re.sub("(?<=-\=).*?(?=\=-)", '', cur)
+            cur = re.sub(r"(?<=-\=).*?(?=\=-)", '', cur)
             cur = cur.replace("-==-", '').strip()
             cur = '. '.join([a.strip() for a in cur.split('.')])
             #print(cur)

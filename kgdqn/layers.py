@@ -51,7 +51,7 @@ class GraphAttentionLayer(nn.Module):
 class EncoderLSTM(nn.Module):
 
     def __init__(self, vocab_size, embedding_size, hidden_size, padding_idx,
-                            dropout_ratio, embeddings, bidirectional=False, num_layers=1):
+                            dropout_ratio, embeddings, device, bidirectional=False, num_layers=1):
         super(EncoderLSTM, self).__init__()
         self.embedding_size = embedding_size
         self.hidden_size = hidden_size
@@ -65,6 +65,7 @@ class EncoderLSTM(nn.Module):
         self.encoder2decoder = nn.Linear(hidden_size * self.num_directions,
             hidden_size * self.num_directions
         )
+        self.device = device
 
     def init_state(self, inputs):
         batch_size = inputs.size(0)
@@ -78,7 +79,7 @@ class EncoderLSTM(nn.Module):
             batch_size,
             self.hidden_size
         ), requires_grad=False)
-        return h0.to("cpu"), c0.to("cpu")
+        return h0.to(self.device), c0.to(self.device)
 
     def forward(self, inputs, lengths=0):
         embeds = self.embedding(inputs)   # (batch, seq_len, embedding_size)
@@ -164,7 +165,7 @@ class StackedBRNN(nn.Module):
 def uniform_weights(x, x_mask):
     alpha = Variable(torch.ones(x.size(0), x.size(1)))
     if x.data.is_cuda:
-        alpha = alpha.to("cpu")
+        alpha = alpha.to("cuda")
     alpha = alpha * x_mask.eq(0).float()
     alpha = alpha / alpha.sum(1).expand(alpha.size())
     return alpha

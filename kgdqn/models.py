@@ -9,6 +9,20 @@ import numpy as np
 from layers import *
 from drqa import *
 
+# --- begin safe load shim ---
+import sys, types
+m_drqa = types.ModuleType("drqa")
+m_reader = types.ModuleType("drqa.reader")
+m_data = types.ModuleType("drqa.reader.data")
+class Dictionary: pass
+m_data.Dictionary = Dictionary
+m_reader.data = m_data
+m_drqa.reader = m_reader
+sys.modules['drqa'] = m_drqa
+sys.modules['drqa.reader'] = m_reader
+sys.modules['drqa.reader.data'] = m_data
+torch.serialization.add_safe_globals([Dictionary])
+# --- end safe load shim ---
 
 class GAT(nn.Module):
     def __init__(self, nfeat, nhid, nclass, dropout, alpha, nheads):
@@ -33,19 +47,22 @@ class KGDQN(nn.Module):
     def __init__(self, params, actions):
         super(KGDQN, self).__init__()
         self.params = params
-
+        self.device = params['device']
         if self.params['qa_init']:
-            pretrained_action_embs = torch.load(params['act_emb_init_file'])['state_dict']['embeddings']['weight']
+            ckpt = torch.load(params['act_emb_init_file'], map_location='cpu', weights_only=False)
+            state = ckpt.get('state_dict', ckpt)
+            pretrained_action_embs = state.get('embedding.weight')
+            #pretrained_action_embs = torch.load(params['act_emb_init_file'], weights_only=False)['state_dict']['embedding.weight']
             self.action_emb = nn.Embedding.from_pretrained(pretrained_action_embs, freeze=False)
-            self.action_drqa = ActionDrQA(params, pretrained_action_embs)
+            self.action_drqa = ActionDrQA(params, pretrained_action_embs, self.device)
             self.state_gat = StateNetwork(actions, params, pretrained_action_embs)
         else:
             self.action_emb = nn.Embedding(params['vocab_size'], params['embedding_size'])
-            self.action_drqa = ActionDrQA(params, self.action_emb.weight)
+            self.action_drqa = ActionDrQA(params, self.action_emb.weight, self.device)
             self.state_gat = StateNetwork(actions, params, self.action_emb.weight)
         self.action_enc = EncoderLSTM(params['vocab_size'], params['embedding_size'], params['hidden_size'],
                                       params['padding_idx'], params['dropout_ratio'],
-                                      self.action_emb)  # , params['bidirectional'],
+                                      self.action_emb, self.device,)  # , params['bidirectional'],
         self.state_fc = nn.Linear(params['drqa_emb_size'] + params['hidden_size'], 100)
 
     def forward(self, s_t, emb_a_t, encoded_doc):
@@ -57,12 +74,12 @@ class KGDQN(nn.Module):
 
     def forward_td_init(self, state, a_t):
         state = list(state)
-        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).to("cpu")
+        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).to(self.device)
 
         sts = self.state_gat(state[0].graph_state_rep).unsqueeze_(0)
         for i in range(1, len(state)):
             sts = torch.cat((sts, self.state_gat(state[i].graph_state_rep).unsqueeze_(0)), dim=0)
-            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).to("cpu")), dim=0)
+            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).to(self.device)), dim=0)
 
         encoded_doc = self.action_drqa(drqa_input, state)[1]
 
@@ -70,9 +87,9 @@ class KGDQN(nn.Module):
         return self.forward(sts, emb_a_t, encoded_doc), sts#.squeeze()
 
     def forward_td(self, state_rep, state, a_t):
-        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).to("cpu")
+        drqa_input = torch.LongTensor(state[0].drqa_input).unsqueeze_(0).to(self.device)
         for i in range(1, len(state)):
-            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).to("cpu")), dim=0)
+            drqa_input = torch.cat((drqa_input, torch.LongTensor(state[i].drqa_input).unsqueeze_(0).to(self.device)), dim=0)
         encoded_doc = self.action_drqa(drqa_input, state)[1]
         _, emb_a_t, _ = self.action_enc(a_t)
         return self.forward(state_rep, emb_a_t, encoded_doc)
@@ -87,12 +104,12 @@ class KGDQN(nn.Module):
 
             feasible_actions_rep = state.all_actions_rep
             with torch.no_grad():
-                drqa_input = torch.LongTensor(state.drqa_input).unsqueeze_(0).to("cpu")
+                drqa_input = torch.LongTensor(state.drqa_input).unsqueeze_(0).to(self.device)
 
-                s_t = self.state_gat(graph_state_rep).unsqueeze_(0).repeat(len(feasible_actions_rep), 1).to("cpu")
+                s_t = self.state_gat(graph_state_rep).unsqueeze_(0).repeat(len(feasible_actions_rep), 1).to(self.device)
     
                 encoded_doc = self.action_drqa(drqa_input, state)[1]
-                a_t = torch.LongTensor(feasible_actions_rep).to("cpu")#unsqueeze_(0).cuda()
+                a_t = torch.LongTensor(feasible_actions_rep).to(self.device)#unsqueeze_(0).cuda()
 
             encoded_doc = encoded_doc.repeat(len(feasible_actions_rep), 1)
             _, emb_a_t, _ = self.action_enc(a_t)
@@ -120,6 +137,7 @@ class StateNetwork(nn.Module):
     def __init__(self, action_set, params, embeddings=None):
         super(StateNetwork, self).__init__()
         self.params = params
+        self.device = self.params['device']
         self.action_set = action_set
         nheads = params['nheads']
         self.gat = GAT(params['gat_emb_size'], 3, len(action_set), params['dropout_ratio'], 0.2, nheads)
@@ -145,7 +163,7 @@ class StateNetwork(nn.Module):
                         graph_node_ids.append(1)
                 else:
                     graph_node_ids.append(1)
-            graph_node_ids = torch.LongTensor(graph_node_ids).to("cpu")
+            graph_node_ids = torch.LongTensor(graph_node_ids).to(self.device)
             cur_embeds = self.pretrained_embeds(graph_node_ids)
 
             cur_embeds = cur_embeds.mean(dim=0)
@@ -166,17 +184,18 @@ class StateNetwork(nn.Module):
 
     def forward(self, graph_rep):
         node_feats, adj = graph_rep
-        adj = torch.IntTensor(adj).to("cpu")
+        adj = torch.IntTensor(adj).to(self.device)
         x = self.gat(self.state_ent_emb.weight, adj).view(-1)
         out = self.fc1(x)
         return out
 
 
 class ActionDrQA(nn.Module):
-    def __init__(self, opt, embeddings):
+    def __init__(self, opt, embeddings, device):
         super(ActionDrQA, self).__init__()
         doc_input_size = opt['embedding_size']
 
+        self.device = device
         if opt['qa_init']:
             self.embeddings = nn.Embedding.from_pretrained(embeddings, freeze=False)
         else:
@@ -192,11 +211,23 @@ class ActionDrQA(nn.Module):
             padding=opt['doc_rnn_padding'],
         )
         if opt['qa_init']:
-            inter = torch.load(opt['act_emb_init_file'])['state_dict']['doc_encoder']#['weight']
-            self.doc_rnn.load_state_dict(inter)
+            ckpt = torch.load(opt['act_emb_init_file'], map_location='cpu', weights_only=False)
+            state = ckpt.get('state_dict', ckpt)
+
+            # Extract the doc encoder weights (what they called 'doc_encoder')
+            doc_encoder_state = {
+                k.split('doc_rnn.', 1)[1]: v
+                for k, v in state.items()
+                if k.startswith('doc_rnn.')
+            }
+
+            self.doc_rnn.load_state_dict(doc_encoder_state, strict=False)
+
+            #inter = torch.load(opt['act_emb_init_file'], weights_only=False)['state_dict']['doc_rnn']#['weight']
+            # self.doc_rnn.load_state_dict(inter)
 
     def forward(self, vis_state_tensor, state):
-        mask = torch.IntTensor([80] * vis_state_tensor.size(0)).to("cpu")
+        mask = torch.IntTensor([80] * vis_state_tensor.size(0)).to(self.device)
         emb_tensor = self.embeddings(vis_state_tensor)
         return self.doc_rnn(emb_tensor, mask)
 

@@ -2,3 +2,5 @@ torch==2.8.0
 matplotlib
 nltk (+ setup)
 (en-core-web-sm==3.8.0) -> should load automatically
+fuzzywuzzy-0.18.0
+levenshtein-0.27.1

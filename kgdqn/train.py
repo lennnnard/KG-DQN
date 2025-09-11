@@ -2,6 +2,10 @@ from gdqn import KGDQNTrainer
 from utils.grid_search import RandomGridSearch
 from joblib import Parallel, delayed
 
+import torch
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print("Using device: " + str(device))
+
 
 def parallelize(game, params):
     print(params)
@@ -55,23 +59,24 @@ if __name__ == "__main__":
         'hidden_dims': 0,
         'update_frequency': 5,
         'padding_idx': 0,
-        'embedding_size': 50,
+        'embedding_size': 100,
         'dropout_ratio': 0.2,
         'hidden_size': 100,
-        'gat_emb_size': 50,
+        'gat_emb_size': 100,
         'drqa_emb_size': 384,
-        'gat_emb_init_file': '',
-        'act_emb_init_file': '',
+        'gat_emb_init_file': '../drqa_model/20250911-369897ac.mdl',
+        'act_emb_init_file': '../drqa_model/20250911-369897ac.mdl',
         'preload_weights': False,
         'preload_file': '',
         'pruned': False,
         'max_actions': 40,
         'init_graph_embeds': True,
-        'qa_init': False,
+        'qa_init': True,
         'vocab_size': 1000,
         'cuda_device': 1,
         'gameid': 0,
         'nheads': 2,
+        'device': device
     }
 
     drqa_params = {
