@@ -1,6 +1,10 @@
 torch==2.8.0
 matplotlib
-nltk (+ setup)
+nltk 3.9.1(+ setup)
 (en-core-web-sm==3.8.0) -> should load automatically
 fuzzywuzzy-0.18.0
 levenshtein-0.27.1
+
+dont forget textworld buiold essentials!!
+sudo apt install gcc-11 g++-11
+CC=gcc-11 CXX=g++-11 pip install textworld
