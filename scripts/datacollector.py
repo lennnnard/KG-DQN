@@ -176,7 +176,7 @@ def generate_data(games, type):
                     else:
                         cur = [a.strip() for a in cur]
                         cur = ' '.join(cur).strip().replace('\n', '').replace('---------', '')
-                        cur = re.sub("(?<=-\=).*?(?=\=-)", '', cur)
+                        cur = re.sub(r"(?<=-\=).*?(?=\=-)", '', cur)
                         cur = cur.replace("-==-", '').strip()
                         cur = '. '.join([a.strip() for a in cur.split('.')])
                         out.write(cur + '\n')

@@ -21,6 +21,7 @@ def main():
     subprocess.run(f"tw-extract vocab {game} --force", shell = True, executable="/bin/bash")
     words_to_dict("vocab.txt", "w2id.txt")
     print(f"Dictionary written to w2id.txt")
+    subprocess.run("rm vocab.txt", shell = True, executable="/bin/bash")
 
 
 if __name__ == "__main__":

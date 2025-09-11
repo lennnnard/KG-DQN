@@ -217,7 +217,7 @@ class KGDQNTrainer(object):
 
                 # """
             self.plot(e_idx, self.all_rewards, self.losses, self.completion_steps)
-            if e_idx % (int(self.num_episodes / 1)) == 0:
+            if e_idx % 1 == 0:
                 logging.info("Episode:" + str(e_idx))
                 # self.plot(frame_idx, self.all_rewards, self.losses, self.completion_steps)
                 parameters = {
