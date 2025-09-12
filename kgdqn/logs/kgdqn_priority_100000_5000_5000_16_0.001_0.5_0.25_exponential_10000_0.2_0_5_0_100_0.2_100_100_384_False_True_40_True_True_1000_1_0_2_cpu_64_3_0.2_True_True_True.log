@@ -9,7 +9,7 @@ You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelp
 There is a closed gateway leading east. There is a closed passageway leading west.
 
 There is a non-euclidean latchkey on the floor.
-WARNING:root:take key
+WARNING:root:lock gateway with latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:2
@@ -21,7 +21,7 @@ You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelp
 There is a closed gateway leading east. There is a closed passageway leading west.
 
 There is a non-euclidean latchkey on the floor.
-WARNING:root:drop type passkey
+WARNING:root:unlock non-euclidean box with non-euclidean latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:3
@@ -32,307 +32,307 @@ You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelp
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a type H passkey and a non-euclidean latchkey on the floor.
-WARNING:root:lock gateway with latchkey
+There is a non-euclidean latchkey on the floor.
+WARNING:root:put type passkey on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:4
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. Looks like someone's already been here and taken everything off it, though. Hopefully this doesn't make you too upset.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a type H passkey and a non-euclidean latchkey on the floor.
-WARNING:root:put berry on mantelpiece
+There is a non-euclidean latchkey on the floor.
+WARNING:root:examine kettle
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:5
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a type H passkey and a non-euclidean latchkey on the floor.
-WARNING:root:drop disk
+There is a non-euclidean latchkey on the floor.
+WARNING:root:insert kettle into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:6
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a disk, a type H passkey and a non-euclidean latchkey on the floor.
-WARNING:root:take non-euclidean latchkey
-WARNING:root:1
+There is a non-euclidean latchkey on the floor.
+WARNING:root:go east
+WARNING:root:0
 WARNING:root:--------
 WARNING:root:7
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a disk and a type H passkey on the floor.
-WARNING:root:insert huckleberry into non-euclidean box
+There is a non-euclidean latchkey on the floor.
+WARNING:root:drop banana
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:8
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a disk and a type H passkey on the floor.
-WARNING:root:eat grape
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:inventory
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:9
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a disk and a type H passkey on the floor.
-WARNING:root:drop grape
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:10
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a disk and a type H passkey on the floor.
-WARNING:root:drop non-euclidean latchkey
-WARNING:root:-1
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop key
+WARNING:root:0
 WARNING:root:--------
 WARNING:root:11
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine banana
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put peanut on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:12
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine golf ball
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:examine peanut
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:13
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop disk
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:insert salad into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:14
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put key on mantelpiece
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:examine safe
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:15
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert burger into non-euclidean box
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop non-euclidean latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:16
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop latchkey
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put key on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:17
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop grape
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:lock safe with key
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:18
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:open gateway
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:examine non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:19
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put non-euclidean latchkey on mantelpiece
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:unlock gateway with latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:20
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop golf ball
+There is a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop mouse
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:21
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine passageway
+There is a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:close non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:22
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put type passkey on mantelpiece
+There is a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put grape on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:23
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine kettle
+There is a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:insert peanut into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:24
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine non-euclidean box
+There is a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:eat peanut
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:25
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine safe
+There is a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put burger on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:26
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop mouse
+There is a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:lock gateway with latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:27
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine golf ball
+There is a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop nest of kittens
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:28
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
 WARNING:root:inventory
 WARNING:root:0
 WARNING:root:--------
@@ -340,2974 +340,382 @@ WARNING:root:29
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put latchkey on mantelpiece
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:close non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:30
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat burger
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop banana
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:31
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop type passkey
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:insert golf ball into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:32
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:lock safe with key
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:eat banana
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:33
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put peanut on mantelpiece
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:insert mouse into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:34
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat salad
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put latchkey on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:35
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert mouse into non-euclidean box
+There is a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop kettle
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:36
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine key
+There is a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:examine golf ball
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:37
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat huckleberry
+There is a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put huckleberry on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:38
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:take latchkey from non-euclidean box
+There is a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:go east
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:39
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop grape
+There is a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:go west
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:40
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat peanut
+There is a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put kettle on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:41
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put salad on mantelpiece
+There is a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop berry
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:42
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put golf ball on mantelpiece
-WARNING:root:0
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:open safe
+WARNING:root:-1
 WARNING:root:--------
 WARNING:root:43
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop salad
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:look
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:44
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:go east
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:examine mouse
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:45
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put mouse on mantelpiece
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put peanut on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:46
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert latchkey into non-euclidean box
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:lock non-euclidean box with non-euclidean latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:47
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put banana on mantelpiece
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop key
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:48
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine salad
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:examine passageway
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:49
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine golf ball
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:put printer on mantelpiece
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:50
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine key
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:unlock gateway with latchkey
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:51
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert peanut into non-euclidean box
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop nest of kittens
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:52
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop golf ball
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:insert printer into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:53
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine latchkey
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:drop printer
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:54
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:open safe
-WARNING:root:-1
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:unlock gateway with latchkey
+WARNING:root:0
 WARNING:root:--------
 WARNING:root:55
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine golf ball
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:close gateway
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:56
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:close non-euclidean box
-WARNING:root:0
+There is a berry, a kettle, a nest of kittens, a mouse, a banana and a non-euclidean latchkey on the floor.
+WARNING:root:take non-euclidean latchkey
+WARNING:root:1
 WARNING:root:--------
 WARNING:root:57
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine peanut
+There is a berry, a kettle, a nest of kittens, a mouse and a banana on the floor.
+WARNING:root:insert salad into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:58
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop disk
+There is a berry, a kettle, a nest of kittens, a mouse and a banana on the floor.
+WARNING:root:insert nest of kittens into non-euclidean box
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:59
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert burger into non-euclidean box
+There is a berry, a kettle, a nest of kittens, a mouse and a banana on the floor.
+WARNING:root:drop banana
 WARNING:root:0
 WARNING:root:--------
 WARNING:root:60
 WARNING:root:
 You arrive in a bedroom. An usual one. Let's see what's in here.
 
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
+You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a printer, a huckleberry, a burger, a grape, a peanut and a type H passkey on the mantelpiece.
 
 There is a closed gateway leading east. There is a closed passageway leading west.
 
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine golf ball
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:61
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert non-euclidean latchkey into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:62
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:63
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:inventory
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:64
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert banana into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:65
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop nest of kittens
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:66
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put banana on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:67
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:68
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert disk into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:69
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:70
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine burger
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:71
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine safe
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:72
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop disk
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:73
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop mouse
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:74
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop grape
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:75
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat huckleberry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:76
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:unlock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:77
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:go south
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:78
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert kettle into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:79
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine door
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:80
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:81
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert huckleberry into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:82
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat berry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:83
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine berry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:84
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put mouse on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:85
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert nest of kittens into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:86
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:open non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:87
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put nest of kittens on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:88
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert kettle into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:89
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put huckleberry on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:90
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert mouse into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:91
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine kettle
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:92
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop grape
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:93
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put type passkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:94
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put non-euclidean latchkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:95
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:96
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:open non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:97
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert nest of kittens into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:98
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert burger into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:99
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert salad into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:100
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put disk on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:101
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop huckleberry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:102
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put nest of kittens on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:103
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert disk into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:104
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine banana
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:105
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop salad
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:106
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put huckleberry on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:107
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:108
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put burger on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:109
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:go south
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:110
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:inventory
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:111
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop golf ball
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:112
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop nest of kittens
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:113
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put latchkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:114
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:115
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:open safe
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:116
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine salad
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:117
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:118
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine door
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:119
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put banana on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:120
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop burger
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:121
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:go south
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:122
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop huckleberry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:123
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop mouse
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:124
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:125
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert non-euclidean latchkey into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:126
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:127
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop golf ball
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:128
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert golf ball into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:129
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:take key
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:130
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:close gateway
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:131
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine berry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:132
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:133
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop nest of kittens
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:134
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert salad into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:135
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:136
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert type passkey into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:137
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put key on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:138
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine safe
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:139
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:140
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:141
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop nest of kittens
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:142
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:143
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert mouse into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:144
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:145
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:146
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert key into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:147
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop kettle
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:148
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat burger
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:149
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put grape on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:150
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat peanut
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:151
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat huckleberry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:152
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:153
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put salad on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:154
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put kettle on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:155
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:156
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop key
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:157
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat peanut
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:158
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:close non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:159
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert salad into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:160
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine banana
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:161
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat peanut
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:162
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert non-euclidean latchkey into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:163
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert golf ball into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:164
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop kettle
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:165
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert non-euclidean latchkey into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:166
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put printer on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:167
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine disk
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:168
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop huckleberry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:169
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:unlock gateway with latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:170
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:171
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:172
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat banana
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:173
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:174
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put grape on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:175
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put latchkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:176
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert golf ball into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:177
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:eat banana
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:178
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine banana
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:179
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine mouse
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:180
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine berry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:181
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop nest of kittens
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:182
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:drop disk
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:183
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:unlock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:184
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine grape
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:185
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:examine type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:186
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert berry into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:187
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:put key on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:188
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert grape into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:189
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:insert key into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:190
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a non-euclidean latchkey, a disk and a type H passkey on the floor.
-WARNING:root:take non-euclidean latchkey
-WARNING:root:1
-WARNING:root:--------
-WARNING:root:191
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put type passkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:192
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:eat burger
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:193
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:unlock non-euclidean box with non-euclidean latchkey
-WARNING:root:1
-WARNING:root:--------
-WARNING:root:194
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:195
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put non-euclidean latchkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:196
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:go east
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:197
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put key on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:198
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:lock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:199
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:inventory
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:200
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert peanut into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:201
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert key into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:202
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put type passkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:203
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:204
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:lock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:205
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put key on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:206
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert grape into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:207
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put printer on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:208
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert key into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:209
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put non-euclidean latchkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:210
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine peanut
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:211
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:look
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:212
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:go east
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:213
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:lock gateway with latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:214
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
+There is a berry, a kettle, a nest of kittens, a mouse and a banana on the floor.
 WARNING:root:eat grape
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:215
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put peanut on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:216
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:eat huckleberry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:217
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:go east
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:218
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put golf ball on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:219
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:lock gateway with latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:220
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:eat berry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:221
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:take latchkey from non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:222
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:223
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:drop type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:224
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:unlock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:225
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:take non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:226
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:drop non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:227
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine disk
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:228
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:go west
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:229
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put berry on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:230
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert kettle into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:231
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put grape on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:232
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:eat peanut
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:233
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put berry on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:234
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert disk into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:235
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine passageway
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:236
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine door
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:237
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:take latchkey from non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:238
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:239
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine key
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:240
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a non-euclidean latchkey, a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:take non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:241
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine printer
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:242
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:eat burger
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:243
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:eat banana
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:244
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:eat peanut
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:245
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put peanut on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:246
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:unlock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:247
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:drop type passkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:248
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine disk
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:249
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:drop banana
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:250
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine gateway
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:251
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:unlock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:252
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert peanut into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:253
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:take non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:254
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:open gateway
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:255
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert latchkey into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:256
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert disk into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:257
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put latchkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:258
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:drop golf ball
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:259
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert salad into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:260
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:go east
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:261
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:lock gateway with latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:262
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert printer into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:263
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put peanut on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:264
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put banana on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:265
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert kettle into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:266
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:unlock non-euclidean box with non-euclidean latchkey
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:267
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put non-euclidean latchkey on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:268
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:269
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert key into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:270
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine huckleberry
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:271
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:inventory
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:272
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:put mouse on mantelpiece
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:273
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:examine safe
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:274
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:drop key
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:275
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert nest of kittens into non-euclidean box
-WARNING:root:0
-WARNING:root:--------
-WARNING:root:276
-WARNING:root:
-You arrive in a bedroom. An usual one. Let's see what's in here.
-
-You make out a safe. Empty! What kind of nightmare TextWorld is this? You can see a non-euclidean box. Hey, want to see a mantelpiece? Look over there, a mantelpiece. You see a non-euclidean latchkey, a banana, a peanut and a berry on the mantelpiece.
-
-There is a closed gateway leading east. There is a closed passageway leading west.
-
-There is a kettle, a printer, a nest of kittens, a mouse, a golf ball, a disk and a type H passkey on the floor.
-WARNING:root:insert golf ball into non-euclidean box
 WARNING:root:0

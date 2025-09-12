@@ -5,24 +5,14 @@ import torch.autograd as autograd
 import torch.nn.functional as F
 import spacy
 import numpy as np
+import sys
 
 from layers import *
-from drqa import *
+from drqa import * 
 
-# --- begin safe load shim ---
-import sys, types
-m_drqa = types.ModuleType("drqa")
-m_reader = types.ModuleType("drqa.reader")
-m_data = types.ModuleType("drqa.reader.data")
-class Dictionary: pass
-m_data.Dictionary = Dictionary
-m_reader.data = m_data
-m_drqa.reader = m_reader
-sys.modules['drqa'] = m_drqa
-sys.modules['drqa.reader'] = m_reader
-sys.modules['drqa.reader.data'] = m_data
-torch.serialization.add_safe_globals([Dictionary])
-# --- end safe load shim ---
+import drqa
+sys.modules['drqa.reader'] = drqa
+sys.modules['drqa.reader.data'] = drqa
 
 class GAT(nn.Module):
     def __init__(self, nfeat, nhid, nclass, dropout, alpha, nheads):

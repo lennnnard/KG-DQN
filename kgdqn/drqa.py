@@ -9,7 +9,11 @@ from torch.autograd import Variable
 from utils.drqa_utils import AverageMeter
 from rnn_reader import RnnDocReader
 
+class Dictionary:
+    def __init__(self, *args, **kwargs):
+        pass
 
+        
 class DocReaderModel(object):
     """High level model that handles intializing the underlying network
     architecture, saving, updating examples, and predicting examples.
