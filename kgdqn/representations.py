@@ -10,7 +10,7 @@ import random
 
 
 def call_stanford_openie(sentence):
-    url = "http://corenlp-server:9000/"
+    url = "http://localhost:9000/"
     querystring = {
         "properties": "%7B%22annotators%22%3A%20%22openie%22%7D",
         "pipelineLanguage": "en"}
@@ -89,9 +89,9 @@ class StateNAction(object):
         remove = []
         prev_remove = []
         link = []
-        #visible_state = visible_state.split('-')
-        #if len(visible_state) > 1:
-         #   visible_state = visible_state[2]
+        visible_state = visible_state.split('=-')
+        if len(visible_state) > 1:
+            visible_state = visible_state[1]
         dirs = ['north', 'south', 'east', 'west']
 
         self.visible_state = str(visible_state)

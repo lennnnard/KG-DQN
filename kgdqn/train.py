@@ -68,7 +68,7 @@ if __name__ == "__main__":
         'act_emb_init_file': '../drqa_model/20250911-369897ac.mdl',
         'preload_weights': False,
         'preload_file': '',
-        'pruned': False,
+        'pruned': True,
         'max_actions': 40,
         'init_graph_embeds': True,
         'qa_init': True,
