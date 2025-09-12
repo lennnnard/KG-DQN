@@ -9,9 +9,9 @@ dqn/logs/
 dqn/plots/
 dqn/old/
 dqn/save/
-#kgdqn/models/
-#kgdqn/logs/
-#kgdqn/plots/
+kgdqn/models/
+kgdqn/logs/
+kgdqn/plots/
 #kgdqn/initialize/
 kgdqn/neurips
 #*.pt

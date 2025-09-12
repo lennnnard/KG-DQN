@@ -163,7 +163,7 @@ class StateNetwork(nn.Module):
 
     def load_vocab_kge(self):
         ent = {}
-        with open('initialize_double/state/entity2id.tsv', 'r') as f:
+        with open('initialize/state/entity2id.tsv', 'r') as f:
             for line in f:
                 e, eid = line.split('\t')
                 ent[int(eid.strip())] = e.strip()

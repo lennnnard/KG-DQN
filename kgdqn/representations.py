@@ -21,7 +21,8 @@ def call_stanford_openie(sentence):
 
 class StateNAction(object):
     
-    def __init__(self):
+    def __init__(self, max_actions):
+        self.max_actions = max_actions
         self.graph_state = nx.DiGraph()
 
         self.graph_state_rep = []
@@ -260,10 +261,9 @@ class StateNAction(object):
 
         sorted_scores = sorted(action_scores.items(), key=lambda kv: kv[1], reverse=True)
         max_score = max([a[1] for a in sorted_scores])
-        max_actions = 36
 
         if max_score == 0:
-            ret = random.sample(list(self.all_actions.keys()), max_actions)
+            ret = random.sample(list(self.all_actions.keys()), self.max_actions)
             return ret
 
         partitions = {s: [] for s in range(0, max_score + 1)}
@@ -272,14 +272,14 @@ class StateNAction(object):
             partitions[score] += [act]
 
         ret = []
-        left = max_actions
+        left = self.max_actions
         for s in range(max_score, 0, -1):
             sample_no = min(left, len(partitions[s]))
             left -= sample_no
             to_add = random.sample(partitions[s], sample_no)
             ret += to_add
-            if len(ret) > max_actions:
-                ret = ret[:max_actions]
+            if len(ret) > self.max_actions:
+                ret = ret[:self.max_actions]
                 break
         for dir in ['north', 'south', 'east', 'west']:
             ret.append('go ' + dir)

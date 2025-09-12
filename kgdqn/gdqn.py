@@ -30,7 +30,7 @@ class KGDQNTrainer(object):
     def __init__(self, game, params):
         self.device = params['device']
         self.num_episodes = params['num_episodes']
-        self.state = StateNAction()
+        self.state = StateNAction(params['max_actions'])
 
         self.update_freq = params['update_frequency']
         self.filename = 'kgdqn_' + '_'.join([str(v) for k, v in params.items() if 'file' not in str(k)])
@@ -98,6 +98,7 @@ class KGDQNTrainer(object):
         plt.plot(losses)
         plt.figtext(0.5, 0.01, self.filename, wrap=True, horizontalalignment='center', fontsize=12)
         fig.savefig('plots/' + self.filename + '_' + str(frame_idx) + '.png')
+        plt.close()
         #plt.show()
 
     def compute_td_loss(self):
