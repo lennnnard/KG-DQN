@@ -1,7 +1,7 @@
 torch==2.8.0
 matplotlib
 nltk 3.9.1(+ setup)
-(en-core-web-sm==3.8.0) -> should load automatically
+(en-core-web-sm==3.8.0) -> should load automatically when trying to play zork
 fuzzywuzzy-0.18.0
 levenshtein-0.27.1
 

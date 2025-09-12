@@ -5,19 +5,7 @@ import torch
 
 runs = 5
 max_steps = 1000
-epsilon = 0.2
-
-class KGDQNTester(object):
-
-    def __init__(self, game, params):
-        self.device = params['device']
-        self.num_episodes = params['num_episodes']
-        self.state = StateNAction(params['max_actions'])
-        self.update_freq = params['update_frequency']
-        self.filename = 'kgdqn_' + '_'.join([str(v) for k, v in params.items() if 'file' not in str(k)])
-
-
-
+epsilon = 0
 
 infos = textworld.EnvInfos(
     feedback=True,    # Response from the game after typing a text command.
@@ -29,6 +17,36 @@ infos = textworld.EnvInfos(
     policy_commands=True,
     verbs=True
 )
+
+
+class KGDQNTester(object):
+
+    def __init__(self, game, params):
+        self.device = params['device']
+        self.num_episodes = params['num_episodes']
+        self.state = StateNAction(params['max_actions'])
+        self.update_freq = params['update_frequency']
+        self.filename = ''
+        self.game = game
+
+        infos = textworld.EnvInfos(
+            feedback=True,    # Response from the game after typing a text command.
+            description=True, # Text describing the room the player is currently in.
+            inventory=True,    # Text describing the player's inventory.
+            intermediate_reward=True,
+            score=True,
+            admissible_commands=True,
+            policy_commands=True,
+            verbs=True
+        )
+
+        self.env = textworld.start(game, request_infos=infos)
+        self.params = params
+        
+        if params['replay_buffer_type'] == 'priority':
+            self.replay_buffer = GraphPriorityReplayBuffer(params['replay_buffer_size'])
+        elif params['replay_buffer_type'] == 'standard':
+            self.replay_buffer = GraphReplayBuffer(params['replay_buffer_size'])
 
 env = textworld.start("../small_game/small_game.ulx", request_infos=infos)
 

@@ -86,7 +86,7 @@ class WalkthroughDone(NameError):
 #         return action
 
 
-def test_agent(agent, game, out, max_step=1000, nb_episodes=5):
+def test_agent(agent, game, out, max_step=1000, nb_episodes=1):
     infos = textworld.EnvInfos(
         feedback=True,    # Response from the game after typing a text command.
         description=True, # Text describing the room the player is currently in.

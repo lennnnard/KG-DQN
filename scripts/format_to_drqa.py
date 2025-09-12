@@ -63,17 +63,17 @@ with open('./oracle.txt', 'r') as f:
 
 out_train = open('./cleaned_qa_train.json', 'w')
 out_dev = open('./cleaned_qa_dev.json', 'w')
-out_test = open('./cleaned_qa_test.json', 'w')
+#out_test = open('./cleaned_qa_test.json', 'w')
 
 llist = len(data_list)
 random.shuffle(data_list)
 
-data_train = {"data": data_list[:int(llist * 0.8)]}
-data_dev = {"data": data_list[int(llist * 0.8):int(llist * 0.9)]}
-data_test = {"data": data_list[int(llist * 0.9):]}
+data_train = {"data": data_list[:int(llist * 0.9)]}
+data_dev = {"data": data_list[int(llist * 0.9):]}#int(llist * 0.9)]}
+#data_test = {"data": data_list[int(llist * 0.9):]}
 
 json.dump(data_train, out_train)
 json.dump(data_dev, out_dev)
-json.dump(data_test, out_test)
+#json.dump(data_test, out_test)
 out_train.close()
 out_dev.close()
