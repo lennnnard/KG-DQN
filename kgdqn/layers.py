@@ -51,7 +51,7 @@ class GraphAttentionLayer(nn.Module):
 class EncoderLSTM(nn.Module):
 
     def __init__(self, vocab_size, embedding_size, hidden_size, padding_idx,
-                            dropout_ratio, embeddings, device, bidirectional=False, num_layers=2):
+                            dropout_ratio, embeddings, device, bidirectional=False, num_layers=1):
         super(EncoderLSTM, self).__init__()
         self.embedding_size = embedding_size
         self.hidden_size = hidden_size
