@@ -200,7 +200,7 @@ def generate_data(games, type):
                         # print(triple)
                         # print(sent,)
                         for tr in triple:
-                            h, r, t = tr['subject'], tr['relation'], tr['object']
+                            h, r, t = tr['subject'].lower(), tr['relation'].lower(), tr['object'].lower()
                             entities.add(h)
                             entities.add(t)
                             relations.add(r)
