@@ -18,41 +18,11 @@ infos = textworld.EnvInfos(
     verbs=True
 )
 
-
-class KGDQNTester(object):
-
-    def __init__(self, game, params):
-        self.device = params['device']
-        self.num_episodes = params['num_episodes']
-        self.state = StateNAction(params['max_actions'])
-        self.update_freq = params['update_frequency']
-        self.filename = ''
-        self.game = game
-
-        infos = textworld.EnvInfos(
-            feedback=True,    # Response from the game after typing a text command.
-            description=True, # Text describing the room the player is currently in.
-            inventory=True,    # Text describing the player's inventory.
-            intermediate_reward=True,
-            score=True,
-            admissible_commands=True,
-            policy_commands=True,
-            verbs=True
-        )
-
-        self.env = textworld.start(game, request_infos=infos)
-        self.params = params
-        
-        if params['replay_buffer_type'] == 'priority':
-            self.replay_buffer = GraphPriorityReplayBuffer(params['replay_buffer_size'])
-        elif params['replay_buffer_type'] == 'standard':
-            self.replay_buffer = GraphReplayBuffer(params['replay_buffer_size'])
-
 env = textworld.start("../small_game/small_game.ulx", request_infos=infos)
 
 ret = {}
 
-for i in range(99, 100):
+for i in range(30, 31):
 
     model_save = torch.load(f"./models/kgdqn_priority_100000_5000_1000_16_0.001_0.5_0.25_exponential_10000_0.2_0_5_0_100_0.2_100_100_384_False_True_20_True_True_1000_1_0_2_cpu_64_3_0.2_True_True_True_{i}.pt", weights_only=False)
     agent = model_save["model"]
@@ -68,6 +38,9 @@ for i in range(99, 100):
         state = env.reset()
 
         state_rep = StateNAction(model_save["params"]['max_actions'])
+        state_rep.vocab_drqa = model_save['vocab_drqa']
+        state_rep.vocab_kge = model_save['vocab_kge']
+        state_rep.all_actions = model_save['action_dict']
         state_rep.step(state.description, pruned=model_save["params"]['pruned'])
 
         previous_action = None
