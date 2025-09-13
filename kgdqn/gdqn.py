@@ -138,16 +138,16 @@ class KGDQNTrainer(object):
 
     def train(self):
         total_frames = 0
+        self.model.train()
+
         for e_idx in range(1, self.num_episodes + 1):
             print("Episode:", e_idx)
             logging.info("Episode:" + str(e_idx))
-            #self.env.enable_extra_info("description")
 
             state = self.env.reset()
+            self.state = StateNAction(self.params['max_actions'])
             self.state.step(state.description, pruned=self.params['pruned'])
-            self.model.train()
-            # print(state)
-
+            
             episode_reward = 0
             completion_steps = 0
             episode_done = False
@@ -159,7 +159,6 @@ class KGDQNTrainer(object):
 
                 action, picked = self.model.act(self.state, epsilon)
 
-
                 action_text = self.state.get_action_text(action)
                 logging.info('-------')
                 logging.info(self.state.visible_state)
@@ -167,12 +166,6 @@ class KGDQNTrainer(object):
                 logging.info(action_text)
 
                 next_state, score, done = self.env.step(action_text)
-                #if next_state.intermediate_reward == 0:
-                #    reward += -0.1
-                #else:
-                #    reward += next_state.intermediate_reward
-
-                # reward += next_state.intermediate_reward
                 reward = next_state.intermediate_reward
     
                 if reward != 0:
@@ -190,14 +183,12 @@ class KGDQNTrainer(object):
 
                 if done:
                     logging.warning("Done")
-
                     self.all_rewards.append(episode_reward)
                     self.completion_steps.append(completion_steps)
                     episode_reward = 0
                     completion_steps = 0
                     break
                 elif frame_idx == self.num_frames:
-
                     self.all_rewards.append(episode_reward)
                     self.completion_steps.append(completion_steps)
                     episode_reward = 0
@@ -213,7 +204,6 @@ class KGDQNTrainer(object):
                         loss = self.compute_td_loss()
                         self.losses.append(loss.item())
 
-                # """
             self.plot(e_idx, self.all_rewards, self.losses, self.completion_steps)
             if e_idx % 1 == 0:
                 logging.info("Episode:" + str(e_idx))
