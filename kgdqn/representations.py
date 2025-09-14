@@ -31,20 +31,23 @@ class StateNAction(object):
         self.vis_pruned_actions = []
         self.pruned_actions_rep = []
         self.vocab_drqa = self.load_vocab()
+
         self.rev_vocab_drqa = {v: k for k, v in self.vocab_drqa.items()}
         self.all_actions = self.load_action_dictionary()
 
         self.vocab_kge = self.load_vocab_kge()
+
         self.adj_matrix = np.zeros((len(self.vocab_kge['entity']), len(self.vocab_kge['entity'])))
         self.all_actions_rep = [self.get_action_rep_drqa(x) for x in list(self.all_actions.keys())]
         self.room = ""
 
-    def visualize(self):
+    def visualize(self, step):
         pos = nx.spring_layout(self.graph_state)
         edge_labels = {e: self.graph_state.edges[e]['rel'] for e in self.graph_state.edges}
         nx.draw_networkx_edge_labels(self.graph_state, pos, edge_labels)
         nx.draw(self.graph_state, pos=pos, with_labels=True, node_size=200, font_size=10)
-        plt.show()
+        plt.savefig(f"./state_plots/state{step}.png")
+        plt.close()
 
     def load_vocab_kge(self):
         ent = {}
@@ -263,7 +266,9 @@ class StateNAction(object):
         max_score = max([a[1] for a in sorted_scores])
 
         if max_score == 0:
-            ret = random.sample(list(self.all_actions.keys()), self.max_actions)
+            ret = random.sample(list(self.all_actions.keys()), self.max_actions-4)
+            for dir in ['north', 'south', 'east', 'west']:
+                ret.append('go ' + dir)
             return ret
 
         partitions = {s: [] for s in range(0, max_score + 1)}
@@ -273,13 +278,13 @@ class StateNAction(object):
 
         ret = []
         left = self.max_actions
-        for s in range(max_score, 0, -1):
+        for s in range(max_score, -1, -1):
             sample_no = min(left, len(partitions[s]))
             left -= sample_no
             to_add = random.sample(partitions[s], sample_no)
             ret += to_add
-            if len(ret) > self.max_actions:
-                ret = ret[:self.max_actions]
+            if len(ret) > self.max_actions-4:
+                ret = ret[:self.max_actions-4]
                 break
         for dir in ['north', 'south', 'east', 'west']:
             ret.append('go ' + dir)
