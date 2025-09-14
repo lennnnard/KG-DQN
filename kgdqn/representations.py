@@ -266,9 +266,7 @@ class StateNAction(object):
         max_score = max([a[1] for a in sorted_scores])
 
         if max_score == 0:
-            ret = random.sample(list(self.all_actions.keys()), self.max_actions-4)
-            for dir in ['north', 'south', 'east', 'west']:
-                ret.append('go ' + dir)
+            ret = random.sample(list(self.all_actions.keys()), self.max_actions)
             return ret
 
         partitions = {s: [] for s in range(0, max_score + 1)}
@@ -277,17 +275,23 @@ class StateNAction(object):
             partitions[score] += [act]
 
         ret = []
+        dirs = set(['go north', 'go south', 'go east', 'go west'])
+        dirs = set(self.all_actions.keys()).intersection(dirs)
+        print(dirs)
         left = self.max_actions
         for s in range(max_score, -1, -1):
             sample_no = min(left, len(partitions[s]))
             left -= sample_no
             to_add = random.sample(partitions[s], sample_no)
             ret += to_add
-            if len(ret) > self.max_actions-4:
-                ret = ret[:self.max_actions-4]
+            if len(ret) > self.max_actions:
+                ret = ret[:self.max_actions]
                 break
-        for dir in ['north', 'south', 'east', 'west']:
-            ret.append('go ' + dir)
+        dirs_missed = dirs.difference(set(ret))
+        if dirs_missed:
+            ret = ret[:-len(dirs_missed)]
+            ret += list(dirs_missed)
+        print(ret)
 
         return ret
 
