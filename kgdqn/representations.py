@@ -10,7 +10,7 @@ import random
 
 
 def call_stanford_openie(sentence):
-    url = "http://corenlp-server:9000/"
+    url = "http://localhost:9000/"
     querystring = {
         "properties": "%7B%22annotators%22%3A%20%22openie%22%7D",
         "pipelineLanguage": "en"}
@@ -277,7 +277,6 @@ class StateNAction(object):
         ret = []
         dirs = set(['go north', 'go south', 'go east', 'go west'])
         dirs = set(self.all_actions.keys()).intersection(dirs)
-        print(dirs)
         left = self.max_actions
         for s in range(max_score, -1, -1):
             sample_no = min(left, len(partitions[s]))
@@ -291,7 +290,6 @@ class StateNAction(object):
         if dirs_missed:
             ret = ret[:-len(dirs_missed)]
             ret += list(dirs_missed)
-        print(ret)
 
         return ret
 

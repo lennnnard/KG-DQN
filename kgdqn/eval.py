@@ -5,7 +5,7 @@ import torch
 
 runs = 5
 max_steps = 1000
-epsilon = 0
+epsilon = 0.1
 
 infos = textworld.EnvInfos(
     feedback=True,    # Response from the game after typing a text command.
@@ -22,12 +22,22 @@ env = textworld.start("../small_game/small_game.ulx", request_infos=infos)
 
 ret = {}
 
-for i in range(30, 31):
+for i in range(283, 301):
 
-    model_save = torch.load(f"./models/kgdqn_priority_100000_5000_1000_16_0.001_0.5_0.25_exponential_10000_0.2_0_5_0_100_0.2_100_100_384_False_True_20_True_True_1000_1_0_2_cpu_64_3_0.2_True_True_True_{i}.pt", weights_only=False)
-    agent = model_save["model"]
+    model_save = torch.load(f"./models/kgdqn_priority_100000_300_1000_16_0.001_0.5_0.25_exponential_10000_0.2_0_5_0_100_0.2_100_100_384_False_True_24_True_True_1000_1_0_2_cuda_64_3_0.2_True_True_True_{i}.pt", 
+        weights_only=False,
+        map_location=torch.device('cpu'),
+    )
+    model_save['params']['device'] = torch.device("cpu")
+    agent = model_save["model"].to("cpu")
+    agent.device=torch.device("cpu")
+    agent.action_drqa.device=torch.device("cpu")
+    agent.action_enc.device=torch.device("cpu")
+    agent.state_gat.device=torch.device("cpu")
+    agent.action_drqa.to("cpu")
+    agent.action_enc.to("cpu")
+    agent.state_gat.to("cpu")
     agent.eval()
-
     steps_needed = [0] * runs
     scores = [0] * runs
 
@@ -47,7 +57,7 @@ for i in range(30, 31):
         done = False
 
         while (steps_needed[j] < max_steps) and (not done):
-            print(f"Step: {steps_needed[j]}")
+            #print(f"Step: {steps_needed[j]}")
             action, picked = agent.act(state_rep, epsilon)
             action_text = state_rep.get_action_text(action)
             state, reward, done = env.step(action_text)
@@ -57,6 +67,9 @@ for i in range(30, 31):
             previous_action = action_text
 
     ret[f'model{i}'] = {'steps_needed': steps_needed, 'scores': scores}
+
+with open("eval.txt", "w", encoding="utf-8") as f:
+    f.write(str(ret))
 
 print(ret)
 
