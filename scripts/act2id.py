@@ -31,7 +31,7 @@ def main():
         step += 1
         game_state, reward, done = env.step(command)
 
-    all_commands = {command: idx for idx, command in enumerate(all_commands)}
+    all_commands = {command.lower(): idx for idx, command in enumerate(all_commands)}
 
     with open('./act2id.txt', 'w') as f:
         f.write(str(all_commands))

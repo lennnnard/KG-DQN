@@ -3,7 +3,7 @@ import subprocess
 
 def words_to_dict(input_file, output_file):
     with open(input_file, "r", encoding="utf-8") as f:
-        words = ['<UNK>', '<PAD>'] + [line.strip() for line in f if line.strip()]
+        words = ['<UNK>', '<PAD>'] + [line.strip().lower() for line in f if line.strip()]
     
     word_dict = {word: idx for idx, word in enumerate(words)}
     
