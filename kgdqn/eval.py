@@ -18,13 +18,13 @@ infos = textworld.EnvInfos(
     verbs=True
 )
 
-env = textworld.start("../small_game/small_game.ulx", request_infos=infos)
+env = textworld.start("../train_game/large_game.ulx", request_infos=infos)
 
 ret = {}
 
-for i in range(283, 301):
+for i in range(172, 201):
 
-    model_save = torch.load(f"./models/kgdqn_priority_100000_300_1000_16_0.001_0.5_0.25_exponential_10000_0.2_0_5_0_100_0.2_100_100_384_False_True_24_True_True_1000_1_0_2_cuda_64_3_0.2_True_True_True_{i}.pt", 
+    model_save = torch.load(f"./models/kgdqn_priority_100000_200_5000_16_0.001_0.5_0.25_exponential_10000_0.2_0_5_0_100_0.2_100_100_384_False_True_36_True_True_1000_1_0_2_cuda_64_3_0.2_True_True_True_{i}.pt", 
         weights_only=False,
         map_location=torch.device('cpu'),
     )
