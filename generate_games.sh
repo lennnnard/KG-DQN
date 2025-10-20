@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Number of runs
-runs=200
+runs=1
 
 # Output directory
-outdir="./drqa_games/"
+outdir="./small_games/"
 
 # Make sure output directory exists
 mkdir -p "$outdir"

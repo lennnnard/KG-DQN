@@ -15,314 +15,302 @@ food is edible.
 A room has a text called internal name.
 
 
-The r_0 and the r_4 and the r_1 and the r_5 and the r_7 and the r_9 and the r_2 and the r_3 and the r_6 and the r_8 are rooms.
+The r_0 and the r_2 and the r_4 and the r_3 and the r_5 and the r_6 and the r_7 and the r_8 and the r_1 and the r_9 are rooms.
 
-Understand "bedroom" as r_0.
-The internal name of r_0 is "bedroom".
-The printed name of r_0 is "-= Bedroom =-".
-The bedroom part 0 is some text that varies. The bedroom part 0 is "You are in a bedroom. An usual kind of place. You begin looking for stuff.
+Understand "kitchenette" as r_0.
+The internal name of r_0 is "kitchenette".
+The printed name of r_0 is "-= Kitchenette =-".
+The kitchenette part 0 is some text that varies. The kitchenette part 0 is "You've just sauntered into a kitchenette. You try to gain information on your surroundings by using a technique you call 'looking.'
 
- You see a type O locker.[if c_0 is open and there is something in the c_0] The type O locker contains [a list of things in the c_0]. Now why would someone leave that there?[end if]".
-The bedroom part 1 is some text that varies. The bedroom part 1 is "[if c_0 is open and the c_0 contains nothing] The type O locker is empty, what a horrible day![end if]".
-The bedroom part 2 is some text that varies. The bedroom part 2 is "
-
- There is [if d_1 is open]an open[otherwise]a closed[end if]".
-The bedroom part 3 is some text that varies. The bedroom part 3 is " gate leading east. There is [if d_3 is open]an open[otherwise]a closed[end if]".
-The bedroom part 4 is some text that varies. The bedroom part 4 is " portal leading west.".
-The description of r_0 is "[bedroom part 0][bedroom part 1][bedroom part 2][bedroom part 3][bedroom part 4]".
-
-west of r_0 and east of r_4 is a door called d_3.
-east of r_0 and west of r_1 is a door called d_1.
-Understand "playroom" as r_4.
-The internal name of r_4 is "playroom".
-The printed name of r_4 is "-= Playroom =-".
-The playroom part 0 is some text that varies. The playroom part 0 is "You're now in a playroom.
-
- You see [if c_1 is locked]a locked[else if c_1 is open]an opened[otherwise]a closed[end if]".
-The playroom part 1 is some text that varies. The playroom part 1 is " locker here.[if c_1 is open and there is something in the c_1] The locker contains [a list of things in the c_1].[end if]".
-The playroom part 2 is some text that varies. The playroom part 2 is "[if c_1 is open and the c_1 contains nothing] Empty! What kind of nightmare TextWorld is this?[end if]".
-The playroom part 3 is some text that varies. The playroom part 3 is "
-
- There is [if d_3 is open]an open[otherwise]a closed[end if]".
-The playroom part 4 is some text that varies. The playroom part 4 is " portal leading east. There is [if d_2 is open]an open[otherwise]a closed[end if]".
-The playroom part 5 is some text that varies. The playroom part 5 is " gateway leading north. You don't like doors? Why not try going west, that entranceway is unblocked.".
-The description of r_4 is "[playroom part 0][playroom part 1][playroom part 2][playroom part 3][playroom part 4][playroom part 5]".
-
-The r_5 is mapped west of r_4.
-north of r_4 and south of r_6 is a door called d_2.
-east of r_4 and west of r_0 is a door called d_3.
-Understand "cellar" as r_1.
-The internal name of r_1 is "cellar".
-The printed name of r_1 is "-= Cellar =-".
-The cellar part 0 is some text that varies. The cellar part 0 is "You've just walked into a cellar. You begin looking for stuff.
-
- You make out a crate.[if c_2 is open and there is something in the c_2] The crate contains [a list of things in the c_2].[end if]".
-The cellar part 1 is some text that varies. The cellar part 1 is "[if c_2 is open and the c_2 contains nothing] The crate is empty, what a horrible day![end if]".
-The cellar part 2 is some text that varies. The cellar part 2 is "
-
- There is [if d_0 is open]an open[otherwise]a closed[end if]".
-The cellar part 3 is some text that varies. The cellar part 3 is " door leading north. There is [if d_1 is open]an open[otherwise]a closed[end if]".
-The cellar part 4 is some text that varies. The cellar part 4 is " gate leading west.".
-The description of r_1 is "[cellar part 0][cellar part 1][cellar part 2][cellar part 3][cellar part 4]".
-
-west of r_1 and east of r_0 is a door called d_1.
-north of r_1 and south of r_2 is a door called d_0.
-Understand "dish-pit" as r_5.
-The internal name of r_5 is "dish-pit".
-The printed name of r_5 is "-= Dish-Pit =-".
-The dish-pit part 0 is some text that varies. The dish-pit part 0 is "You've entered a dish-pit. You begin to take stock of what's in the room.
-
- You see a fridge.[if c_3 is open and there is something in the c_3] The fridge contains [a list of things in the c_3].[end if]".
-The dish-pit part 1 is some text that varies. The dish-pit part 1 is "[if c_3 is open and the c_3 contains nothing] Empty! What kind of nightmare TextWorld is this?[end if]".
-The dish-pit part 2 is some text that varies. The dish-pit part 2 is "
-
-There is an unblocked exit to the east.".
-The description of r_5 is "[dish-pit part 0][dish-pit part 1][dish-pit part 2]".
-
-The r_4 is mapped east of r_5.
-Understand "shower" as r_7.
-The internal name of r_7 is "shower".
-The printed name of r_7 is "-= Shower =-".
-The shower part 0 is some text that varies. The shower part 0 is "You arrive in a shower. A normal one.
-
- You rest your hand against a wall, but you miss the wall and fall onto a dresser. There's something strange about this being here, but you can't put your finger on it.[if c_4 is open and there is something in the c_4] The dresser contains [a list of things in the c_4].[end if]".
-The shower part 1 is some text that varies. The shower part 1 is "[if c_4 is open and the c_4 contains nothing] The dresser is empty, what a horrible day![end if]".
-The shower part 2 is some text that varies. The shower part 2 is "
-
- There is [if d_4 is open]an open[otherwise]a closed[end if]".
-The shower part 3 is some text that varies. The shower part 3 is " hatch leading south. You need an unblocked exit? You should try going north. There is an exit to the west. Don't worry, it is unguarded.".
-The description of r_7 is "[shower part 0][shower part 1][shower part 2][shower part 3]".
-
-The r_9 is mapped west of r_7.
-south of r_7 and north of r_6 is a door called d_4.
-The r_8 is mapped north of r_7.
-Understand "laundry place" as r_9.
-The internal name of r_9 is "laundry place".
-The printed name of r_9 is "-= Laundry Place =-".
-The laundry place part 0 is some text that varies. The laundry place part 0 is "You've entered a laundry place.
-
- As if things weren't amazing enough already, you can even see a Henderson's style safe. You wonder idly who left that here.[if c_5 is open and there is something in the c_5] The Henderson's style safe contains [a list of things in the c_5], so there's that.[end if]".
-The laundry place part 1 is some text that varies. The laundry place part 1 is "[if c_5 is open and the c_5 contains nothing] The Henderson's style safe is empty! This is the worst thing that could possibly happen, ever![end if]".
-The laundry place part 2 is some text that varies. The laundry place part 2 is "
-
-There is an unguarded exit to the east.".
-The description of r_9 is "[laundry place part 0][laundry place part 1][laundry place part 2]".
-
-The r_7 is mapped east of r_9.
-Understand "closet" as r_2.
-The internal name of r_2 is "closet".
-The printed name of r_2 is "-= Closet =-".
-The closet part 0 is some text that varies. The closet part 0 is "You've just sauntered into a closet.
-
-
-
- There is [if d_0 is open]an open[otherwise]a closed[end if]".
-The closet part 1 is some text that varies. The closet part 1 is " door leading south. There is an exit to the north. Don't worry, it is unblocked.".
-The description of r_2 is "[closet part 0][closet part 1]".
-
-south of r_2 and north of r_1 is a door called d_0.
-The r_3 is mapped north of r_2.
-Understand "salon" as r_3.
-The internal name of r_3 is "salon".
-The printed name of r_3 is "-= Salon =-".
-The salon part 0 is some text that varies. The salon part 0 is "You're now in the salon. The room is well lit.
-
-
-
-You need an unblocked exit? You should try going south.".
-The description of r_3 is "[salon part 0]".
-
-The r_2 is mapped south of r_3.
-Understand "workshop" as r_6.
-The internal name of r_6 is "workshop".
-The printed name of r_6 is "-= Workshop =-".
-The workshop part 0 is some text that varies. The workshop part 0 is "You find yourself in a workshop. A standard one.
-
- You can make out a shelf. The shelf is typical.[if there is something on the s_0] On the shelf you can make out [a list of things on the s_0]. You shudder, but continue examining the room.[end if]".
-The workshop part 1 is some text that varies. The workshop part 1 is "[if there is nothing on the s_0] But the thing is empty.[end if]".
-The workshop part 2 is some text that varies. The workshop part 2 is "
+ Were you looking for a box? Because look over there, it's a box.[if c_0 is open and there is something in the c_0] The box contains [a list of things in the c_0].[end if]".
+The kitchenette part 1 is some text that varies. The kitchenette part 1 is "[if c_0 is open and the c_0 contains nothing] The box is empty, what a horrible day![end if]".
+The kitchenette part 2 is some text that varies. The kitchenette part 2 is " You can make out a chest.[if c_1 is open and there is something in the c_1] The chest contains [a list of things in the c_1].[end if]".
+The kitchenette part 3 is some text that varies. The kitchenette part 3 is "[if c_1 is open and the c_1 contains nothing] What a letdown! The chest is empty![end if]".
+The kitchenette part 4 is some text that varies. The kitchenette part 4 is "
 
  There is [if d_2 is open]an open[otherwise]a closed[end if]".
-The workshop part 3 is some text that varies. The workshop part 3 is " gateway leading south. There is [if d_4 is open]an open[otherwise]a closed[end if]".
-The workshop part 4 is some text that varies. The workshop part 4 is " hatch leading north.".
-The description of r_6 is "[workshop part 0][workshop part 1][workshop part 2][workshop part 3][workshop part 4]".
+The kitchenette part 5 is some text that varies. The kitchenette part 5 is " hatch leading west. There is an exit to the south. Don't worry, it is unguarded.".
+The description of r_0 is "[kitchenette part 0][kitchenette part 1][kitchenette part 2][kitchenette part 3][kitchenette part 4][kitchenette part 5]".
 
-south of r_6 and north of r_4 is a door called d_2.
-north of r_6 and south of r_7 is a door called d_4.
-Understand "study" as r_8.
-The internal name of r_8 is "study".
-The printed name of r_8 is "-= Study =-".
-The study part 0 is some text that varies. The study part 0 is "You arrive in a study. An ordinary one. I guess you better just go and list everything you see here.
+west of r_0 and east of r_2 is a door called d_2.
+The r_1 is mapped south of r_0.
+Understand "cubicle" as r_2.
+The internal name of r_2 is "cubicle".
+The printed name of r_2 is "-= Cubicle =-".
+The cubicle part 0 is some text that varies. The cubicle part 0 is "You've just sauntered into a cubicle.
 
- You make out a stand. You shudder, but continue examining the stand. The stand is typical.[if there is something on the s_1] On the stand you make out [a list of things on the s_1].[end if]".
-The study part 1 is some text that varies. The study part 1 is "[if there is nothing on the s_1] Looks like someone's already been here and taken everything off it, though.[end if]".
-The study part 2 is some text that varies. The study part 2 is "
+ [if c_2 is locked]A locked[else if c_2 is open]An open[otherwise]A closed[end if]".
+The cubicle part 1 is some text that varies. The cubicle part 1 is " safe is nearby.[if c_2 is open and there is something in the c_2] The safe contains [a list of things in the c_2].[end if]".
+The cubicle part 2 is some text that varies. The cubicle part 2 is "[if c_2 is open and the c_2 contains nothing] What a letdown! The safe is empty![end if]".
+The cubicle part 3 is some text that varies. The cubicle part 3 is " You can make out a mantle. What a coincidence, weren't you just thinking about a mantle? [if there is something on the s_1]On the mantle you make out [a list of things on the s_1].[end if]".
+The cubicle part 4 is some text that varies. The cubicle part 4 is "[if there is nothing on the s_1]The mantle appears to be empty.[end if]".
+The cubicle part 5 is some text that varies. The cubicle part 5 is "
 
-There is an exit to the south. Don't worry, it is unblocked.".
-The description of r_8 is "[study part 0][study part 1][study part 2]".
+ There is [if d_2 is open]an open[otherwise]a closed[end if]".
+The cubicle part 6 is some text that varies. The cubicle part 6 is " hatch leading east. There is [if d_1 is open]an open[otherwise]a closed[end if]".
+The cubicle part 7 is some text that varies. The cubicle part 7 is " door leading north.".
+The description of r_2 is "[cubicle part 0][cubicle part 1][cubicle part 2][cubicle part 3][cubicle part 4][cubicle part 5][cubicle part 6][cubicle part 7]".
 
-The r_7 is mapped south of r_8.
+north of r_2 and south of r_3 is a door called d_1.
+east of r_2 and west of r_0 is a door called d_2.
+Understand "steam room" as r_4.
+The internal name of r_4 is "steam room".
+The printed name of r_4 is "-= Steam Room =-".
+The steam room part 0 is some text that varies. The steam room part 0 is "You are in a steam room. You decide to start listing off everything you see in the room, as if you were in a text adventure.
 
-The c_0 and the c_1 and the c_2 and the c_3 and the c_4 and the c_5 are containers.
-The c_0 and the c_1 and the c_2 and the c_3 and the c_4 and the c_5 are privately-named.
-The d_1 and the d_3 and the d_0 and the d_2 and the d_4 are doors.
-The d_1 and the d_3 and the d_0 and the d_2 and the d_4 are privately-named.
-The f_0 and the f_4 and the f_1 and the f_2 and the f_3 and the f_5 and the f_6 are foods.
-The f_0 and the f_4 and the f_1 and the f_2 and the f_3 and the f_5 and the f_6 are privately-named.
-The k_2 and the k_0 and the k_1 are keys.
-The k_2 and the k_0 and the k_1 are privately-named.
-The o_0 and the o_1 are object-likes.
-The o_0 and the o_1 are privately-named.
-The r_0 and the r_4 and the r_1 and the r_5 and the r_7 and the r_9 and the r_2 and the r_3 and the r_6 and the r_8 are rooms.
-The r_0 and the r_4 and the r_1 and the r_5 and the r_7 and the r_9 and the r_2 and the r_3 and the r_6 and the r_8 are privately-named.
-The s_0 and the s_1 are supporters.
-The s_0 and the s_1 are privately-named.
+ You lean against the wall, inadvertently pressing a secret button. The wall opens up to reveal a shelf. What a coincidence, weren't you just thinking about a shelf? [if there is something on the s_2]On the shelf you can make out [a list of things on the s_2].[end if]".
+The steam room part 1 is some text that varies. The steam room part 1 is "[if there is nothing on the s_2]The shelf appears to be empty.[end if]".
+The steam room part 2 is some text that varies. The steam room part 2 is "
 
-The description of d_1 is "it is what it is, a gate [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
-The printed name of d_1 is "gate".
-Understand "gate" as d_1.
-The d_1 is locked.
-The description of d_3 is "The portal looks rugged. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
-The printed name of d_3 is "portal".
-Understand "portal" as d_3.
-The d_3 is closed.
-The description of d_0 is "The door looks robust. [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
-The printed name of d_0 is "door".
-Understand "door" as d_0.
-The d_0 is locked.
-The description of d_2 is "it is what it is, a gateway [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
-The printed name of d_2 is "gateway".
-Understand "gateway" as d_2.
-The d_2 is locked.
-The description of d_4 is "The hatch looks durable. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
-The printed name of d_4 is "hatch".
-Understand "hatch" as d_4.
-The d_4 is open.
-The description of c_0 is "The type O locker looks strong, and impossible to break. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
-The printed name of c_0 is "type O locker".
-Understand "type O locker" as c_0.
-Understand "type" as c_0.
-Understand "O" as c_0.
-Understand "locker" as c_0.
+You don't like doors? Why not try going north, that entranceway is unguarded. You don't like doors? Why not try going west, that entranceway is unguarded.".
+The description of r_4 is "[steam room part 0][steam room part 1][steam room part 2]".
+
+The r_3 is mapped west of r_4.
+The r_5 is mapped north of r_4.
+Understand "workshop" as r_3.
+The internal name of r_3 is "workshop".
+The printed name of r_3 is "-= Workshop =-".
+The workshop part 0 is some text that varies. The workshop part 0 is "You arrive in a workshop. An ordinary one.
+
+ You can see a portmanteau. There's something strange about this being here, but you can't put your finger on it.[if c_3 is open and there is something in the c_3] The portmanteau contains [a list of things in the c_3].[end if]".
+The workshop part 1 is some text that varies. The workshop part 1 is "[if c_3 is open and the c_3 contains nothing] The portmanteau is empty! This is the worst thing that could possibly happen, ever![end if]".
+The workshop part 2 is some text that varies. The workshop part 2 is " You see [if c_4 is locked]a locked[else if c_4 is open]an opened[otherwise]a closed[end if]".
+The workshop part 3 is some text that varies. The workshop part 3 is " locker.[if c_4 is open and there is something in the c_4] The locker contains [a list of things in the c_4].[end if]".
+The workshop part 4 is some text that varies. The workshop part 4 is "[if c_4 is open and the c_4 contains nothing] The locker is empty, what a horrible day![end if]".
+The workshop part 5 is some text that varies. The workshop part 5 is " You rest your hand against a wall, but you miss the wall and fall onto an armchair. I guess it's true what they say, if you're looking for an armchair, go to TextWorld. [if there is something on the s_3]On the armchair you can make out [a list of things on the s_3].[end if]".
+The workshop part 6 is some text that varies. The workshop part 6 is "[if there is nothing on the s_3]Looks like someone's already been here and taken everything off it, though. What, you think everything in TextWorld should have stuff on it?[end if]".
+The workshop part 7 is some text that varies. The workshop part 7 is "
+
+ There is [if d_1 is open]an open[otherwise]a closed[end if]".
+The workshop part 8 is some text that varies. The workshop part 8 is " door leading south. You don't like doors? Why not try going east, that entranceway is unblocked. There is an exit to the north. Don't worry, it is unguarded.".
+The description of r_3 is "[workshop part 0][workshop part 1][workshop part 2][workshop part 3][workshop part 4][workshop part 5][workshop part 6][workshop part 7][workshop part 8]".
+
+south of r_3 and north of r_2 is a door called d_1.
+The r_6 is mapped north of r_3.
+The r_4 is mapped east of r_3.
+Understand "vault" as r_5.
+The internal name of r_5 is "vault".
+The printed name of r_5 is "-= Vault =-".
+The vault part 0 is some text that varies. The vault part 0 is "I am stoked to announce that you are now in the vault.
+
+ You can see a display.[if c_5 is open and there is something in the c_5] The display contains [a list of things in the c_5]. There's something strange about this thing being here, but you don't have time to worry about that now.[end if]".
+The vault part 1 is some text that varies. The vault part 1 is "[if c_5 is open and the c_5 contains nothing] The display is empty! What a waste of a day![end if]".
+The vault part 2 is some text that varies. The vault part 2 is "
+
+ There is [if d_0 is open]an open[otherwise]a closed[end if]".
+The vault part 3 is some text that varies. The vault part 3 is " gate leading east. There is an exit to the south. Don't worry, it is unblocked. You need an unblocked exit? You should try going west.".
+The description of r_5 is "[vault part 0][vault part 1][vault part 2][vault part 3]".
+
+The r_6 is mapped west of r_5.
+The r_4 is mapped south of r_5.
+east of r_5 and west of r_7 is a door called d_0.
+Understand "kitchen" as r_6.
+The internal name of r_6 is "kitchen".
+The printed name of r_6 is "-= Kitchen =-".
+The kitchen part 0 is some text that varies. The kitchen part 0 is "You've just sauntered into a kitchen.
+
+
+
+You need an unguarded exit? You should try going east. There is an unblocked exit to the south.".
+The description of r_6 is "[kitchen part 0]".
+
+The r_3 is mapped south of r_6.
+The r_5 is mapped east of r_6.
+Understand "playroom" as r_7.
+The internal name of r_7 is "playroom".
+The printed name of r_7 is "-= Playroom =-".
+The playroom part 0 is some text that varies. The playroom part 0 is "You are in a playroom. It seems to be pretty normal here. You begin looking for stuff.
+
+ You can see [if c_6 is locked]a locked[else if c_6 is open]an opened[otherwise]a closed[end if]".
+The playroom part 1 is some text that varies. The playroom part 1 is " type 1 locker.[if c_6 is open and there is something in the c_6] The type 1 locker contains [a list of things in the c_6].[end if]".
+The playroom part 2 is some text that varies. The playroom part 2 is "[if c_6 is open and the c_6 contains nothing] The type 1 locker is empty, what a horrible day![end if]".
+The playroom part 3 is some text that varies. The playroom part 3 is "
+
+ There is [if d_0 is open]an open[otherwise]a closed[end if]".
+The playroom part 4 is some text that varies. The playroom part 4 is " gate leading west. You need an unblocked exit? You should try going east. There is an unguarded exit to the south.".
+The description of r_7 is "[playroom part 0][playroom part 1][playroom part 2][playroom part 3][playroom part 4]".
+
+west of r_7 and east of r_5 is a door called d_0.
+The r_9 is mapped south of r_7.
+The r_8 is mapped east of r_7.
+Understand "office" as r_8.
+The internal name of r_8 is "office".
+The printed name of r_8 is "-= Office =-".
+The office part 0 is some text that varies. The office part 0 is "You've entered an office. You decide to just list off a complete list of everything you see in the room, because hey, why not?
+
+
+
+You need an unblocked exit? You should try going west.".
+The description of r_8 is "[office part 0]".
+
+The r_7 is mapped west of r_8.
+Understand "scullery" as r_1.
+The internal name of r_1 is "scullery".
+The printed name of r_1 is "-= Scullery =-".
+The scullery part 0 is some text that varies. The scullery part 0 is "You arrive in a scullery.
+
+ You see a bowl. [if there is something on the s_0]On the bowl you can see [a list of things on the s_0].[end if]".
+The scullery part 1 is some text that varies. The scullery part 1 is "[if there is nothing on the s_0]But the thing hasn't got anything on it.[end if]".
+The scullery part 2 is some text that varies. The scullery part 2 is "
+
+There is an exit to the north. Don't worry, it is unblocked.".
+The description of r_1 is "[scullery part 0][scullery part 1][scullery part 2]".
+
+The r_0 is mapped north of r_1.
+Understand "bedchamber" as r_9.
+The internal name of r_9 is "bedchamber".
+The printed name of r_9 is "-= Bedchamber =-".
+The bedchamber part 0 is some text that varies. The bedchamber part 0 is "You find yourself in a bedchamber. A typical kind of place.
+
+ You can see a bed stand. You shudder, but continue examining the bed stand. The bed stand is typical.[if there is something on the s_4] On the bed stand you see [a list of things on the s_4]. You can't wait to tell the folks at home about this![end if]".
+The bedchamber part 1 is some text that varies. The bedchamber part 1 is "[if there is nothing on the s_4] But the thing hasn't got anything on it. Hm. Oh well[end if]".
+The bedchamber part 2 is some text that varies. The bedchamber part 2 is "
+
+You need an unblocked exit? You should try going north.".
+The description of r_9 is "[bedchamber part 0][bedchamber part 1][bedchamber part 2]".
+
+The r_7 is mapped north of r_9.
+
+The c_0 and the c_1 and the c_2 and the c_3 and the c_4 and the c_5 and the c_6 are containers.
+The c_0 and the c_1 and the c_2 and the c_3 and the c_4 and the c_5 and the c_6 are privately-named.
+The d_2 and the d_1 and the d_0 are doors.
+The d_2 and the d_1 and the d_0 are privately-named.
+The f_2 and the f_0 and the f_1 are foods.
+The f_2 and the f_0 and the f_1 are privately-named.
+The k_1 and the k_0 are keys.
+The k_1 and the k_0 are privately-named.
+The o_0 and the o_2 and the o_1 are object-likes.
+The o_0 and the o_2 and the o_1 are privately-named.
+The r_0 and the r_2 and the r_4 and the r_3 and the r_5 and the r_6 and the r_7 and the r_8 and the r_1 and the r_9 are rooms.
+The r_0 and the r_2 and the r_4 and the r_3 and the r_5 and the r_6 and the r_7 and the r_8 and the r_1 and the r_9 are privately-named.
+The s_0 and the s_1 and the s_2 and the s_3 and the s_4 are supporters.
+The s_0 and the s_1 and the s_2 and the s_3 and the s_4 are privately-named.
+
+The description of d_2 is "it's a rugged hatch [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
+The printed name of d_2 is "hatch".
+Understand "hatch" as d_2.
+The d_2 is open.
+The description of d_1 is "it is what it is, a door [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
+The printed name of d_1 is "door".
+Understand "door" as d_1.
+The d_1 is open.
+The description of d_0 is "it's an ominous gate [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
+The printed name of d_0 is "gate".
+Understand "gate" as d_0.
+The d_0 is closed.
+The description of c_0 is "The box looks strong, and impossible to destroy. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
+The printed name of c_0 is "box".
+Understand "box" as c_0.
 The c_0 is in r_0.
 The c_0 is locked.
-The description of c_1 is "The locker looks strong, and impossible to break. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
-The printed name of c_1 is "locker".
-Understand "locker" as c_1.
-The c_1 is in r_4.
-The c_1 is closed.
-The description of c_2 is "The crate looks strong, and impossible to break. [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
-The printed name of c_2 is "crate".
-Understand "crate" as c_2.
-The c_2 is in r_1.
+The description of c_1 is "The chest looks strong, and impossible to break. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
+The printed name of c_1 is "chest".
+Understand "chest" as c_1.
+The c_1 is in r_0.
+The c_1 is open.
+The description of c_2 is "The safe looks strong, and impossible to crack. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
+The printed name of c_2 is "safe".
+Understand "safe" as c_2.
+The c_2 is in r_2.
 The c_2 is open.
-The description of c_3 is "The fridge looks strong, and impossible to crack. [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
-The printed name of c_3 is "fridge".
-Understand "fridge" as c_3.
-The c_3 is in r_5.
+The description of c_3 is "The portmanteau looks strong, and impossible to crack. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
+The printed name of c_3 is "portmanteau".
+Understand "portmanteau" as c_3.
+The c_3 is in r_3.
 The c_3 is open.
-The description of c_4 is "The dresser looks strong, and impossible to crack. [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
-The printed name of c_4 is "dresser".
-Understand "dresser" as c_4.
-The c_4 is in r_7.
+The description of c_4 is "The locker looks strong, and impossible to crack. [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
+The printed name of c_4 is "locker".
+Understand "locker" as c_4.
+The c_4 is in r_3.
 The c_4 is closed.
-The description of c_5 is "The Henderson's style safe looks strong, and impossible to break. [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
-The printed name of c_5 is "Henderson's style safe".
-Understand "Henderson's style safe" as c_5.
-Understand "Henderson's" as c_5.
-Understand "style" as c_5.
-Understand "safe" as c_5.
-The c_5 is in r_9.
-The c_5 is closed.
-The description of f_0 is "The licorice strip looks tasty.".
-The printed name of f_0 is "licorice strip".
-Understand "licorice strip" as f_0.
-Understand "licorice" as f_0.
-Understand "strip" as f_0.
-The f_0 is in r_0.
+The description of c_5 is "The display looks strong, and impossible to crack. [if open]You can see inside it.[else if closed]You can't see inside it because the lid's in your way.[otherwise]There is a lock on it.[end if]".
+The printed name of c_5 is "display".
+Understand "display" as c_5.
+The c_5 is in r_5.
+The c_5 is locked.
+The description of c_6 is "The type 1 locker looks strong, and impossible to destroy. [if open]It is open.[else if closed]It is closed.[otherwise]It is locked.[end if]".
+The printed name of c_6 is "type 1 locker".
+Understand "type 1 locker" as c_6.
+Understand "type" as c_6.
+Understand "1" as c_6.
+Understand "locker" as c_6.
+The c_6 is in r_7.
+The c_6 is locked.
+The description of f_2 is "You couldn't pay me to eat that typical thing.".
+The printed name of f_2 is "durian".
+Understand "durian" as f_2.
+The f_2 is in r_9.
+The f_2 is edible.
+The description of k_1 is "The type 1 key looks useful".
+The printed name of k_1 is "type 1 key".
+Understand "type 1 key" as k_1.
+Understand "type" as k_1.
+Understand "1" as k_1.
+Understand "key" as k_1.
+The k_1 is in r_7.
+The matching key of the c_6 is the k_1.
+The description of s_0 is "The bowl is durable.".
+The printed name of s_0 is "bowl".
+Understand "bowl" as s_0.
+The s_0 is in r_1.
+The description of s_1 is "The mantle is solid.".
+The printed name of s_1 is "mantle".
+Understand "mantle" as s_1.
+The s_1 is in r_2.
+The description of s_2 is "The shelf is wobbly.".
+The printed name of s_2 is "shelf".
+Understand "shelf" as s_2.
+The s_2 is in r_4.
+The description of s_3 is "The armchair is reliable.".
+The printed name of s_3 is "armchair".
+Understand "armchair" as s_3.
+The s_3 is in r_3.
+The description of s_4 is "The bed stand is unstable.".
+The printed name of s_4 is "bed stand".
+Understand "bed stand" as s_4.
+Understand "bed" as s_4.
+Understand "stand" as s_4.
+The s_4 is in r_9.
+The description of f_0 is "that's a standard legume!".
+The printed name of f_0 is "legume".
+Understand "legume" as f_0.
 The f_0 is edible.
-The description of f_4 is "You couldn't pay me to eat that standard thing.".
-The printed name of f_4 is "legume".
-Understand "legume" as f_4.
-The f_4 is in r_3.
-The f_4 is edible.
-The description of k_2 is "The Henderson's style keycard is heavy.".
-The printed name of k_2 is "Henderson's style keycard".
-Understand "Henderson's style keycard" as k_2.
-Understand "Henderson's" as k_2.
-Understand "style" as k_2.
-Understand "keycard" as k_2.
-The k_2 is in r_9.
-The matching key of the c_5 is the k_2.
-The description of o_0 is "The cd is expensive looking.".
-The printed name of o_0 is "cd".
-Understand "cd" as o_0.
-The o_0 is in r_0.
-The description of s_0 is "The shelf is shaky.".
-The printed name of s_0 is "shelf".
-Understand "shelf" as s_0.
-The s_0 is in r_6.
-The description of s_1 is "The stand is solid.".
-The printed name of s_1 is "stand".
-Understand "stand" as s_1.
-The s_1 is in r_8.
-The description of f_1 is "The onion looks tantalizing.".
-The printed name of f_1 is "onion".
-Understand "onion" as f_1.
+The player carries the f_0.
+The description of f_1 is "The sandwich looks heavenly.".
+The printed name of f_1 is "sandwich".
+Understand "sandwich" as f_1.
 The f_1 is edible.
 The player carries the f_1.
-The description of f_2 is "The fondue looks delectable.".
-The printed name of f_2 is "fondue".
-Understand "fondue" as f_2.
-The f_2 is edible.
-The player carries the f_2.
-The description of f_3 is "You couldn't pay me to eat that normal thing.".
-The printed name of f_3 is "loaf of bread".
-Understand "loaf of bread" as f_3.
-Understand "loaf" as f_3.
-Understand "bread" as f_3.
-The f_3 is edible.
-The player carries the f_3.
-The description of f_5 is "You couldn't pay me to eat that normal thing.".
-The printed name of f_5 is "apple".
-Understand "apple" as f_5.
-The f_5 is edible.
-The player carries the f_5.
-The description of f_6 is "The salad looks tempting.".
-The printed name of f_6 is "salad".
-Understand "salad" as f_6.
-The f_6 is edible.
-The player carries the f_6.
-The description of k_0 is "The key looks useful".
-The printed name of k_0 is "key".
-Understand "key" as k_0.
-The k_0 is in the c_0.
-The matching key of the d_1 is the k_0.
-The description of k_1 is "The type O latchkey is heavy.".
-The printed name of k_1 is "type O latchkey".
-Understand "type O latchkey" as k_1.
-Understand "type" as k_1.
-Understand "O" as k_1.
-Understand "latchkey" as k_1.
-The player carries the k_1.
-The matching key of the c_0 is the k_1.
-The description of o_1 is "The bug is expensive looking.".
-The printed name of o_1 is "bug".
-Understand "bug" as o_1.
-The player carries the o_1.
+The description of o_0 is "The glass appears to be to fit in here".
+The printed name of o_0 is "glass".
+Understand "glass" as o_0.
+The o_0 is in the c_0.
+The description of o_2 is "The sock would seem to be out of place here".
+The printed name of o_2 is "sock".
+Understand "sock" as o_2.
+The player carries the o_2.
+The description of k_0 is "The latchkey looks useful".
+The printed name of k_0 is "latchkey".
+Understand "latchkey" as k_0.
+The matching key of the c_0 is the k_0.
+The k_0 is on the s_0.
+The description of o_1 is "The insect is expensive looking.".
+The printed name of o_1 is "insect".
+Understand "insect" as o_1.
+The o_1 is on the s_1.
 
 
-The player is in r_0.
+The player is in r_1.
 
 The quest0 completed is a truth state that varies.
 The quest0 completed is usually false.
 
-Test quest0_0 with "unlock type O locker with type O latchkey / open type O locker / take key from type O locker / unlock gate with key / open gate"
+Test quest0_0 with "take latchkey from bowl / go north / unlock box with latchkey / open box / take glass from box"
 
 Every turn:
 	if quest0 completed is true:
 		do nothing;
-	else if The player is in r_0 and The d_1 is open:
+	else if The player is in r_0 and The c_0 is in r_0 and The c_0 is open and The player carries the o_0:
 		increase the score by 1; [Quest completed]
 		if 1 is 1 [always true]:
 			Now the quest0 completed is true;
@@ -505,11 +493,10 @@ The last property-aggregation rule (this is the print aggregated properties rule
 		rule succeeds;
 	rule fails;
 
-The objective part 0 is some text that varies. The objective part 0 is "Hey, thanks for coming over to the TextWorld today, there is something I need you to do for me. First, it would be a great idea if you could check that the type O locker inside the bedroom is unlocked".
-The objective part 1 is some text that varies. The objective part 1 is " with the type O latchkey. Then, make absolutely sure that the type O locker in the bedroom is opened. Once you have opened the type O locker, retrieve the key from the type O locker inside the bedroo".
-The objective part 2 is some text that varies. The objective part 2 is "m. If you have taken the key, doublecheck that the gate is unlocked with the key. Then, ensure that the gate is open. Got that? Good!".
+The objective part 0 is some text that varies. The objective part 0 is "Get ready to pick stuff up and put it in places, because you've just entered TextWorld! First thing I need you to do is to take the latchkey from the bowl inside the scullery. After that, venture nort".
+The objective part 1 is some text that varies. The objective part 1 is "h. Then, unlock the box in the kitchenette with the latchkey. After that, make it so that the box is ajar. Then, take the glass from the box in the kitchenette. And once you've done that, you win!".
 
-An objective is some text that varies. The objective is "[objective part 0][objective part 1][objective part 2]".
+An objective is some text that varies. The objective is "[objective part 0][objective part 1]".
 Printing the objective is an action applying to nothing.
 Carry out printing the objective:
 	say "[objective]".

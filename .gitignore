@@ -12,7 +12,7 @@ dqn/save/
 kgdqn/models/
 kgdqn/logs/
 kgdqn/plots/
-#kgdqn/initialize/
+kgdqn/initialize/
 kgdqn/neurips
 #*.pt
 #*.json

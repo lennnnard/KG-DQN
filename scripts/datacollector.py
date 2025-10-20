@@ -21,6 +21,7 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=1):
 
     env = textworld.start(game, request_infos=infos)
 
+    acts = set()
     for no_episode in range(nb_episodes):
         agent.reset(env)
         game_state = env.reset()
@@ -35,6 +36,7 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=1):
 
             out.write(game_state.description)
             out.write("Actions: " + str(game_state.admissible_commands) + '\n')
+            acts.update(game_state.admissible_commands)
             out.write("Taken action:" + str(command))
             out.write('\n' + "---------" + '\n')
             game_state, reward, done = env.step(command)
@@ -43,6 +45,7 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=1):
                 break
 
     env.close()
+    return acts
 
 def call_stanford_openie(sentence):
     url = "http://localhost:9000/"
@@ -56,10 +59,11 @@ def call_stanford_openie(sentence):
 def generate_data(games, type):
         if type == 'collect':
             out = open("./random.txt", 'w')
+            acts = set()
             for idx, g in enumerate(games):
                 print(f"Running agents for game {idx}")
-                test_agent(WalkthroughAgent(), game=g, out=out)
-                test_agent(RandomCommandAgent(), game=g, out=out, nb_episodes=5)
+                acts.update(test_agent(WalkthroughAgent(), game=g, out=out))
+                acts.update(test_agent(RandomCommandAgent(), game=g, out=out, nb_episodes=5))
             out.close()
 
             print("Cleaning random.txt")
@@ -100,6 +104,10 @@ def generate_data(games, type):
                             relations.add(r)
                 except:
                     print("OpenIE error")
+
+            act_out = open('./act2id.txt', 'w')
+            act_out.write(str({k: i for i, k in enumerate(acts)}))
+            act_out.close()
 
             ent_out = open('./entity2id.tsv', 'w')
             rel_out = open('./relation2id.tsv', 'w')
