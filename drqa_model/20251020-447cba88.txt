@@ -1,0 +1,293 @@
+10/20/2025 10:30:53 PM: [ COMMAND: scripts/reader/train.py --data-dir data/datasets/ --train-file cleaned_qa_train-processed-corenlp.txt --dev-file cleaned_qa_dev-processed-corenlp.txt --dev-json cleaned_qa_dev.json --embed-dir data/embeddings --embedding-file glove.6B.100d.txt --use-qemb 0 --use-in-question 0 --use-pos 0 --use-ner 0 --use-lemma 0 --use-tf 0 ]
+10/20/2025 10:30:53 PM: [ ---------------------------------------------------------------------------------------------------- ]
+10/20/2025 10:30:53 PM: [ Load data files ]
+10/20/2025 10:30:53 PM: [ Num train examples = 797 ]
+10/20/2025 10:30:53 PM: [ Num dev examples = 100 ]
+10/20/2025 10:30:53 PM: [ ---------------------------------------------------------------------------------------------------- ]
+10/20/2025 10:30:53 PM: [ Training model from scratch... ]
+10/20/2025 10:30:53 PM: [ ---------------------------------------------------------------------------------------------------- ]
+10/20/2025 10:30:53 PM: [ Generate features ]
+10/20/2025 10:30:53 PM: [ Num features = 0 ]
+10/20/2025 10:30:53 PM: [ {} ]
+10/20/2025 10:30:53 PM: [ ---------------------------------------------------------------------------------------------------- ]
+10/20/2025 10:30:53 PM: [ Build dictionary ]
+10/20/2025 10:30:53 PM: [ Restricting to words in data/embeddings/glove.6B.100d.txt ]
+10/20/2025 10:30:55 PM: [ Num words in set = 400000 ]
+10/20/2025 10:30:55 PM: [ Num words = 675 ]
+10/20/2025 10:30:55 PM: [ Loading pre-trained embeddings for 673 words from data/embeddings/glove.6B.100d.txt ]
+10/20/2025 10:30:57 PM: [ Loaded 673 embeddings (100.00%) ]
+10/20/2025 10:31:00 PM: [ ---------------------------------------------------------------------------------------------------- ]
+10/20/2025 10:31:00 PM: [ Make data loaders ]
+10/20/2025 10:31:00 PM: [ ---------------------------------------------------------------------------------------------------- ]
+10/20/2025 10:31:00 PM: [ CONFIG:
+{
+    "batch_size": 32,
+    "checkpoint": false,
+    "concat_rnn_layers": true,
+    "cuda": true,
+    "data_dir": "data/datasets/",
+    "data_workers": 5,
+    "dev_file": "data/datasets/cleaned_qa_dev-processed-corenlp.txt",
+    "dev_json": "data/datasets/cleaned_qa_dev.json",
+    "display_iter": 25,
+    "doc_layers": 3,
+    "dropout_emb": 0.4,
+    "dropout_rnn": 0.2,
+    "dropout_rnn_output": true,
+    "embed_dir": "data/embeddings",
+    "embedding_dim": 100,
+    "embedding_file": "data/embeddings/glove.6B.100d.txt",
+    "expand_dictionary": false,
+    "fix_embeddings": true,
+    "gpu": -1,
+    "grad_clipping": 10,
+    "hidden_size": 64,
+    "learning_rate": 0.1,
+    "log_file": "/tmp/drqa-models/20251020-447cba88.txt",
+    "max_len": 15,
+    "model_dir": "/tmp/drqa-models/",
+    "model_file": "/tmp/drqa-models/20251020-447cba88.mdl",
+    "model_name": "20251020-447cba88",
+    "model_type": "rnn",
+    "momentum": 0,
+    "no_cuda": false,
+    "num_epochs": 40,
+    "official_eval": true,
+    "optimizer": "adamax",
+    "parallel": false,
+    "pretrained": "",
+    "question_layers": 3,
+    "question_merge": "self_attn",
+    "random_seed": 1013,
+    "restrict_vocab": true,
+    "rnn_padding": true,
+    "rnn_type": "lstm",
+    "sort_by_len": true,
+    "test_batch_size": 128,
+    "train_file": "data/datasets/cleaned_qa_train-processed-corenlp.txt",
+    "tune_partial": 0,
+    "uncased_doc": false,
+    "uncased_question": false,
+    "use_in_question": false,
+    "use_lemma": false,
+    "use_ner": false,
+    "use_pos": false,
+    "use_qemb": false,
+    "use_tf": false,
+    "valid_metric": "f1",
+    "weight_decay": 0
+} ]
+10/20/2025 10:31:00 PM: [ ---------------------------------------------------------------------------------------------------- ]
+10/20/2025 10:31:00 PM: [ Starting training... ]
+10/20/2025 10:31:01 PM: [ train: Epoch = 0 | iter = 0/25 | loss = 9.19 | elapsed time = 0.65 (s) ]
+10/20/2025 10:31:03 PM: [ train: Epoch 0 done. Time for epoch = 2.67 (s) ]
+10/20/2025 10:31:04 PM: [ train valid unofficial: Epoch = 0 | start = 26.10 | end = 25.47 | exact = 22.33 | examples = 797 | valid time = 1.47 (s) ]
+10/20/2025 10:31:05 PM: [ dev valid unofficial: Epoch = 0 | start = 22.00 | end = 23.00 | exact = 20.00 | examples = 100 | valid time = 0.68 (s) ]
+10/20/2025 10:31:06 PM: [ dev valid official: Epoch = 0 | EM = 20.00 | F1 = 35.71 | examples = 100 | valid time = 0.64 (s) ]
+10/20/2025 10:31:06 PM: [ Best valid: f1 = 35.71 (epoch 0, 25 updates) ]
+10/20/2025 10:31:06 PM: [ train: Epoch = 1 | iter = 0/25 | loss = 6.59 | elapsed time = 5.94 (s) ]
+10/20/2025 10:31:08 PM: [ train: Epoch 1 done. Time for epoch = 2.38 (s) ]
+10/20/2025 10:31:09 PM: [ train valid unofficial: Epoch = 1 | start = 26.35 | end = 28.48 | exact = 23.59 | examples = 797 | valid time = 1.42 (s) ]
+10/20/2025 10:31:10 PM: [ dev valid unofficial: Epoch = 1 | start = 26.00 | end = 26.00 | exact = 24.00 | examples = 100 | valid time = 0.66 (s) ]
+10/20/2025 10:31:11 PM: [ dev valid official: Epoch = 1 | EM = 25.00 | F1 = 39.33 | examples = 100 | valid time = 0.74 (s) ]
+10/20/2025 10:31:11 PM: [ Best valid: f1 = 39.33 (epoch 1, 50 updates) ]
+10/20/2025 10:31:11 PM: [ train: Epoch = 2 | iter = 0/25 | loss = 5.26 | elapsed time = 11.20 (s) ]
+10/20/2025 10:31:13 PM: [ train: Epoch 2 done. Time for epoch = 2.62 (s) ]
+10/20/2025 10:31:15 PM: [ train valid unofficial: Epoch = 2 | start = 28.48 | end = 28.98 | exact = 25.35 | examples = 797 | valid time = 1.45 (s) ]
+10/20/2025 10:31:16 PM: [ dev valid unofficial: Epoch = 2 | start = 27.00 | end = 29.00 | exact = 26.00 | examples = 100 | valid time = 0.71 (s) ]
+10/20/2025 10:31:17 PM: [ dev valid official: Epoch = 2 | EM = 26.00 | F1 = 39.20 | examples = 100 | valid time = 0.92 (s) ]
+10/20/2025 10:31:17 PM: [ train: Epoch = 3 | iter = 0/25 | loss = 4.67 | elapsed time = 16.86 (s) ]
+10/20/2025 10:31:19 PM: [ train: Epoch 3 done. Time for epoch = 2.45 (s) ]
+10/20/2025 10:31:20 PM: [ train valid unofficial: Epoch = 3 | start = 34.38 | end = 34.13 | exact = 29.61 | examples = 797 | valid time = 1.35 (s) ]
+10/20/2025 10:31:21 PM: [ dev valid unofficial: Epoch = 3 | start = 32.00 | end = 34.00 | exact = 30.00 | examples = 100 | valid time = 0.66 (s) ]
+10/20/2025 10:31:22 PM: [ dev valid official: Epoch = 3 | EM = 30.00 | F1 = 43.16 | examples = 100 | valid time = 0.76 (s) ]
+10/20/2025 10:31:22 PM: [ Best valid: f1 = 43.16 (epoch 3, 100 updates) ]
+10/20/2025 10:31:22 PM: [ train: Epoch = 4 | iter = 0/25 | loss = 4.37 | elapsed time = 22.11 (s) ]
+10/20/2025 10:31:24 PM: [ train: Epoch 4 done. Time for epoch = 2.52 (s) ]
+10/20/2025 10:31:26 PM: [ train valid unofficial: Epoch = 4 | start = 35.76 | end = 35.26 | exact = 31.74 | examples = 797 | valid time = 1.35 (s) ]
+10/20/2025 10:31:26 PM: [ dev valid unofficial: Epoch = 4 | start = 31.00 | end = 32.00 | exact = 30.00 | examples = 100 | valid time = 0.65 (s) ]
+10/20/2025 10:31:27 PM: [ dev valid official: Epoch = 4 | EM = 30.00 | F1 = 40.60 | examples = 100 | valid time = 0.75 (s) ]
+10/20/2025 10:31:28 PM: [ train: Epoch = 5 | iter = 0/25 | loss = 4.04 | elapsed time = 27.38 (s) ]
+10/20/2025 10:31:30 PM: [ train: Epoch 5 done. Time for epoch = 2.66 (s) ]
+10/20/2025 10:31:31 PM: [ train valid unofficial: Epoch = 5 | start = 34.76 | end = 35.13 | exact = 32.75 | examples = 797 | valid time = 1.80 (s) ]
+10/20/2025 10:31:32 PM: [ dev valid unofficial: Epoch = 5 | start = 33.00 | end = 33.00 | exact = 32.00 | examples = 100 | valid time = 0.73 (s) ]
+10/20/2025 10:31:33 PM: [ dev valid official: Epoch = 5 | EM = 32.00 | F1 = 41.39 | examples = 100 | valid time = 0.66 (s) ]
+10/20/2025 10:31:33 PM: [ train: Epoch = 6 | iter = 0/25 | loss = 4.51 | elapsed time = 33.29 (s) ]
+10/20/2025 10:31:36 PM: [ train: Epoch 6 done. Time for epoch = 2.78 (s) ]
+10/20/2025 10:31:37 PM: [ train valid unofficial: Epoch = 6 | start = 36.76 | end = 37.14 | exact = 33.63 | examples = 797 | valid time = 1.52 (s) ]
+10/20/2025 10:31:38 PM: [ dev valid unofficial: Epoch = 6 | start = 37.00 | end = 36.00 | exact = 34.00 | examples = 100 | valid time = 0.89 (s) ]
+10/20/2025 10:31:39 PM: [ dev valid official: Epoch = 6 | EM = 34.00 | F1 = 43.44 | examples = 100 | valid time = 0.94 (s) ]
+10/20/2025 10:31:39 PM: [ Best valid: f1 = 43.44 (epoch 6, 175 updates) ]
+10/20/2025 10:31:39 PM: [ train: Epoch = 7 | iter = 0/25 | loss = 5.07 | elapsed time = 39.35 (s) ]
+10/20/2025 10:31:41 PM: [ train: Epoch 7 done. Time for epoch = 2.35 (s) ]
+10/20/2025 10:31:43 PM: [ train valid unofficial: Epoch = 7 | start = 39.02 | end = 38.77 | exact = 34.76 | examples = 797 | valid time = 1.57 (s) ]
+10/20/2025 10:31:44 PM: [ dev valid unofficial: Epoch = 7 | start = 43.00 | end = 40.00 | exact = 38.00 | examples = 100 | valid time = 0.76 (s) ]
+10/20/2025 10:31:44 PM: [ dev valid official: Epoch = 7 | EM = 38.00 | F1 = 50.44 | examples = 100 | valid time = 0.74 (s) ]
+10/20/2025 10:31:44 PM: [ Best valid: f1 = 50.44 (epoch 7, 200 updates) ]
+10/20/2025 10:31:45 PM: [ train: Epoch = 8 | iter = 0/25 | loss = 3.36 | elapsed time = 44.84 (s) ]
+10/20/2025 10:31:47 PM: [ train: Epoch 8 done. Time for epoch = 2.56 (s) ]
+10/20/2025 10:31:49 PM: [ train valid unofficial: Epoch = 8 | start = 38.39 | end = 39.40 | exact = 37.39 | examples = 797 | valid time = 1.59 (s) ]
+10/20/2025 10:31:49 PM: [ dev valid unofficial: Epoch = 8 | start = 40.00 | end = 38.00 | exact = 37.00 | examples = 100 | valid time = 0.78 (s) ]
+10/20/2025 10:31:50 PM: [ dev valid official: Epoch = 8 | EM = 37.00 | F1 = 45.63 | examples = 100 | valid time = 0.77 (s) ]
+10/20/2025 10:31:51 PM: [ train: Epoch = 9 | iter = 0/25 | loss = 3.22 | elapsed time = 50.54 (s) ]
+10/20/2025 10:31:53 PM: [ train: Epoch 9 done. Time for epoch = 2.63 (s) ]
+10/20/2025 10:31:55 PM: [ train valid unofficial: Epoch = 9 | start = 42.41 | end = 41.66 | exact = 39.77 | examples = 797 | valid time = 2.02 (s) ]
+10/20/2025 10:31:56 PM: [ dev valid unofficial: Epoch = 9 | start = 42.00 | end = 42.00 | exact = 40.00 | examples = 100 | valid time = 0.75 (s) ]
+10/20/2025 10:31:56 PM: [ dev valid official: Epoch = 9 | EM = 40.00 | F1 = 50.70 | examples = 100 | valid time = 0.88 (s) ]
+10/20/2025 10:31:56 PM: [ Best valid: f1 = 50.70 (epoch 9, 250 updates) ]
+10/20/2025 10:31:57 PM: [ train: Epoch = 10 | iter = 0/25 | loss = 3.16 | elapsed time = 57.10 (s) ]
+10/20/2025 10:32:00 PM: [ train: Epoch 10 done. Time for epoch = 3.10 (s) ]
+10/20/2025 10:32:01 PM: [ train valid unofficial: Epoch = 10 | start = 40.03 | end = 40.65 | exact = 37.64 | examples = 797 | valid time = 1.73 (s) ]
+10/20/2025 10:32:02 PM: [ dev valid unofficial: Epoch = 10 | start = 39.00 | end = 37.00 | exact = 35.00 | examples = 100 | valid time = 0.73 (s) ]
+10/20/2025 10:32:03 PM: [ dev valid official: Epoch = 10 | EM = 35.00 | F1 = 46.42 | examples = 100 | valid time = 0.77 (s) ]
+10/20/2025 10:32:04 PM: [ train: Epoch = 11 | iter = 0/25 | loss = 5.58 | elapsed time = 63.43 (s) ]
+10/20/2025 10:32:06 PM: [ train: Epoch 11 done. Time for epoch = 3.20 (s) ]
+10/20/2025 10:32:08 PM: [ train valid unofficial: Epoch = 11 | start = 44.17 | end = 43.29 | exact = 35.26 | examples = 797 | valid time = 1.86 (s) ]
+10/20/2025 10:32:08 PM: [ dev valid unofficial: Epoch = 11 | start = 43.00 | end = 41.00 | exact = 36.00 | examples = 100 | valid time = 0.61 (s) ]
+10/20/2025 10:32:09 PM: [ dev valid official: Epoch = 11 | EM = 36.00 | F1 = 50.28 | examples = 100 | valid time = 0.85 (s) ]
+10/20/2025 10:32:10 PM: [ train: Epoch = 12 | iter = 0/25 | loss = 2.67 | elapsed time = 69.62 (s) ]
+10/20/2025 10:32:12 PM: [ train: Epoch 12 done. Time for epoch = 2.90 (s) ]
+10/20/2025 10:32:14 PM: [ train valid unofficial: Epoch = 12 | start = 44.67 | end = 44.92 | exact = 39.90 | examples = 797 | valid time = 2.11 (s) ]
+10/20/2025 10:32:15 PM: [ dev valid unofficial: Epoch = 12 | start = 44.00 | end = 43.00 | exact = 38.00 | examples = 100 | valid time = 1.05 (s) ]
+10/20/2025 10:32:16 PM: [ dev valid official: Epoch = 12 | EM = 38.00 | F1 = 52.39 | examples = 100 | valid time = 1.10 (s) ]
+10/20/2025 10:32:16 PM: [ Best valid: f1 = 52.39 (epoch 12, 325 updates) ]
+10/20/2025 10:32:17 PM: [ train: Epoch = 13 | iter = 0/25 | loss = 3.32 | elapsed time = 77.10 (s) ]
+10/20/2025 10:32:19 PM: [ train: Epoch 13 done. Time for epoch = 2.99 (s) ]
+10/20/2025 10:32:22 PM: [ train valid unofficial: Epoch = 13 | start = 46.17 | end = 46.42 | exact = 43.66 | examples = 797 | valid time = 2.25 (s) ]
+10/20/2025 10:32:22 PM: [ dev valid unofficial: Epoch = 13 | start = 43.00 | end = 41.00 | exact = 39.00 | examples = 100 | valid time = 0.79 (s) ]
+10/20/2025 10:32:23 PM: [ dev valid official: Epoch = 13 | EM = 39.00 | F1 = 52.21 | examples = 100 | valid time = 0.61 (s) ]
+10/20/2025 10:32:24 PM: [ train: Epoch = 14 | iter = 0/25 | loss = 4.54 | elapsed time = 83.60 (s) ]
+10/20/2025 10:32:26 PM: [ train: Epoch 14 done. Time for epoch = 2.87 (s) ]
+10/20/2025 10:32:28 PM: [ train valid unofficial: Epoch = 14 | start = 47.43 | end = 47.93 | exact = 44.79 | examples = 797 | valid time = 2.16 (s) ]
+10/20/2025 10:32:29 PM: [ dev valid unofficial: Epoch = 14 | start = 47.00 | end = 47.00 | exact = 45.00 | examples = 100 | valid time = 1.14 (s) ]
+10/20/2025 10:32:30 PM: [ dev valid official: Epoch = 14 | EM = 45.00 | F1 = 55.23 | examples = 100 | valid time = 1.10 (s) ]
+10/20/2025 10:32:30 PM: [ Best valid: f1 = 55.23 (epoch 14, 375 updates) ]
+10/20/2025 10:32:31 PM: [ train: Epoch = 15 | iter = 0/25 | loss = 2.96 | elapsed time = 91.04 (s) ]
+10/20/2025 10:32:34 PM: [ train: Epoch 15 done. Time for epoch = 3.20 (s) ]
+10/20/2025 10:32:36 PM: [ train valid unofficial: Epoch = 15 | start = 44.67 | end = 44.17 | exact = 38.64 | examples = 797 | valid time = 2.04 (s) ]
+10/20/2025 10:32:37 PM: [ dev valid unofficial: Epoch = 15 | start = 42.00 | end = 40.00 | exact = 36.00 | examples = 100 | valid time = 1.09 (s) ]
+10/20/2025 10:32:38 PM: [ dev valid official: Epoch = 15 | EM = 36.00 | F1 = 50.45 | examples = 100 | valid time = 0.82 (s) ]
+10/20/2025 10:32:38 PM: [ train: Epoch = 16 | iter = 0/25 | loss = 3.93 | elapsed time = 97.86 (s) ]
+10/20/2025 10:32:40 PM: [ train: Epoch 16 done. Time for epoch = 2.75 (s) ]
+10/20/2025 10:32:42 PM: [ train valid unofficial: Epoch = 16 | start = 46.42 | end = 46.05 | exact = 41.41 | examples = 797 | valid time = 1.67 (s) ]
+10/20/2025 10:32:43 PM: [ dev valid unofficial: Epoch = 16 | start = 42.00 | end = 39.00 | exact = 36.00 | examples = 100 | valid time = 0.66 (s) ]
+10/20/2025 10:32:43 PM: [ dev valid official: Epoch = 16 | EM = 36.00 | F1 = 51.15 | examples = 100 | valid time = 0.64 (s) ]
+10/20/2025 10:32:44 PM: [ train: Epoch = 17 | iter = 0/25 | loss = 3.31 | elapsed time = 103.58 (s) ]
+10/20/2025 10:32:46 PM: [ train: Epoch 17 done. Time for epoch = 2.84 (s) ]
+10/20/2025 10:32:48 PM: [ train valid unofficial: Epoch = 17 | start = 46.42 | end = 46.55 | exact = 44.29 | examples = 797 | valid time = 1.68 (s) ]
+10/20/2025 10:32:48 PM: [ dev valid unofficial: Epoch = 17 | start = 45.00 | end = 44.00 | exact = 42.00 | examples = 100 | valid time = 0.66 (s) ]
+10/20/2025 10:32:49 PM: [ dev valid official: Epoch = 17 | EM = 42.00 | F1 = 54.43 | examples = 100 | valid time = 0.65 (s) ]
+10/20/2025 10:32:50 PM: [ train: Epoch = 18 | iter = 0/25 | loss = 4.10 | elapsed time = 109.41 (s) ]
+10/20/2025 10:32:52 PM: [ train: Epoch 18 done. Time for epoch = 2.82 (s) ]
+10/20/2025 10:32:53 PM: [ train valid unofficial: Epoch = 18 | start = 47.68 | end = 46.55 | exact = 43.54 | examples = 797 | valid time = 1.38 (s) ]
+10/20/2025 10:32:54 PM: [ dev valid unofficial: Epoch = 18 | start = 41.00 | end = 40.00 | exact = 38.00 | examples = 100 | valid time = 0.66 (s) ]
+10/20/2025 10:32:55 PM: [ dev valid official: Epoch = 18 | EM = 38.00 | F1 = 52.59 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:32:55 PM: [ train: Epoch = 19 | iter = 0/25 | loss = 3.95 | elapsed time = 114.93 (s) ]
+10/20/2025 10:32:57 PM: [ train: Epoch 19 done. Time for epoch = 2.87 (s) ]
+10/20/2025 10:32:59 PM: [ train valid unofficial: Epoch = 19 | start = 48.18 | end = 48.31 | exact = 44.92 | examples = 797 | valid time = 1.78 (s) ]
+10/20/2025 10:33:00 PM: [ dev valid unofficial: Epoch = 19 | start = 44.00 | end = 41.00 | exact = 38.00 | examples = 100 | valid time = 0.64 (s) ]
+10/20/2025 10:33:00 PM: [ dev valid official: Epoch = 19 | EM = 38.00 | F1 = 52.80 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:33:01 PM: [ train: Epoch = 20 | iter = 0/25 | loss = 2.67 | elapsed time = 120.82 (s) ]
+10/20/2025 10:33:03 PM: [ train: Epoch 20 done. Time for epoch = 2.85 (s) ]
+10/20/2025 10:33:05 PM: [ train valid unofficial: Epoch = 20 | start = 46.68 | end = 46.05 | exact = 44.67 | examples = 797 | valid time = 1.77 (s) ]
+10/20/2025 10:33:06 PM: [ dev valid unofficial: Epoch = 20 | start = 40.00 | end = 38.00 | exact = 38.00 | examples = 100 | valid time = 1.07 (s) ]
+10/20/2025 10:33:07 PM: [ dev valid official: Epoch = 20 | EM = 38.00 | F1 = 51.50 | examples = 100 | valid time = 0.67 (s) ]
+10/20/2025 10:33:07 PM: [ train: Epoch = 21 | iter = 0/25 | loss = 3.88 | elapsed time = 127.18 (s) ]
+10/20/2025 10:33:09 PM: [ train: Epoch 21 done. Time for epoch = 2.49 (s) ]
+10/20/2025 10:33:11 PM: [ train valid unofficial: Epoch = 21 | start = 49.31 | end = 49.69 | exact = 48.43 | examples = 797 | valid time = 1.75 (s) ]
+10/20/2025 10:33:12 PM: [ dev valid unofficial: Epoch = 21 | start = 41.00 | end = 40.00 | exact = 39.00 | examples = 100 | valid time = 0.89 (s) ]
+10/20/2025 10:33:13 PM: [ dev valid official: Epoch = 21 | EM = 39.00 | F1 = 53.58 | examples = 100 | valid time = 0.64 (s) ]
+10/20/2025 10:33:13 PM: [ train: Epoch = 22 | iter = 0/25 | loss = 3.79 | elapsed time = 132.97 (s) ]
+10/20/2025 10:33:15 PM: [ train: Epoch 22 done. Time for epoch = 2.80 (s) ]
+10/20/2025 10:33:17 PM: [ train valid unofficial: Epoch = 22 | start = 48.56 | end = 48.81 | exact = 46.68 | examples = 797 | valid time = 1.71 (s) ]
+10/20/2025 10:33:18 PM: [ dev valid unofficial: Epoch = 22 | start = 39.00 | end = 39.00 | exact = 37.00 | examples = 100 | valid time = 0.66 (s) ]
+10/20/2025 10:33:18 PM: [ dev valid official: Epoch = 22 | EM = 37.00 | F1 = 51.37 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:33:19 PM: [ train: Epoch = 23 | iter = 0/25 | loss = 3.55 | elapsed time = 138.78 (s) ]
+10/20/2025 10:33:21 PM: [ train: Epoch 23 done. Time for epoch = 2.94 (s) ]
+10/20/2025 10:33:23 PM: [ train valid unofficial: Epoch = 23 | start = 49.31 | end = 49.31 | exact = 48.56 | examples = 797 | valid time = 1.64 (s) ]
+10/20/2025 10:33:24 PM: [ dev valid unofficial: Epoch = 23 | start = 44.00 | end = 46.00 | exact = 44.00 | examples = 100 | valid time = 0.62 (s) ]
+10/20/2025 10:33:24 PM: [ dev valid official: Epoch = 23 | EM = 44.00 | F1 = 55.38 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:33:24 PM: [ Best valid: f1 = 55.38 (epoch 23, 600 updates) ]
+10/20/2025 10:33:25 PM: [ train: Epoch = 24 | iter = 0/25 | loss = 3.32 | elapsed time = 144.77 (s) ]
+10/20/2025 10:33:27 PM: [ train: Epoch 24 done. Time for epoch = 2.74 (s) ]
+10/20/2025 10:33:29 PM: [ train valid unofficial: Epoch = 24 | start = 50.19 | end = 49.81 | exact = 46.17 | examples = 797 | valid time = 1.88 (s) ]
+10/20/2025 10:33:30 PM: [ dev valid unofficial: Epoch = 24 | start = 43.00 | end = 41.00 | exact = 39.00 | examples = 100 | valid time = 0.71 (s) ]
+10/20/2025 10:33:30 PM: [ dev valid official: Epoch = 24 | EM = 39.00 | F1 = 53.13 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:33:31 PM: [ train: Epoch = 25 | iter = 0/25 | loss = 3.14 | elapsed time = 150.59 (s) ]
+10/20/2025 10:33:33 PM: [ train: Epoch 25 done. Time for epoch = 2.66 (s) ]
+10/20/2025 10:33:34 PM: [ train valid unofficial: Epoch = 25 | start = 50.06 | end = 50.31 | exact = 48.43 | examples = 797 | valid time = 1.48 (s) ]
+10/20/2025 10:33:35 PM: [ dev valid unofficial: Epoch = 25 | start = 45.00 | end = 46.00 | exact = 44.00 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:33:36 PM: [ dev valid official: Epoch = 25 | EM = 44.00 | F1 = 55.71 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:33:36 PM: [ Best valid: f1 = 55.71 (epoch 25, 650 updates) ]
+10/20/2025 10:33:36 PM: [ train: Epoch = 26 | iter = 0/25 | loss = 3.64 | elapsed time = 156.19 (s) ]
+10/20/2025 10:33:38 PM: [ train: Epoch 26 done. Time for epoch = 2.61 (s) ]
+10/20/2025 10:33:40 PM: [ train valid unofficial: Epoch = 26 | start = 51.07 | end = 50.94 | exact = 49.81 | examples = 797 | valid time = 1.49 (s) ]
+10/20/2025 10:33:40 PM: [ dev valid unofficial: Epoch = 26 | start = 46.00 | end = 46.00 | exact = 45.00 | examples = 100 | valid time = 0.64 (s) ]
+10/20/2025 10:33:41 PM: [ dev valid official: Epoch = 26 | EM = 45.00 | F1 = 56.28 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:33:41 PM: [ Best valid: f1 = 56.28 (epoch 26, 675 updates) ]
+10/20/2025 10:33:41 PM: [ train: Epoch = 27 | iter = 0/25 | loss = 1.73 | elapsed time = 161.35 (s) ]
+10/20/2025 10:33:44 PM: [ train: Epoch 27 done. Time for epoch = 2.59 (s) ]
+10/20/2025 10:33:46 PM: [ train valid unofficial: Epoch = 27 | start = 50.44 | end = 50.44 | exact = 48.93 | examples = 797 | valid time = 1.90 (s) ]
+10/20/2025 10:33:47 PM: [ dev valid unofficial: Epoch = 27 | start = 43.00 | end = 44.00 | exact = 42.00 | examples = 100 | valid time = 1.15 (s) ]
+10/20/2025 10:33:48 PM: [ dev valid official: Epoch = 27 | EM = 42.00 | F1 = 53.75 | examples = 100 | valid time = 1.10 (s) ]
+10/20/2025 10:33:49 PM: [ train: Epoch = 28 | iter = 0/25 | loss = 3.50 | elapsed time = 168.45 (s) ]
+10/20/2025 10:33:51 PM: [ train: Epoch 28 done. Time for epoch = 3.11 (s) ]
+10/20/2025 10:33:53 PM: [ train valid unofficial: Epoch = 28 | start = 50.31 | end = 50.82 | exact = 48.18 | examples = 797 | valid time = 2.22 (s) ]
+10/20/2025 10:33:54 PM: [ dev valid unofficial: Epoch = 28 | start = 44.00 | end = 43.00 | exact = 41.00 | examples = 100 | valid time = 1.18 (s) ]
+10/20/2025 10:33:55 PM: [ dev valid official: Epoch = 28 | EM = 41.00 | F1 = 54.33 | examples = 100 | valid time = 1.14 (s) ]
+10/20/2025 10:33:56 PM: [ train: Epoch = 29 | iter = 0/25 | loss = 3.56 | elapsed time = 175.80 (s) ]
+10/20/2025 10:33:58 PM: [ train: Epoch 29 done. Time for epoch = 2.98 (s) ]
+10/20/2025 10:34:00 PM: [ train valid unofficial: Epoch = 29 | start = 49.56 | end = 50.19 | exact = 48.56 | examples = 797 | valid time = 1.90 (s) ]
+10/20/2025 10:34:01 PM: [ dev valid unofficial: Epoch = 29 | start = 41.00 | end = 41.00 | exact = 40.00 | examples = 100 | valid time = 0.90 (s) ]
+10/20/2025 10:34:02 PM: [ dev valid official: Epoch = 29 | EM = 40.00 | F1 = 52.27 | examples = 100 | valid time = 0.63 (s) ]
+10/20/2025 10:34:02 PM: [ train: Epoch = 30 | iter = 0/25 | loss = 4.18 | elapsed time = 182.21 (s) ]
+10/20/2025 10:34:05 PM: [ train: Epoch 30 done. Time for epoch = 2.87 (s) ]
+10/20/2025 10:34:07 PM: [ train valid unofficial: Epoch = 30 | start = 50.19 | end = 50.06 | exact = 49.06 | examples = 797 | valid time = 2.23 (s) ]
+10/20/2025 10:34:08 PM: [ dev valid unofficial: Epoch = 30 | start = 37.00 | end = 36.00 | exact = 36.00 | examples = 100 | valid time = 0.75 (s) ]
+10/20/2025 10:34:08 PM: [ dev valid official: Epoch = 30 | EM = 36.00 | F1 = 48.85 | examples = 100 | valid time = 0.61 (s) ]
+10/20/2025 10:34:09 PM: [ train: Epoch = 31 | iter = 0/25 | loss = 2.46 | elapsed time = 188.62 (s) ]
+10/20/2025 10:34:11 PM: [ train: Epoch 31 done. Time for epoch = 2.29 (s) ]
+10/20/2025 10:34:12 PM: [ train valid unofficial: Epoch = 31 | start = 51.19 | end = 51.57 | exact = 49.81 | examples = 797 | valid time = 1.44 (s) ]
+10/20/2025 10:34:13 PM: [ dev valid unofficial: Epoch = 31 | start = 45.00 | end = 44.00 | exact = 43.00 | examples = 100 | valid time = 0.62 (s) ]
+10/20/2025 10:34:13 PM: [ dev valid official: Epoch = 31 | EM = 43.00 | F1 = 55.69 | examples = 100 | valid time = 0.64 (s) ]
+10/20/2025 10:34:14 PM: [ train: Epoch = 32 | iter = 0/25 | loss = 3.35 | elapsed time = 193.63 (s) ]
+10/20/2025 10:34:16 PM: [ train: Epoch 32 done. Time for epoch = 2.74 (s) ]
+10/20/2025 10:34:18 PM: [ train valid unofficial: Epoch = 32 | start = 49.31 | end = 50.94 | exact = 48.81 | examples = 797 | valid time = 2.09 (s) ]
+10/20/2025 10:34:19 PM: [ dev valid unofficial: Epoch = 32 | start = 38.00 | end = 38.00 | exact = 37.00 | examples = 100 | valid time = 0.71 (s) ]
+10/20/2025 10:34:20 PM: [ dev valid official: Epoch = 32 | EM = 37.00 | F1 = 49.89 | examples = 100 | valid time = 0.83 (s) ]
+10/20/2025 10:34:20 PM: [ train: Epoch = 33 | iter = 0/25 | loss = 3.58 | elapsed time = 200.10 (s) ]
+10/20/2025 10:34:22 PM: [ train: Epoch 33 done. Time for epoch = 2.80 (s) ]
+10/20/2025 10:34:25 PM: [ train valid unofficial: Epoch = 33 | start = 51.07 | end = 50.44 | exact = 48.93 | examples = 797 | valid time = 2.18 (s) ]
+10/20/2025 10:34:25 PM: [ dev valid unofficial: Epoch = 33 | start = 41.00 | end = 41.00 | exact = 39.00 | examples = 100 | valid time = 0.81 (s) ]
+10/20/2025 10:34:26 PM: [ dev valid official: Epoch = 33 | EM = 39.00 | F1 = 52.01 | examples = 100 | valid time = 0.73 (s) ]
+10/20/2025 10:34:27 PM: [ train: Epoch = 34 | iter = 0/25 | loss = 3.73 | elapsed time = 206.53 (s) ]
+10/20/2025 10:34:29 PM: [ train: Epoch 34 done. Time for epoch = 2.90 (s) ]
+10/20/2025 10:34:31 PM: [ train valid unofficial: Epoch = 34 | start = 49.94 | end = 49.94 | exact = 48.56 | examples = 797 | valid time = 2.02 (s) ]
+10/20/2025 10:34:32 PM: [ dev valid unofficial: Epoch = 34 | start = 37.00 | end = 34.00 | exact = 34.00 | examples = 100 | valid time = 0.83 (s) ]
+10/20/2025 10:34:33 PM: [ dev valid official: Epoch = 34 | EM = 34.00 | F1 = 47.44 | examples = 100 | valid time = 0.61 (s) ]
+10/20/2025 10:34:33 PM: [ train: Epoch = 35 | iter = 0/25 | loss = 2.86 | elapsed time = 212.97 (s) ]
+10/20/2025 10:34:36 PM: [ train: Epoch 35 done. Time for epoch = 3.04 (s) ]
+10/20/2025 10:34:38 PM: [ train valid unofficial: Epoch = 35 | start = 52.82 | end = 52.70 | exact = 50.06 | examples = 797 | valid time = 2.18 (s) ]
+10/20/2025 10:34:39 PM: [ dev valid unofficial: Epoch = 35 | start = 43.00 | end = 42.00 | exact = 41.00 | examples = 100 | valid time = 0.77 (s) ]
+10/20/2025 10:34:39 PM: [ dev valid official: Epoch = 35 | EM = 41.00 | F1 = 51.93 | examples = 100 | valid time = 0.61 (s) ]
+10/20/2025 10:34:40 PM: [ train: Epoch = 36 | iter = 0/25 | loss = 3.22 | elapsed time = 219.69 (s) ]
+10/20/2025 10:34:42 PM: [ train: Epoch 36 done. Time for epoch = 2.98 (s) ]
+10/20/2025 10:34:44 PM: [ train valid unofficial: Epoch = 36 | start = 52.45 | end = 53.07 | exact = 51.82 | examples = 797 | valid time = 1.54 (s) ]
+10/20/2025 10:34:44 PM: [ dev valid unofficial: Epoch = 36 | start = 40.00 | end = 38.00 | exact = 38.00 | examples = 100 | valid time = 0.64 (s) ]
+10/20/2025 10:34:45 PM: [ dev valid official: Epoch = 36 | EM = 38.00 | F1 = 50.90 | examples = 100 | valid time = 0.86 (s) ]
+10/20/2025 10:34:46 PM: [ train: Epoch = 37 | iter = 0/25 | loss = 3.31 | elapsed time = 225.86 (s) ]
+10/20/2025 10:34:48 PM: [ train: Epoch 37 done. Time for epoch = 3.11 (s) ]
+10/20/2025 10:34:50 PM: [ train valid unofficial: Epoch = 37 | start = 51.69 | end = 51.69 | exact = 49.94 | examples = 797 | valid time = 2.02 (s) ]
+10/20/2025 10:34:51 PM: [ dev valid unofficial: Epoch = 37 | start = 46.00 | end = 44.00 | exact = 43.00 | examples = 100 | valid time = 1.07 (s) ]
+10/20/2025 10:34:52 PM: [ dev valid official: Epoch = 37 | EM = 43.00 | F1 = 56.53 | examples = 100 | valid time = 1.09 (s) ]
+10/20/2025 10:34:52 PM: [ Best valid: f1 = 56.53 (epoch 37, 950 updates) ]
+10/20/2025 10:34:53 PM: [ train: Epoch = 38 | iter = 0/25 | loss = 3.64 | elapsed time = 233.15 (s) ]
+10/20/2025 10:34:56 PM: [ train: Epoch 38 done. Time for epoch = 3.05 (s) ]
+10/20/2025 10:34:58 PM: [ train valid unofficial: Epoch = 38 | start = 52.45 | end = 53.20 | exact = 51.19 | examples = 797 | valid time = 2.17 (s) ]
+10/20/2025 10:34:59 PM: [ dev valid unofficial: Epoch = 38 | start = 44.00 | end = 42.00 | exact = 41.00 | examples = 100 | valid time = 1.13 (s) ]
+10/20/2025 10:35:00 PM: [ dev valid official: Epoch = 38 | EM = 41.00 | F1 = 55.52 | examples = 100 | valid time = 1.10 (s) ]
+10/20/2025 10:35:01 PM: [ train: Epoch = 39 | iter = 0/25 | loss = 3.50 | elapsed time = 240.54 (s) ]
+10/20/2025 10:35:03 PM: [ train: Epoch 39 done. Time for epoch = 3.04 (s) ]
+10/20/2025 10:35:05 PM: [ train valid unofficial: Epoch = 39 | start = 53.95 | end = 53.83 | exact = 51.57 | examples = 797 | valid time = 2.13 (s) ]
+10/20/2025 10:35:06 PM: [ dev valid unofficial: Epoch = 39 | start = 43.00 | end = 40.00 | exact = 39.00 | examples = 100 | valid time = 1.00 (s) ]
+10/20/2025 10:35:07 PM: [ dev valid official: Epoch = 39 | EM = 39.00 | F1 = 53.44 | examples = 100 | valid time = 0.60 (s) ]
