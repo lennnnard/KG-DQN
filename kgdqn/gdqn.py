@@ -61,8 +61,9 @@ class KGDQNTrainer(object):
         self.model = KGDQN(params, self.state.all_actions).to(self.device)
 
         if self.params['preload_weights']:
-            self.model = torch.load(self.params['preload_file'])['model']
-        # model = nn.DataParallel(model)
+            save = torch.load(self.params['preload_file'], weights_only=False)
+            self.model = save['model']
+            self.replay_buffer = save['replay_buffer']
 
         self.optimizer = optim.Adam(self.model.parameters(), lr=params['lr'])
 
