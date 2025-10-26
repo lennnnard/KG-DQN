@@ -112,7 +112,7 @@ class KGDQN(nn.Module):
             picked = True
         else:
             if self.params['pruned']:
-                if random.random() > epsilon2:
+                if random.random() < epsilon2:
                     feasible_actions_rep = state.all_actions_rep
                 else:
                     feasible_actions_rep = state.pruned_actions_rep
