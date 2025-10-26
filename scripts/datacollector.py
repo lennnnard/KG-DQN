@@ -36,7 +36,7 @@ def test_agent(agent, game, out, max_step=1000, nb_episodes=1):
 
             out.write(game_state.description)
             out.write("Actions: " + str(game_state.admissible_commands) + '\n')
-            acts.update(game_state.admissible_commands)
+            acts.update([c.lower() for c in game_state.admissible_commands])
             out.write("Taken action:" + str(command))
             out.write('\n' + "---------" + '\n')
             game_state, reward, done = env.step(command)
