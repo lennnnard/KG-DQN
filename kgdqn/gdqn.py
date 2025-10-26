@@ -146,7 +146,7 @@ class KGDQNTrainer(object):
             logging.info("Episode:" + str(e_idx))
 
             state = self.env.reset()
-            self.state = StateNAction(self.params['max_actions'])
+            # self.state = StateNAction(self.params['max_actions'])
             self.state.step(state.description, pruned=self.params['pruned'])
             
             episode_reward = 0
